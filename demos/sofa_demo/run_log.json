@@ -1,0 +1,81 @@
+[
+  {
+    "step": 0,
+    "user_command": "请到沙发旁边",
+    "agent_message": "收到，我会导航到 sofa 旁边。",
+    "state": "search_target",
+    "target": "sofa"
+  },
+  {
+    "step": 1,
+    "agent_message": "[SEARCH] Searching for sofa...",
+    "state": "search_target",
+    "target": "sofa"
+  },
+  {
+    "step": 2,
+    "agent_message": "[SEARCH] Searching for sofa...",
+    "state": "search_target",
+    "target": "sofa"
+  },
+  {
+    "step": 3,
+    "agent_message": "[SEARCH] Searching for sofa...",
+    "state": "search_target",
+    "target": "sofa"
+  },
+  {
+    "step": 4,
+    "agent_message": "[DETECT] Detected sofa. Approaching...",
+    "state": "approach_target",
+    "target": "sofa"
+  },
+  {
+    "step": 5,
+    "agent_message": "[CONTROL] Moving forward to sofa. distance=6.87",
+    "state": "approach_target",
+    "target": "sofa"
+  },
+  {
+    "step": 6,
+    "agent_message": "[CONTROL] Moving forward to sofa. distance=6.63",
+    "state": "approach_target",
+    "target": "sofa"
+  },
+  {
+    "step": 7,
+    "agent_message": "[CONTROL] Moving forward to sofa. distance=6.38",
+    "state": "approach_target",
+    "target": "sofa"
+  },
+  {
+    "step": 8,
+    "agent_message": "[CONTROL] Moving forward to sofa. distance=6.13",
+    "state": "approach_target",
+    "target": "sofa"
+  },
+  {
+    "step": 9,
+    "agent_message": "[CONTROL] Moving forward to sofa. distance=5.88",
+    "state": "approach_target",
+    "target": "sofa"
+  },
+  {
+    "step": 10,
+    "agent_message": "[CONTROL] Moving forward to sofa. distance=5.66",
+    "state": "approach_target",
+    "target": "sofa"
+  },
+  {
+    "step": 11,
+    "agent_message": "[CONTROL] Moving forward to sofa. distance=5.42",
+    "state": "approach_target",
+    "target": "sofa"
+  },
+  {
+    "step": 12,
+    "agent_message": "任务完成。还需要什么？",
+    "state": "arrived",
+    "target": "sofa"
+  }
+]
