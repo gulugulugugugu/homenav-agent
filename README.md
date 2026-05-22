@@ -148,14 +148,15 @@ https://github.com/gulugulugugu/homenav-agent
 
 未来可以接入人工干预界面，将人类修正动作记录下来，并进一步转换为 LeRobot-style dataset，用于模仿学习或强化学习。
 
-## 项目边界
+## 后续扩展
 
-当前系统主要完成导航方向：
+本项目主线聚焦于导航方向，当前版本已经完成 Habitat 场景中的中文目标导航、多目标支持、RGB-D 建图、可达停靠点规划和网页展示。
 
-- 不做机械臂操作
-- 不声称完成完整 LeRobot RL 训练
-- 不使用 Habitat 语义真值地图或真实目标坐标
-- 当前目标检测依赖 RGB detector，因此小物体和遮挡场景仍可能失败
+后续可以继续扩展：
+
+- 接入更强的视觉检测或分割模型，提升小物体和遮挡场景下的稳定性。
+- 将当前导出的 intervention-ready episodes 转换为 LeRobot-style dataset。
+- 在人工干预数据基础上训练局部导航修正策略，进一步提升复杂场景下的成功率。
 
 ## 文件结构
 
