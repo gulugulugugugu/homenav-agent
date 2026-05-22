@@ -1,0 +1,42 @@
+{
+  "description": "HomeNav Agent 持续学习数据接口导出结果。本数据不是 RL 训练结果，而是 intervention-ready episode 数据。",
+  "num_episodes": 3,
+  "num_steps": 422,
+  "num_success": 3,
+  "success_rate": 1.0,
+  "episodes": [
+    {
+      "episode_id": "table_final",
+      "target": "table",
+      "status": "exported",
+      "num_steps": 158,
+      "success": true
+    },
+    {
+      "episode_id": "sofa_final",
+      "target": "sofa",
+      "status": "exported",
+      "num_steps": 99,
+      "success": true
+    },
+    {
+      "episode_id": "plant_strict_final",
+      "status": "missing_or_empty",
+      "num_steps": 0,
+      "success": false
+    },
+    {
+      "episode_id": "tv_final",
+      "target": "tv",
+      "status": "exported",
+      "num_steps": 165,
+      "success": true
+    }
+  ],
+  "schema": {
+    "planner_action": "导航 planner 原本建议的动作",
+    "executed_action": "实际执行动作；当前自动运行版本中与 planner_action 相同",
+    "human_action": "预留字段；未来人工干预时记录人类覆盖动作",
+    "intervened": "当前为 false；未来人工干预时为 true"
+  }
+}
