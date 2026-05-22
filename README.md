@@ -1,62 +1,189 @@
-# HomeNav-Agent
+# HomeNav Agent：Habitat 中文具身导航系统
 
-HomeNav-Agent is a language-guided embodied navigation agent built in Habitat simulation.
+本项目实现了一个基于 Habitat 的中文具身导航 Agent。用户可以输入自然语言指令，例如：
 
-Given a natural language command such as "请到沙发旁边", the agent parses the target location, runs a visual navigation loop in a simulated indoor environment, approaches the target area, and asks the user "还需要什么？" after task completion.
-
-## Demo Commands
-
-The current system supports:
-
-- 请到沙发旁边
-- 请到床旁边
 - 请到桌子旁边
-- 请到椅子旁边
-- go to the sofa
-- go to the bed
-- go to the table
-- go to the chair
+- 请到沙发旁边
+- 请到植物旁边
+- 请到电视旁边
 
-## System Architecture
+Agent 会基于 RGB-D 视觉、机器人位姿、目标检测、地图构建和路径规划，导航到目标物体旁边。任务完成后，Agent 会回复：
 
-User Command  
-→ Language Parser  
-→ Embodied Agent State Machine  
-→ Visual Target Adapter  
-→ Habitat Simulator  
-→ Low-level Navigation Actions  
-→ Completion Response
+    任务完成。还需要什么？
 
-## Features
+项目选择的是“导航方向”，并额外提供一个持续学习数据接口作为 bonus。
 
-- Text-command interface
-- Multi-target navigation support
-- Habitat-based indoor simulation
-- RGB-D observation interface
-- Modular embodied agent design
-- State-machine-based control logic
-- Demo video generation
-- Web presentation interface
-- Continual learning extension proposal
+## 在线展示
 
-## No Privileged Information Policy
+项目网页：
 
-The final agent design does not rely on simulator object coordinates, ground-truth target pose, semantic scene graph, or shortest-path oracle during execution.
+https://gulugulugugugu.github.io/homenav-agent/
 
-The allowed inputs are:
+网页中包含 table、sofa、plant、tv 四个导航 demo 视频。
 
-- RGB observation
-- Depth observation
-- Robot/agent state
-- Action history
-- Collision or navigation feedback
+## GitHub 仓库
 
-The current demo uses a debug visual-target adapter to validate the full language-to-navigation pipeline. The perception module is designed as a replaceable interface and can be upgraded to open-vocabulary object detectors such as OWL-ViT, GroundingDINO, or YOLO-World.
+https://github.com/gulugulugugu/homenav-agent
 
-## Run the Demo
+## 功能特点
 
-```bash
-conda activate homenav
-cd ~/homenav-agent
-PYTHONPATH=src python src/run_demo.py --command "请到沙发旁边" --out demos/sofa_demo
-python scripts/make_video.py --frames demos/sofa_demo/frames --out demos/sofa_demo.mp4 --fps 4
+- Habitat 居家仿真环境
+- 中文文字输入
+- RGB-D 视觉感知
+- COCO / Faster R-CNN 目标检测
+- Depth-based top-down traversible map
+- Object memory 与多帧确认
+- 多实例目标选择
+- Reachable standoff planning
+- Path following
+- 任务完成后询问用户“还需要什么”
+
+## 系统流程
+
+整体流程如下：
+
+    中文指令
+      -> 目标解析
+      -> RGB 目标检测
+      -> 多帧目标确认
+      -> 多实例目标记忆
+      -> Depth 建图
+      -> 可通行区域分析
+      -> 目标附近 reachable standoff cell 选择
+      -> 路径规划与执行
+      -> 完成任务并询问“还需要什么”
+
+## 核心设计
+
+### 1. 物体不是导航终点，而是语义锚点
+
+系统不会直接追 bounding box 中心。检测到的物体只作为 semantic anchor。机器人真正要到达的是目标附近可通行、可到达的 free cell。
+
+例如，“请到沙发旁边”不是撞向沙发中心，而是在沙发附近找到一个安全可达的停靠点。
+
+### 2. Reachable Standoff Planning
+
+系统会在当前地图的 reachable component 中寻找目标附近的 standoff cell。这样可以避免目标附近虽然看起来很近，但实际上被障碍物、墙或家具隔开的情况。
+
+### 3. 多实例目标选择
+
+如果环境中出现多个同类物体，例如多个植物，系统不会死守最早看到的目标，而是选择当前地图上更容易到达的 confirmed instance。这更接近人类的导航逻辑：如果旁边就有目标，就不会绕远路去另一个。
+
+### 4. 严格到达验证
+
+对于植物这类小物体，系统会使用更严格的到达距离验证，避免“地图上到达了某个 standoff cell，但实际上离目标还很远”的假到达问题。
+
+## 运行方式
+
+进入项目目录：
+
+    cd ~/homenav-agent
+
+设置环境变量：
+
+    export KMP_DUPLICATE_LIB_OK=TRUE
+    export OMP_NUM_THREADS=1
+    export TORCH_HOME=~/torch_cache
+
+运行桌子导航：
+
+    PYTHONPATH=src python src/run_mapnav_demo.py \
+      --command "请到桌子旁边" \
+      --out demos/table_final \
+      --max_steps 220 \
+      --detector detr \
+      --score_threshold 0.60
+
+运行沙发导航：
+
+    PYTHONPATH=src python src/run_mapnav_demo.py \
+      --command "请到沙发旁边" \
+      --out demos/sofa_final \
+      --max_steps 220 \
+      --detector detr \
+      --score_threshold 0.60
+
+运行植物导航：
+
+    PYTHONPATH=src python src/run_mapnav_demo.py \
+      --command "请到植物旁边" \
+      --out demos/plant_strict_final \
+      --max_steps 220 \
+      --detector detr \
+      --score_threshold 0.60
+
+运行电视导航：
+
+    PYTHONPATH=src python src/run_mapnav_demo.py \
+      --command "请到电视旁边" \
+      --out demos/tv_final \
+      --max_steps 220 \
+      --detector detr \
+      --score_threshold 0.60
+
+生成视频：
+
+    python scripts/make_video.py \
+      --frames demos/table_final/decision_frames \
+      --out demos/table_final_decision.mp4 \
+      --fps 3
+
+## 持续学习数据接口 Bonus
+
+本项目额外提供一个持续学习数据接口，但不声称已经完成完整 RL 训练。
+
+运行：
+
+    python scripts/export_intervention_dataset.py
+
+会导出：
+
+    learning_data/intervention_episodes.jsonl
+    learning_data/summary.json
+
+该接口会把导航过程中的 observation、planner action、executed action、检测结果、调试状态和成功 / 失败标签整理成 episode 数据。字段中预留了：
+
+    human_action
+    intervened
+
+未来可以接入人工干预界面，将人类修正动作记录下来，并进一步转换为 LeRobot-style dataset，用于模仿学习或强化学习。
+
+## 项目边界
+
+当前系统主要完成导航方向：
+
+- 不做机械臂操作
+- 不声称完成完整 LeRobot RL 训练
+- 不使用 Habitat 语义真值地图或真实目标坐标
+- 当前目标检测依赖 RGB detector，因此小物体和遮挡场景仍可能失败
+
+## 文件结构
+
+    src/
+      run_mapnav_demo.py          # map-based ObjectNav 主程序
+      agent/                      # 指令解析与 agent 相关逻辑
+      perception/                 # 目标检测
+      sim/                        # Habitat 环境封装
+
+    scripts/
+      make_video.py               # demo 视频生成
+      export_intervention_dataset.py
+
+    docs/
+      index.html                  # GitHub Pages 展示网页
+      assets/                     # demo 视频资源
+
+    learning_data/
+      README.md
+      intervention_episodes.jsonl
+      summary.json
+
+    demos/
+      table_final/
+      sofa_final/
+      plant_strict_final/
+      tv_final/
+
+## 总结
+
+HomeNav Agent 是一个模块化具身导航系统。它结合了 learned object detection、RGB-D 几何建图、目标记忆、多实例选择和经典路径规划，使机器人可以在 Habitat 居家环境中根据中文指令导航到多个目标物体旁边。
