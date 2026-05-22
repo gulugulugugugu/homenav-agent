@@ -1,0 +1,3099 @@
+[
+  {
+    "step": 0,
+    "agent_message": "[PATH] Moving forward along frontier. remaining=10 | plan=frontier, det=none, memory=0, pending=0, free=507, occ=214, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 1,
+    "agent_message": "[PATH] Moving forward along frontier. remaining=9 | plan=frontier, det=none, memory=0, pending=0, free=490, occ=235, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 2,
+    "agent_message": "[PATH] Turning right toward frontier. angle=-21.0 | plan=frontier, det=none, memory=0, pending=0, free=474, occ=252, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 3,
+    "agent_message": "[PATH] Turning right toward frontier. angle=-16.0 | plan=frontier, det=none, memory=0, pending=0, free=472, occ=256, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 4,
+    "agent_message": "[PATH] Moving forward along frontier. remaining=8 | plan=frontier, det=none, memory=0, pending=0, free=472, occ=260, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 5,
+    "agent_message": "[PATH] Turning right toward frontier. angle=-19.2 | plan=frontier, det=none, memory=0, pending=0, free=471, occ=262, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 6,
+    "agent_message": "[PATH] Turning right toward frontier. angle=-14.2 | plan=frontier, det=none, memory=0, pending=0, free=473, occ=263, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 7,
+    "agent_message": "[PATH] Moving forward along frontier. remaining=8 | plan=frontier, det=none, memory=0, pending=0, free=476, occ=266, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 8,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=none, det=none, memory=0, pending=0, free=476, occ=266, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "none",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 9,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=none, det=none, memory=0, pending=0, free=476, occ=266, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "none",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 10,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=none, det=none, memory=0, pending=0, free=476, occ=266, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "none",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 11,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=none, det=none, memory=0, pending=0, free=475, occ=267, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "none",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 12,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=none, det=none, memory=0, pending=0, free=473, occ=270, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "none",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 13,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=none, det=none, memory=0, pending=0, free=473, occ=286, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "none",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 14,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=none, det=none, memory=0, pending=0, free=560, occ=325, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "none",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 15,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=none, det=none, memory=0, pending=0, free=669, occ=377, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "none",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 16,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=none, det=none, memory=0, pending=0, free=746, occ=439, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "none",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 17,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=none, det=none, memory=0, pending=0, free=901, occ=468, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "none",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 18,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=none, det=none, memory=0, pending=0, free=1066, occ=478, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "none",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 19,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=none, det=none, memory=0, pending=0, free=1182, occ=516, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "none",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 20,
+    "agent_message": "[PATH] Turning left toward frontier. angle=45.4 | plan=frontier, det=none, memory=0, pending=0, free=1321, occ=543, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 21,
+    "agent_message": "[PATH] Turning left toward frontier. angle=40.4 | plan=frontier, det=none, memory=0, pending=0, free=1445, occ=571, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 22,
+    "agent_message": "[PATH] Turning left toward frontier. angle=35.4 | plan=frontier, det=none, memory=0, pending=0, free=1588, occ=593, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 23,
+    "agent_message": "[PATH] Turning left toward frontier. angle=30.4 | plan=frontier, det=none, memory=0, pending=0, free=1689, occ=619, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 24,
+    "agent_message": "[PATH] Turning left toward frontier. angle=25.4 | plan=frontier, det=none, memory=0, pending=0, free=1741, occ=666, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 25,
+    "agent_message": "[PATH] Turning left toward frontier. angle=20.4 | plan=frontier, det=none, memory=0, pending=0, free=1784, occ=705, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 26,
+    "agent_message": "[PATH] Turning left toward frontier. angle=15.4 | plan=frontier, det=none, memory=0, pending=0, free=1815, occ=746, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 27,
+    "agent_message": "[PATH] Moving forward along frontier. remaining=11 | plan=frontier, det=none, memory=0, pending=0, free=1850, occ=773, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 28,
+    "agent_message": "[PATH] Turning left toward frontier. angle=15.3 | plan=frontier, det=none, memory=0, pending=0, free=1831, occ=795, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 29,
+    "agent_message": "[PATH] Moving forward along frontier. remaining=9 | plan=frontier, det=none, memory=0, pending=0, free=1845, occ=805, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 30,
+    "agent_message": "[PATH] Turning left toward frontier. angle=30.5 | plan=frontier, det=none, memory=0, pending=0, free=1838, occ=813, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 31,
+    "agent_message": "[PATH] Turning left toward frontier. angle=25.5 | plan=frontier, det=none, memory=0, pending=0, free=1861, occ=825, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 32,
+    "agent_message": "[PATH] Turning left toward frontier. angle=20.5 | plan=frontier, det=none, memory=0, pending=0, free=1903, occ=841, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 33,
+    "agent_message": "[PATH] Turning left toward frontier. angle=15.5 | plan=frontier, det=none, memory=0, pending=0, free=1941, occ=859, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 34,
+    "agent_message": "[PATH] Moving forward along frontier. remaining=8 | plan=frontier, det=none, memory=0, pending=0, free=1993, occ=866, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 35,
+    "agent_message": "[PATH] Turning left toward frontier. angle=33.9 | plan=frontier, det=none, memory=0, pending=0, free=2006, occ=872, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 36,
+    "agent_message": "[PATH] Turning left toward frontier. angle=28.9 | plan=frontier, det=none, memory=0, pending=0, free=2032, occ=876, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 37,
+    "agent_message": "[PATH] Turning left toward frontier. angle=23.9 | plan=frontier, det=none, memory=0, pending=0, free=2078, occ=882, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 38,
+    "agent_message": "[PATH] Turning left toward frontier. angle=18.9 | plan=frontier, det=none, memory=0, pending=0, free=2115, occ=888, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 39,
+    "agent_message": "[PATH] Turning left toward frontier. angle=13.9 | plan=frontier, det=none, memory=0, pending=0, free=2141, occ=896, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 40,
+    "agent_message": "[PATH] Moving forward along frontier. remaining=11 | plan=frontier, det=dining table score=0.75 bbox=[348, 289, 486, 403], memory=0, pending=1, free=2170, occ=902, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7478720545768738,
+      "bbox": [
+        348,
+        289,
+        486,
+        403
+      ],
+      "center_x": 0.6526121616363525,
+      "center_y": 0.722299067179362
+    },
+    "evidence_frame": "demos/table_mapnav_followfix/evidence/step_0040_dining_table_0.75.png",
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 41,
+    "agent_message": "[PATH] Turning left toward frontier. angle=15.1 | plan=frontier, det=none, memory=0, pending=1, free=2170, occ=903, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 42,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-35.4 | plan=target_standoff, det=dining table score=0.69 bbox=[383, 309, 539, 414], memory=1, pending=2, free=2192, occ=907, standoff_all=964, standoff_trav=243, standoff_reach=575, best_len=46, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6916031241416931,
+      "bbox": [
+        383,
+        309,
+        539,
+        414
+      ],
+      "center_x": 0.7215873241424561,
+      "center_y": 0.7541083971659343
+    },
+    "evidence_frame": "demos/table_mapnav_followfix/evidence/step_0042_dining_table_0.69.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        20,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 243,
+      "standoff_reachable": 575,
+      "best_path_len": 46,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 43,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-30.4 | plan=target_standoff, det=none, memory=1, pending=2, free=2192, occ=907, standoff_all=964, standoff_trav=243, standoff_reach=575, best_len=46, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        20,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 243,
+      "standoff_reachable": 575,
+      "best_path_len": 46,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 44,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-25.4 | plan=target_standoff, det=dining table score=0.63 bbox=[328, 301, 464, 409], memory=1, pending=2, free=2193, occ=909, standoff_all=964, standoff_trav=243, standoff_reach=575, best_len=46, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6252985000610352,
+      "bbox": [
+        328,
+        301,
+        464,
+        409
+      ],
+      "center_x": 0.6192461490631104,
+      "center_y": 0.740425968170166
+    },
+    "evidence_frame": "demos/table_mapnav_followfix/evidence/step_0044_dining_table_0.63.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        20,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 243,
+      "standoff_reachable": 575,
+      "best_path_len": 46,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 45,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-20.4 | plan=target_standoff, det=none, memory=1, pending=2, free=2195, occ=910, standoff_all=964, standoff_trav=243, standoff_reach=575, best_len=46, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        20,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 243,
+      "standoff_reachable": 575,
+      "best_path_len": 46,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 46,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-15.4 | plan=target_standoff, det=none, memory=1, pending=2, free=2191, occ=914, standoff_all=964, standoff_trav=243, standoff_reach=575, best_len=46, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        20,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 243,
+      "standoff_reachable": 575,
+      "best_path_len": 46,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 47,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=45 | plan=target_standoff, det=none, memory=1, pending=2, free=2193, occ=914, standoff_all=964, standoff_trav=243, standoff_reach=575, best_len=46, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        20,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 243,
+      "standoff_reachable": 575,
+      "best_path_len": 46,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 48,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-14.7 | plan=target_standoff, det=none, memory=1, pending=2, free=2195, occ=914, standoff_all=964, standoff_trav=243, standoff_reach=575, best_len=46, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        20,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 243,
+      "standoff_reachable": 575,
+      "best_path_len": 46,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 49,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=44 | plan=target_standoff, det=none, memory=1, pending=2, free=2201, occ=917, standoff_all=964, standoff_trav=243, standoff_reach=575, best_len=46, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        20,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 243,
+      "standoff_reachable": 575,
+      "best_path_len": 46,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 50,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=43 | plan=target_standoff, det=none, memory=1, pending=2, free=2202, occ=918, standoff_all=964, standoff_trav=243, standoff_reach=575, best_len=46, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        20,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 243,
+      "standoff_reachable": 575,
+      "best_path_len": 46,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 51,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=42 | plan=target_standoff, det=none, memory=1, pending=2, free=2202, occ=918, standoff_all=964, standoff_trav=243, standoff_reach=575, best_len=46, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        20,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 243,
+      "standoff_reachable": 575,
+      "best_path_len": 46,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 52,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=34.8 | plan=target_standoff, det=dining table score=0.74 bbox=[185, 285, 337, 449], memory=1, pending=2, free=2202, occ=919, standoff_all=964, standoff_trav=242, standoff_reach=571, best_len=40, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7386054992675781,
+      "bbox": [
+        185,
+        285,
+        337,
+        449
+      ],
+      "center_x": 0.40856353044509885,
+      "center_y": 0.7656159083048503
+    },
+    "evidence_frame": "demos/table_mapnav_followfix/evidence/step_0052_dining_table_0.74.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        20,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 242,
+      "standoff_reachable": 571,
+      "best_path_len": 40,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 53,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=29.8 | plan=target_standoff, det=none, memory=1, pending=2, free=2203, occ=919, standoff_all=964, standoff_trav=242, standoff_reach=571, best_len=40, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        20,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 242,
+      "standoff_reachable": 571,
+      "best_path_len": 40,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 54,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=24.8 | plan=target_standoff, det=dining table score=0.64 bbox=[248, 284, 401, 442], memory=1, pending=2, free=2203, occ=919, standoff_all=964, standoff_trav=242, standoff_reach=571, best_len=40, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6391127109527588,
+      "bbox": [
+        248,
+        284,
+        401,
+        442
+      ],
+      "center_x": 0.5082070469856262,
+      "center_y": 0.7575105031331381
+    },
+    "evidence_frame": "demos/table_mapnav_followfix/evidence/step_0054_dining_table_0.64.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        20,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 242,
+      "standoff_reachable": 571,
+      "best_path_len": 40,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 55,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=19.8 | plan=target_standoff, det=none, memory=1, pending=2, free=2201, occ=921, standoff_all=964, standoff_trav=242, standoff_reach=571, best_len=40, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        20,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 242,
+      "standoff_reachable": 571,
+      "best_path_len": 40,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 56,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=14.8 | plan=target_standoff, det=dining table score=0.71 bbox=[305, 287, 465, 439], memory=1, pending=2, free=2201, occ=922, standoff_all=964, standoff_trav=241, standoff_reach=570, best_len=40, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7085039019584656,
+      "bbox": [
+        305,
+        287,
+        465,
+        439
+      ],
+      "center_x": 0.6024619579315186,
+      "center_y": 0.7564603169759114
+    },
+    "evidence_frame": "demos/table_mapnav_followfix/evidence/step_0056_dining_table_0.71.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        20,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 241,
+      "standoff_reachable": 570,
+      "best_path_len": 40,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 57,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=39 | plan=target_standoff, det=dining table score=0.75 bbox=[327, 296, 502, 439], memory=1, pending=2, free=2201, occ=922, standoff_all=964, standoff_trav=241, standoff_reach=570, best_len=40, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7509931921958923,
+      "bbox": [
+        327,
+        296,
+        502,
+        439
+      ],
+      "center_x": 0.6485781192779541,
+      "center_y": 0.7672411282857259
+    },
+    "evidence_frame": "demos/table_mapnav_followfix/evidence/step_0057_dining_table_0.75.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        20,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 241,
+      "standoff_reachable": 570,
+      "best_path_len": 40,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 58,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=27.2 | plan=target_standoff, det=dining table score=0.76 bbox=[336, 303, 507, 448], memory=1, pending=2, free=2198, occ=925, standoff_all=964, standoff_trav=238, standoff_reach=567, best_len=39, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7606291770935059,
+      "bbox": [
+        336,
+        303,
+        507,
+        448
+      ],
+      "center_x": 0.6594165086746215,
+      "center_y": 0.7828105290730795
+    },
+    "evidence_frame": "demos/table_mapnav_followfix/evidence/step_0058_dining_table_0.76.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        20,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 238,
+      "standoff_reachable": 567,
+      "best_path_len": 39,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 59,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=22.2 | plan=target_standoff, det=dining table score=0.72 bbox=[363, 308, 548, 454], memory=1, pending=2, free=2196, occ=927, standoff_all=964, standoff_trav=235, standoff_reach=564, best_len=39, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7207080721855164,
+      "bbox": [
+        363,
+        308,
+        548,
+        454
+      ],
+      "center_x": 0.7129337549209595,
+      "center_y": 0.7946733474731446
+    },
+    "evidence_frame": "demos/table_mapnav_followfix/evidence/step_0059_dining_table_0.72.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        20,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 235,
+      "standoff_reachable": 564,
+      "best_path_len": 39,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 60,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=17.2 | plan=target_standoff, det=dining table score=0.78 bbox=[391, 303, 605, 471], memory=1, pending=2, free=2196, occ=927, standoff_all=964, standoff_trav=235, standoff_reach=564, best_len=39, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7779302000999451,
+      "bbox": [
+        391,
+        303,
+        605,
+        471
+      ],
+      "center_x": 0.7784862995147706,
+      "center_y": 0.8074488004048666
+    },
+    "evidence_frame": "demos/table_mapnav_followfix/evidence/step_0060_dining_table_0.78.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        20,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 235,
+      "standoff_reachable": 564,
+      "best_path_len": 39,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 61,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=12.2 | plan=target_standoff, det=dining table score=0.80 bbox=[434, 321, 638, 467], memory=1, pending=2, free=2196, occ=927, standoff_all=964, standoff_trav=235, standoff_reach=564, best_len=39, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7957066893577576,
+      "bbox": [
+        434,
+        321,
+        638,
+        467
+      ],
+      "center_x": 0.8386348247528076,
+      "center_y": 0.8224927266438802
+    },
+    "evidence_frame": "demos/table_mapnav_followfix/evidence/step_0061_dining_table_0.80.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        20,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 235,
+      "standoff_reachable": 564,
+      "best_path_len": 39,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 62,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=38 | plan=target_standoff, det=dining table score=0.75 bbox=[471, 327, 640, 470], memory=1, pending=2, free=2197, occ=936, standoff_all=964, standoff_trav=235, standoff_reach=564, best_len=39, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7454426884651184,
+      "bbox": [
+        471,
+        327,
+        640,
+        470
+      ],
+      "center_x": 0.8681411504745483,
+      "center_y": 0.831030527750651
+    },
+    "evidence_frame": "demos/table_mapnav_followfix/evidence/step_0062_dining_table_0.75.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        20,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 235,
+      "standoff_reachable": 564,
+      "best_path_len": 39,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 63,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=19.9 | plan=target_standoff, det=dining table score=0.74 bbox=[475, 329, 638, 473], memory=1, pending=2, free=2196, occ=937, standoff_all=964, standoff_trav=235, standoff_reach=564, best_len=38, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7424021363258362,
+      "bbox": [
+        475,
+        329,
+        638,
+        473
+      ],
+      "center_x": 0.8703559160232544,
+      "center_y": 0.837041187286377
+    },
+    "evidence_frame": "demos/table_mapnav_followfix/evidence/step_0063_dining_table_0.74.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        20,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 235,
+      "standoff_reachable": 564,
+      "best_path_len": 38,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 64,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=14.9 | plan=target_standoff, det=dining table score=0.76 bbox=[504, 333, 639, 479], memory=1, pending=2, free=2199, occ=943, standoff_all=964, standoff_trav=239, standoff_reach=582, best_len=37, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7565086483955383,
+      "bbox": [
+        504,
+        333,
+        639,
+        479
+      ],
+      "center_x": 0.8937453985214233,
+      "center_y": 0.8470391273498535
+    },
+    "evidence_frame": "demos/table_mapnav_followfix/evidence/step_0064_dining_table_0.76.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 239,
+      "standoff_reachable": 582,
+      "best_path_len": 37,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 65,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=36 | plan=target_standoff, det=none, memory=1, pending=2, free=2202, occ=951, standoff_all=964, standoff_trav=239, standoff_reach=582, best_len=37, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 239,
+      "standoff_reachable": 582,
+      "best_path_len": 37,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 66,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=17.0 | plan=target_standoff, det=none, memory=1, pending=2, free=2201, occ=952, standoff_all=964, standoff_trav=239, standoff_reach=582, best_len=37, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 239,
+      "standoff_reachable": 582,
+      "best_path_len": 37,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 67,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=36 | plan=target_standoff, det=none, memory=1, pending=2, free=2202, occ=954, standoff_all=964, standoff_trav=239, standoff_reach=582, best_len=37, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 239,
+      "standoff_reachable": 582,
+      "best_path_len": 37,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 68,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=39.5 | plan=target_standoff, det=none, memory=1, pending=2, free=2202, occ=954, standoff_all=964, standoff_trav=239, standoff_reach=582, best_len=37, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 239,
+      "standoff_reachable": 582,
+      "best_path_len": 37,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 69,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=34.5 | plan=target_standoff, det=none, memory=1, pending=2, free=2205, occ=958, standoff_all=964, standoff_trav=239, standoff_reach=582, best_len=37, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 239,
+      "standoff_reachable": 582,
+      "best_path_len": 37,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 70,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=29.5 | plan=target_standoff, det=none, memory=1, pending=2, free=2208, occ=963, standoff_all=964, standoff_trav=239, standoff_reach=582, best_len=37, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 239,
+      "standoff_reachable": 582,
+      "best_path_len": 37,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 71,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=24.5 | plan=target_standoff, det=none, memory=1, pending=2, free=2215, occ=969, standoff_all=964, standoff_trav=239, standoff_reach=582, best_len=37, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 239,
+      "standoff_reachable": 582,
+      "best_path_len": 37,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 72,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-79.8 | plan=target_standoff, det=none, memory=1, pending=2, free=2218, occ=972, standoff_all=964, standoff_trav=239, standoff_reach=582, best_len=34, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 239,
+      "standoff_reachable": 582,
+      "best_path_len": 34,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 73,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-74.8 | plan=target_standoff, det=none, memory=1, pending=2, free=2218, occ=972, standoff_all=964, standoff_trav=239, standoff_reach=582, best_len=34, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 239,
+      "standoff_reachable": 582,
+      "best_path_len": 34,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 74,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-69.8 | plan=target_standoff, det=none, memory=1, pending=2, free=2218, occ=972, standoff_all=964, standoff_trav=239, standoff_reach=582, best_len=34, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 239,
+      "standoff_reachable": 582,
+      "best_path_len": 34,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 75,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-64.8 | plan=target_standoff, det=none, memory=1, pending=2, free=2218, occ=972, standoff_all=964, standoff_trav=239, standoff_reach=582, best_len=34, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 239,
+      "standoff_reachable": 582,
+      "best_path_len": 34,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 76,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-59.8 | plan=target_standoff, det=none, memory=1, pending=2, free=2218, occ=972, standoff_all=964, standoff_trav=239, standoff_reach=582, best_len=34, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 239,
+      "standoff_reachable": 582,
+      "best_path_len": 34,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 77,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-54.8 | plan=target_standoff, det=none, memory=1, pending=2, free=2218, occ=972, standoff_all=964, standoff_trav=239, standoff_reach=582, best_len=34, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 239,
+      "standoff_reachable": 582,
+      "best_path_len": 34,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 78,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-49.8 | plan=target_standoff, det=none, memory=1, pending=2, free=2218, occ=972, standoff_all=964, standoff_trav=239, standoff_reach=582, best_len=34, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 239,
+      "standoff_reachable": 582,
+      "best_path_len": 34,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 79,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-44.8 | plan=target_standoff, det=dining table score=0.67 bbox=[491, 335, 639, 479], memory=1, pending=2, free=2218, occ=972, standoff_all=964, standoff_trav=239, standoff_reach=582, best_len=34, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6657466888427734,
+      "bbox": [
+        491,
+        335,
+        639,
+        479
+      ],
+      "center_x": 0.8836729764938355,
+      "center_y": 0.848099931081136
+    },
+    "evidence_frame": "demos/table_mapnav_followfix/evidence/step_0079_dining_table_0.67.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 239,
+      "standoff_reachable": 582,
+      "best_path_len": 34,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 80,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-39.8 | plan=target_standoff, det=dining table score=0.78 bbox=[463, 333, 640, 476], memory=1, pending=2, free=2218, occ=972, standoff_all=964, standoff_trav=239, standoff_reach=582, best_len=34, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7805737853050232,
+      "bbox": [
+        463,
+        333,
+        640,
+        476
+      ],
+      "center_x": 0.8617576122283935,
+      "center_y": 0.8434482256571452
+    },
+    "evidence_frame": "demos/table_mapnav_followfix/evidence/step_0080_dining_table_0.78.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 239,
+      "standoff_reachable": 582,
+      "best_path_len": 34,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 81,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-34.8 | plan=target_standoff, det=dining table score=0.82 bbox=[426, 322, 637, 470], memory=1, pending=2, free=2218, occ=972, standoff_all=964, standoff_trav=239, standoff_reach=582, best_len=34, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.815214216709137,
+      "bbox": [
+        426,
+        322,
+        637,
+        470
+      ],
+      "center_x": 0.8319291114807129,
+      "center_y": 0.8259469985961914
+    },
+    "evidence_frame": "demos/table_mapnav_followfix/evidence/step_0081_dining_table_0.82.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 239,
+      "standoff_reachable": 582,
+      "best_path_len": 34,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 82,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-29.8 | plan=target_standoff, det=dining table score=0.87 bbox=[392, 313, 608, 480], memory=1, pending=2, free=2218, occ=972, standoff_all=964, standoff_trav=239, standoff_reach=582, best_len=34, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.8724627494812012,
+      "bbox": [
+        392,
+        313,
+        608,
+        480
+      ],
+      "center_x": 0.7825719118118286,
+      "center_y": 0.8267106374104818
+    },
+    "evidence_frame": "demos/table_mapnav_followfix/evidence/step_0082_dining_table_0.87.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 239,
+      "standoff_reachable": 582,
+      "best_path_len": 34,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 83,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-24.8 | plan=target_standoff, det=dining table score=0.84 bbox=[357, 306, 562, 475], memory=1, pending=2, free=2218, occ=972, standoff_all=964, standoff_trav=239, standoff_reach=582, best_len=34, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.8391842246055603,
+      "bbox": [
+        357,
+        306,
+        562,
+        475
+      ],
+      "center_x": 0.7191995143890381,
+      "center_y": 0.8151647567749023
+    },
+    "evidence_frame": "demos/table_mapnav_followfix/evidence/step_0083_dining_table_0.84.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 239,
+      "standoff_reachable": 582,
+      "best_path_len": 34,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 84,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-19.8 | plan=target_standoff, det=dining table score=0.83 bbox=[340, 308, 520, 470], memory=1, pending=2, free=2218, occ=972, standoff_all=964, standoff_trav=239, standoff_reach=582, best_len=34, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.8275513052940369,
+      "bbox": [
+        340,
+        308,
+        520,
+        470
+      ],
+      "center_x": 0.6724714517593384,
+      "center_y": 0.811275577545166
+    },
+    "evidence_frame": "demos/table_mapnav_followfix/evidence/step_0084_dining_table_0.83.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 239,
+      "standoff_reachable": 582,
+      "best_path_len": 34,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 85,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-14.8 | plan=target_standoff, det=dining table score=0.72 bbox=[310, 309, 483, 471], memory=1, pending=2, free=2218, occ=972, standoff_all=964, standoff_trav=239, standoff_reach=582, best_len=34, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7170712947845459,
+      "bbox": [
+        310,
+        309,
+        483,
+        471
+      ],
+      "center_x": 0.6209810018539429,
+      "center_y": 0.8132399559020996
+    },
+    "evidence_frame": "demos/table_mapnav_followfix/evidence/step_0085_dining_table_0.72.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 239,
+      "standoff_reachable": 582,
+      "best_path_len": 34,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 86,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=33 | plan=target_standoff, det=dining table score=0.82 bbox=[276, 283, 443, 468], memory=1, pending=2, free=2219, occ=974, standoff_all=964, standoff_trav=239, standoff_reach=582, best_len=34, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.8176969289779663,
+      "bbox": [
+        276,
+        283,
+        443,
+        468
+      ],
+      "center_x": 0.5623588800430298,
+      "center_y": 0.7828484853108724
+    },
+    "evidence_frame": "demos/table_mapnav_followfix/evidence/step_0086_dining_table_0.82.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 239,
+      "standoff_reachable": 582,
+      "best_path_len": 34,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 87,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=32 | plan=target_standoff, det=dining table score=0.77 bbox=[278, 305, 458, 472], memory=1, pending=2, free=2218, occ=975, standoff_all=964, standoff_trav=234, standoff_reach=563, best_len=33, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7741605043411255,
+      "bbox": [
+        278,
+        305,
+        458,
+        472
+      ],
+      "center_x": 0.5755783081054687,
+      "center_y": 0.8109489758809407
+    },
+    "evidence_frame": "demos/table_mapnav_followfix/evidence/step_0087_dining_table_0.77.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        20,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 234,
+      "standoff_reachable": 563,
+      "best_path_len": 33,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 88,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=27.2 | plan=target_standoff, det=dining table score=0.78 bbox=[285, 304, 461, 475], memory=1, pending=2, free=2215, occ=978, standoff_all=964, standoff_trav=229, standoff_reach=558, best_len=32, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7845265865325928,
+      "bbox": [
+        285,
+        304,
+        461,
+        475
+      ],
+      "center_x": 0.5833061695098877,
+      "center_y": 0.8118286768595377
+    },
+    "evidence_frame": "demos/table_mapnav_followfix/evidence/step_0088_dining_table_0.78.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        20,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 229,
+      "standoff_reachable": 558,
+      "best_path_len": 32,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 89,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=22.2 | plan=target_standoff, det=dining table score=0.72 bbox=[312, 305, 497, 475], memory=1, pending=2, free=2215, occ=978, standoff_all=964, standoff_trav=229, standoff_reach=558, best_len=32, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7233014106750488,
+      "bbox": [
+        312,
+        305,
+        497,
+        475
+      ],
+      "center_x": 0.6328534364700318,
+      "center_y": 0.8128190994262695
+    },
+    "evidence_frame": "demos/table_mapnav_followfix/evidence/step_0089_dining_table_0.72.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        20,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 229,
+      "standoff_reachable": 558,
+      "best_path_len": 32,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 90,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=17.2 | plan=target_standoff, det=dining table score=0.77 bbox=[345, 313, 531, 477], memory=1, pending=2, free=2213, occ=980, standoff_all=964, standoff_trav=228, standoff_reach=557, best_len=32, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7688738703727722,
+      "bbox": [
+        345,
+        313,
+        531,
+        477
+      ],
+      "center_x": 0.6855799913406372,
+      "center_y": 0.8238813400268554
+    },
+    "evidence_frame": "demos/table_mapnav_followfix/evidence/step_0090_dining_table_0.77.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        20,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 228,
+      "standoff_reachable": 557,
+      "best_path_len": 32,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 91,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=12.2 | plan=target_standoff, det=dining table score=0.80 bbox=[373, 313, 586, 480], memory=1, pending=2, free=2213, occ=980, standoff_all=964, standoff_trav=228, standoff_reach=557, best_len=32, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.804722011089325,
+      "bbox": [
+        373,
+        313,
+        586,
+        480
+      ],
+      "center_x": 0.750252652168274,
+      "center_y": 0.8265909512837728
+    },
+    "evidence_frame": "demos/table_mapnav_followfix/evidence/step_0091_dining_table_0.80.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        20,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 228,
+      "standoff_reachable": 557,
+      "best_path_len": 32,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 92,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=31 | plan=target_standoff, det=dining table score=0.82 bbox=[403, 322, 635, 477], memory=1, pending=2, free=2213, occ=980, standoff_all=964, standoff_trav=228, standoff_reach=557, best_len=32, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.8193636536598206,
+      "bbox": [
+        403,
+        322,
+        635,
+        477
+      ],
+      "center_x": 0.8115969657897949,
+      "center_y": 0.8333267529805501
+    },
+    "evidence_frame": "demos/table_mapnav_followfix/evidence/step_0092_dining_table_0.82.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        20,
+        67
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 228,
+      "standoff_reachable": 557,
+      "best_path_len": 32,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 93,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=37.5 | plan=target_standoff, det=dining table score=0.81 bbox=[404, 327, 633, 477], memory=1, pending=2, free=2213, occ=980, standoff_all=964, standoff_trav=245, standoff_reach=594, best_len=28, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.8067631125450134,
+      "bbox": [
+        404,
+        327,
+        633,
+        477
+      ],
+      "center_x": 0.8110851526260376,
+      "center_y": 0.8380371411641439
+    },
+    "evidence_frame": "demos/table_mapnav_followfix/evidence/step_0093_dining_table_0.81.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        20,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 245,
+      "standoff_reachable": 594,
+      "best_path_len": 28,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 94,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=32.5 | plan=target_standoff, det=dining table score=0.61 bbox=[451, 334, 635, 480], memory=1, pending=2, free=2212, occ=981, standoff_all=964, standoff_trav=244, standoff_reach=593, best_len=28, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.60902339220047,
+      "bbox": [
+        451,
+        334,
+        635,
+        480
+      ],
+      "center_x": 0.8489461421966553,
+      "center_y": 0.8488181114196778
+    },
+    "evidence_frame": "demos/table_mapnav_followfix/evidence/step_0094_dining_table_0.61.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        20,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 244,
+      "standoff_reachable": 593,
+      "best_path_len": 28,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 95,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=27.5 | plan=target_standoff, det=dining table score=0.69 bbox=[484, 336, 637, 474], memory=1, pending=2, free=2212, occ=981, standoff_all=964, standoff_trav=247, standoff_reach=605, best_len=27, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6944185495376587,
+      "bbox": [
+        484,
+        336,
+        637,
+        474
+      ],
+      "center_x": 0.8764777898788452,
+      "center_y": 0.8448664347330729
+    },
+    "evidence_frame": "demos/table_mapnav_followfix/evidence/step_0095_dining_table_0.69.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 247,
+      "standoff_reachable": 605,
+      "best_path_len": 27,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 96,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=22.5 | plan=target_standoff, det=none, memory=1, pending=2, free=2212, occ=981, standoff_all=964, standoff_trav=247, standoff_reach=605, best_len=27, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 247,
+      "standoff_reachable": 605,
+      "best_path_len": 27,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 97,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=17.5 | plan=target_standoff, det=none, memory=1, pending=2, free=2211, occ=982, standoff_all=964, standoff_trav=247, standoff_reach=605, best_len=27, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 247,
+      "standoff_reachable": 605,
+      "best_path_len": 27,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 98,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=12.5 | plan=target_standoff, det=none, memory=1, pending=2, free=2207, occ=986, standoff_all=964, standoff_trav=247, standoff_reach=605, best_len=27, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 247,
+      "standoff_reachable": 605,
+      "best_path_len": 27,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 99,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=26 | plan=target_standoff, det=none, memory=1, pending=2, free=2203, occ=990, standoff_all=964, standoff_trav=247, standoff_reach=605, best_len=27, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 247,
+      "standoff_reachable": 605,
+      "best_path_len": 27,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 100,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=12.5 | plan=target_standoff, det=none, memory=1, pending=2, free=2203, occ=990, standoff_all=964, standoff_trav=247, standoff_reach=605, best_len=27, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 247,
+      "standoff_reachable": 605,
+      "best_path_len": 27,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 101,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=26 | plan=target_standoff, det=none, memory=1, pending=2, free=2202, occ=991, standoff_all=964, standoff_trav=247, standoff_reach=605, best_len=27, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 247,
+      "standoff_reachable": 605,
+      "best_path_len": 27,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 102,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=21.8 | plan=target_standoff, det=none, memory=1, pending=2, free=2202, occ=991, standoff_all=964, standoff_trav=247, standoff_reach=605, best_len=27, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 247,
+      "standoff_reachable": 605,
+      "best_path_len": 27,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 103,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=23 | plan=target_standoff, det=none, memory=1, pending=2, free=2201, occ=992, standoff_all=964, standoff_trav=247, standoff_reach=605, best_len=24, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 247,
+      "standoff_reachable": 605,
+      "best_path_len": 24,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 104,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=16.6 | plan=target_standoff, det=none, memory=1, pending=2, free=2201, occ=992, standoff_all=964, standoff_trav=247, standoff_reach=605, best_len=24, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 247,
+      "standoff_reachable": 605,
+      "best_path_len": 24,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 105,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=23 | plan=target_standoff, det=none, memory=1, pending=2, free=2201, occ=992, standoff_all=964, standoff_trav=247, standoff_reach=605, best_len=24, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 247,
+      "standoff_reachable": 605,
+      "best_path_len": 24,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 106,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=22.2 | plan=target_standoff, det=none, memory=1, pending=2, free=2201, occ=992, standoff_all=964, standoff_trav=247, standoff_reach=605, best_len=24, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 247,
+      "standoff_reachable": 605,
+      "best_path_len": 24,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 107,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=17.2 | plan=target_standoff, det=none, memory=1, pending=2, free=2201, occ=992, standoff_all=964, standoff_trav=247, standoff_reach=605, best_len=24, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 247,
+      "standoff_reachable": 605,
+      "best_path_len": 24,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 108,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=12.2 | plan=target_standoff, det=none, memory=1, pending=2, free=2200, occ=993, standoff_all=964, standoff_trav=247, standoff_reach=605, best_len=24, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 247,
+      "standoff_reachable": 605,
+      "best_path_len": 24,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 109,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=23 | plan=target_standoff, det=none, memory=1, pending=2, free=2198, occ=995, standoff_all=964, standoff_trav=247, standoff_reach=605, best_len=24, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 247,
+      "standoff_reachable": 605,
+      "best_path_len": 24,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 110,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=58.3 | plan=target_standoff, det=none, memory=1, pending=2, free=2198, occ=995, standoff_all=964, standoff_trav=247, standoff_reach=605, best_len=24, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 247,
+      "standoff_reachable": 605,
+      "best_path_len": 24,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 111,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-103.9 | plan=target_standoff, det=none, memory=1, pending=2, free=2198, occ=995, standoff_all=964, standoff_trav=247, standoff_reach=605, best_len=20, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 247,
+      "standoff_reachable": 605,
+      "best_path_len": 20,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 112,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-98.9 | plan=target_standoff, det=none, memory=1, pending=2, free=2198, occ=995, standoff_all=964, standoff_trav=247, standoff_reach=605, best_len=20, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 247,
+      "standoff_reachable": 605,
+      "best_path_len": 20,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 113,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-93.9 | plan=target_standoff, det=none, memory=1, pending=2, free=2198, occ=995, standoff_all=964, standoff_trav=247, standoff_reach=605, best_len=20, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 247,
+      "standoff_reachable": 605,
+      "best_path_len": 20,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 114,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-88.9 | plan=target_standoff, det=none, memory=1, pending=2, free=2198, occ=995, standoff_all=964, standoff_trav=247, standoff_reach=605, best_len=20, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 247,
+      "standoff_reachable": 605,
+      "best_path_len": 20,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 115,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-83.9 | plan=target_standoff, det=none, memory=1, pending=2, free=2198, occ=995, standoff_all=964, standoff_trav=247, standoff_reach=605, best_len=20, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 247,
+      "standoff_reachable": 605,
+      "best_path_len": 20,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 116,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-78.9 | plan=target_standoff, det=none, memory=1, pending=2, free=2198, occ=995, standoff_all=964, standoff_trav=247, standoff_reach=605, best_len=20, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 247,
+      "standoff_reachable": 605,
+      "best_path_len": 20,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 117,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-73.9 | plan=target_standoff, det=none, memory=1, pending=2, free=2198, occ=995, standoff_all=964, standoff_trav=247, standoff_reach=605, best_len=20, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 247,
+      "standoff_reachable": 605,
+      "best_path_len": 20,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 118,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-68.9 | plan=target_standoff, det=none, memory=1, pending=2, free=2198, occ=995, standoff_all=964, standoff_trav=247, standoff_reach=605, best_len=20, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 247,
+      "standoff_reachable": 605,
+      "best_path_len": 20,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 119,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-63.9 | plan=target_standoff, det=none, memory=1, pending=2, free=2198, occ=995, standoff_all=964, standoff_trav=247, standoff_reach=605, best_len=20, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 247,
+      "standoff_reachable": 605,
+      "best_path_len": 20,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 120,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-58.9 | plan=target_standoff, det=none, memory=1, pending=2, free=2198, occ=995, standoff_all=964, standoff_trav=247, standoff_reach=605, best_len=20, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 247,
+      "standoff_reachable": 605,
+      "best_path_len": 20,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 121,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-53.9 | plan=target_standoff, det=none, memory=1, pending=2, free=2198, occ=995, standoff_all=964, standoff_trav=247, standoff_reach=605, best_len=20, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 247,
+      "standoff_reachable": 605,
+      "best_path_len": 20,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 122,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-48.9 | plan=target_standoff, det=none, memory=1, pending=2, free=2198, occ=995, standoff_all=964, standoff_trav=247, standoff_reach=605, best_len=20, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 247,
+      "standoff_reachable": 605,
+      "best_path_len": 20,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 123,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-43.9 | plan=target_standoff, det=none, memory=1, pending=2, free=2198, occ=995, standoff_all=964, standoff_trav=247, standoff_reach=605, best_len=20, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 247,
+      "standoff_reachable": 605,
+      "best_path_len": 20,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 124,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-38.9 | plan=target_standoff, det=none, memory=1, pending=2, free=2198, occ=995, standoff_all=964, standoff_trav=247, standoff_reach=605, best_len=20, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 247,
+      "standoff_reachable": 605,
+      "best_path_len": 20,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 125,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-33.9 | plan=target_standoff, det=none, memory=1, pending=2, free=2198, occ=995, standoff_all=964, standoff_trav=247, standoff_reach=605, best_len=20, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 247,
+      "standoff_reachable": 605,
+      "best_path_len": 20,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 126,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-28.9 | plan=target_standoff, det=dining table score=0.78 bbox=[459, 336, 636, 474], memory=1, pending=2, free=2198, occ=995, standoff_all=964, standoff_trav=247, standoff_reach=605, best_len=20, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7824531197547913,
+      "bbox": [
+        459,
+        336,
+        636,
+        474
+      ],
+      "center_x": 0.856227445602417,
+      "center_y": 0.8447592417399089
+    },
+    "evidence_frame": "demos/table_mapnav_followfix/evidence/step_0126_dining_table_0.78.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 247,
+      "standoff_reachable": 605,
+      "best_path_len": 20,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 127,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-23.9 | plan=target_standoff, det=dining table score=0.81 bbox=[420, 329, 612, 477], memory=1, pending=2, free=2197, occ=996, standoff_all=964, standoff_trav=249, standoff_reach=614, best_len=18, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.812871515750885,
+      "bbox": [
+        420,
+        329,
+        612,
+        477
+      ],
+      "center_x": 0.8073637962341309,
+      "center_y": 0.840596866607666
+    },
+    "evidence_frame": "demos/table_mapnav_followfix/evidence/step_0127_dining_table_0.81.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        22,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 249,
+      "standoff_reachable": 614,
+      "best_path_len": 18,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 128,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-18.9 | plan=target_standoff, det=dining table score=0.78 bbox=[391, 324, 565, 476], memory=1, pending=2, free=2196, occ=997, standoff_all=964, standoff_trav=248, standoff_reach=613, best_len=18, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.775416910648346,
+      "bbox": [
+        391,
+        324,
+        565,
+        476
+      ],
+      "center_x": 0.7474515914916993,
+      "center_y": 0.8349371592203776
+    },
+    "evidence_frame": "demos/table_mapnav_followfix/evidence/step_0128_dining_table_0.78.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        22,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 248,
+      "standoff_reachable": 613,
+      "best_path_len": 18,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 129,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-13.9 | plan=target_standoff, det=dining table score=0.75 bbox=[366, 319, 523, 475], memory=1, pending=2, free=2196, occ=997, standoff_all=964, standoff_trav=251, standoff_reach=619, best_len=17, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7511473894119263,
+      "bbox": [
+        366,
+        319,
+        523,
+        475
+      ],
+      "center_x": 0.6949102878570557,
+      "center_y": 0.8283362070719401
+    },
+    "evidence_frame": "demos/table_mapnav_followfix/evidence/step_0129_dining_table_0.75.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 251,
+      "standoff_reachable": 619,
+      "best_path_len": 17,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 130,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=16 | plan=target_standoff, det=dining table score=0.81 bbox=[338, 324, 479, 473], memory=1, pending=2, free=2196, occ=997, standoff_all=964, standoff_trav=251, standoff_reach=619, best_len=17, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.807334840297699,
+      "bbox": [
+        338,
+        324,
+        479,
+        473
+      ],
+      "center_x": 0.6388388395309448,
+      "center_y": 0.8318192481994628
+    },
+    "evidence_frame": "demos/table_mapnav_followfix/evidence/step_0130_dining_table_0.81.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 251,
+      "standoff_reachable": 619,
+      "best_path_len": 17,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 131,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-12.2 | plan=target_standoff, det=dining table score=0.72 bbox=[337, 325, 496, 475], memory=1, pending=2, free=2196, occ=997, standoff_all=964, standoff_trav=251, standoff_reach=619, best_len=16, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7151443958282471,
+      "bbox": [
+        337,
+        325,
+        496,
+        475
+      ],
+      "center_x": 0.6513555765151977,
+      "center_y": 0.834636942545573
+    },
+    "evidence_frame": "demos/table_mapnav_followfix/evidence/step_0131_dining_table_0.72.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 251,
+      "standoff_reachable": 619,
+      "best_path_len": 16,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 132,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=12 | plan=target_standoff, det=dining table score=0.72 bbox=[310, 319, 466, 472], memory=1, pending=2, free=2193, occ=1000, standoff_all=964, standoff_trav=250, standoff_reach=624, best_len=13, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7185503840446472,
+      "bbox": [
+        310,
+        319,
+        466,
+        472
+      ],
+      "center_x": 0.6071980476379395,
+      "center_y": 0.8253175735473632
+    },
+    "evidence_frame": "demos/table_mapnav_followfix/evidence/step_0132_dining_table_0.72.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        24,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 250,
+      "standoff_reachable": 624,
+      "best_path_len": 13,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 133,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=10 | plan=target_standoff, det=dining table score=0.67 bbox=[312, 321, 461, 471], memory=1, pending=2, free=2193, occ=1000, standoff_all=964, standoff_trav=250, standoff_reach=624, best_len=11, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6704490780830383,
+      "bbox": [
+        312,
+        321,
+        461,
+        471
+      ],
+      "center_x": 0.6043982744216919,
+      "center_y": 0.8256893475850423
+    },
+    "evidence_frame": "demos/table_mapnav_followfix/evidence/step_0133_dining_table_0.67.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        24,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 250,
+      "standoff_reachable": 624,
+      "best_path_len": 11,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 134,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=9 | plan=target_standoff, det=none, memory=1, pending=2, free=2193, occ=1000, standoff_all=964, standoff_trav=250, standoff_reach=624, best_len=11, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        24,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 250,
+      "standoff_reachable": 624,
+      "best_path_len": 11,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 135,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=8 | plan=target_standoff, det=none, memory=1, pending=2, free=2193, occ=1000, standoff_all=964, standoff_trav=250, standoff_reach=624, best_len=11, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        24,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 250,
+      "standoff_reachable": 624,
+      "best_path_len": 11,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 136,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-16.0 | plan=target_standoff, det=none, memory=1, pending=2, free=2193, occ=1000, standoff_all=964, standoff_trav=250, standoff_reach=624, best_len=11, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        24,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 250,
+      "standoff_reachable": 624,
+      "best_path_len": 11,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 137,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=8 | plan=target_standoff, det=none, memory=1, pending=2, free=2192, occ=1001, standoff_all=964, standoff_trav=250, standoff_reach=624, best_len=11, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        24,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 250,
+      "standoff_reachable": 624,
+      "best_path_len": 11,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 138,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-18.5 | plan=target_standoff, det=none, memory=1, pending=2, free=2192, occ=1001, standoff_all=964, standoff_trav=250, standoff_reach=624, best_len=11, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        24,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 250,
+      "standoff_reachable": 624,
+      "best_path_len": 11,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 139,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-13.5 | plan=target_standoff, det=none, memory=1, pending=2, free=2190, occ=1003, standoff_all=964, standoff_trav=250, standoff_reach=624, best_len=11, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        24,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 250,
+      "standoff_reachable": 624,
+      "best_path_len": 11,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 140,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=8 | plan=target_standoff, det=none, memory=1, pending=2, free=2187, occ=1008, standoff_all=964, standoff_trav=250, standoff_reach=624, best_len=11, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        24,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 250,
+      "standoff_reachable": 624,
+      "best_path_len": 11,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 141,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=4 | plan=target_standoff, det=none, memory=1, pending=2, free=2186, occ=1009, standoff_all=964, standoff_trav=244, standoff_reach=612, best_len=5, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        24,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 244,
+      "standoff_reachable": 612,
+      "best_path_len": 5,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 142,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-16.4 | plan=target_standoff, det=none, memory=1, pending=2, free=2186, occ=1009, standoff_all=964, standoff_trav=244, standoff_reach=612, best_len=5, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        24,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 244,
+      "standoff_reachable": 612,
+      "best_path_len": 5,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 143,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=3 | plan=target_standoff, det=none, memory=1, pending=2, free=2200, occ=1014, standoff_all=964, standoff_trav=244, standoff_reach=612, best_len=5, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        24,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 244,
+      "standoff_reachable": 612,
+      "best_path_len": 5,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 144,
+    "agent_message": "任务完成。还需要什么？ [MAP-ARRIVED] reached reachable standoff cell. | plan=target_standoff, det=none, memory=1, pending=2, free=2200, occ=1014, standoff_all=964, standoff_trav=244, standoff_reach=612, best_len=5, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": true,
+    "debug": {
+      "target_grid": [
+        24,
+        66
+      ],
+      "standoff_all": 964,
+      "standoff_traversible": 244,
+      "standoff_reachable": 612,
+      "best_path_len": 5,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  }
+]

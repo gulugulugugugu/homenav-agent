@@ -1,0 +1,1917 @@
+[
+  {
+    "step": 0,
+    "user_command": "请到桌子旁边",
+    "agent_message": "收到。我会用 RGB-D 建图、探索 frontier，并导航到 first-confirmed table 旁边。",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0000.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 1,
+    "agent_message": "[PATH] Turning left toward path. angle=45.0deg | plan=frontier, det=none, memory=0, pending=0, free=373, occ=47",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0001.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 2,
+    "agent_message": "[PATH] Turning left toward path. angle=40.0deg | plan=frontier, det=none, memory=0, pending=0, free=404, occ=74",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0002.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 3,
+    "agent_message": "[PATH] Turning left toward path. angle=35.0deg | plan=frontier, det=none, memory=0, pending=0, free=425, occ=95",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0003.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 4,
+    "agent_message": "[PATH] Turning left toward path. angle=30.0deg | plan=frontier, det=none, memory=0, pending=0, free=466, occ=115",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0004.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 5,
+    "agent_message": "[PATH] Turning left toward path. angle=25.0deg | plan=frontier, det=none, memory=0, pending=0, free=589, occ=133",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0005.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 6,
+    "agent_message": "[PATH] Turning left toward path. angle=20.0deg | plan=frontier, det=none, memory=0, pending=0, free=704, occ=148",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0006.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 7,
+    "agent_message": "[PATH] Turning left toward path. angle=15.0deg | plan=frontier, det=none, memory=0, pending=0, free=755, occ=169",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0007.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 8,
+    "agent_message": "[PATH] Moving forward. plan=frontier, remaining=9, target_forward_steps=0 | plan=frontier, det=none, memory=0, pending=0, free=840, occ=186",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0008.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 9,
+    "agent_message": "[PATH] Turning left toward path. angle=54.8deg | plan=frontier, det=none, memory=0, pending=0, free=874, occ=192",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0009.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 10,
+    "agent_message": "[PATH] Turning left toward path. angle=49.8deg | plan=frontier, det=none, memory=0, pending=0, free=953, occ=204",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0010.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 11,
+    "agent_message": "[PATH] Turning left toward path. angle=44.8deg | plan=frontier, det=none, memory=0, pending=0, free=1038, occ=222",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0011.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 12,
+    "agent_message": "[PATH] Turning left toward path. angle=39.8deg | plan=frontier, det=none, memory=0, pending=0, free=1109, occ=244",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0012.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 13,
+    "agent_message": "[PATH] Turning left toward path. angle=34.8deg | plan=frontier, det=none, memory=0, pending=0, free=1144, occ=268",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0013.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 14,
+    "agent_message": "[PATH] Turning left toward path. angle=29.8deg | plan=frontier, det=none, memory=0, pending=0, free=1181, occ=296",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0014.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 15,
+    "agent_message": "[PATH] Turning left toward path. angle=24.8deg | plan=frontier, det=dining table score=0.62 bbox=[2, 271, 156, 454], memory=0, pending=1, free=1207, occ=317",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6155538558959961,
+      "bbox": [
+        2,
+        271,
+        156,
+        454
+      ],
+      "center_x": 0.12404515687376261,
+      "center_y": 0.7559027989705404
+    },
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0015.png",
+    "evidence_frame": "demos/table_target_lock/evidence/step_0015_dining_table_0.62.png"
+  },
+  {
+    "step": 16,
+    "agent_message": "[PATH] Turning left toward path. angle=19.8deg | plan=frontier, det=none, memory=0, pending=1, free=1245, occ=341",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0016.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 17,
+    "agent_message": "[PATH] Turning left toward path. angle=14.8deg | plan=frontier, det=none, memory=0, pending=1, free=1277, occ=366",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0017.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 18,
+    "agent_message": "[PATH] Moving forward. plan=frontier, remaining=9, target_forward_steps=0 | plan=frontier, det=none, memory=0, pending=1, free=1315, occ=391",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0018.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 19,
+    "agent_message": "[PATH] Turning left toward path. angle=12.7deg | plan=frontier, det=none, memory=0, pending=1, free=1351, occ=401",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0019.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 20,
+    "agent_message": "[PATH] Moving forward. plan=frontier, remaining=8, target_forward_steps=0 | plan=frontier, det=none, memory=0, pending=1, free=1366, occ=426",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0020.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 21,
+    "agent_message": "[PATH] Moving forward. plan=frontier, remaining=7, target_forward_steps=0 | plan=frontier, det=none, memory=0, pending=1, free=1383, occ=437",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0021.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 22,
+    "agent_message": "[PATH] Turning left toward path. angle=32.1deg | plan=frontier, det=none, memory=0, pending=1, free=1407, occ=444",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0022.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 23,
+    "agent_message": "[PATH] Turning left toward path. angle=27.1deg | plan=frontier, det=none, memory=0, pending=1, free=1426, occ=460",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0023.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 24,
+    "agent_message": "[PATH] Turning left toward path. angle=22.1deg | plan=frontier, det=none, memory=0, pending=1, free=1439, occ=479",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0024.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 25,
+    "agent_message": "[PATH] Turning right toward path. angle=-154.7deg | plan=frontier, det=dining table score=0.61 bbox=[238, 299, 370, 416], memory=0, pending=1, free=1473, occ=503",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6060323715209961,
+      "bbox": [
+        238,
+        299,
+        370,
+        416
+      ],
+      "center_x": 0.4756970167160034,
+      "center_y": 0.7453668594360352
+    },
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0025.png",
+    "evidence_frame": "demos/table_target_lock/evidence/step_0025_dining_table_0.61.png"
+  },
+  {
+    "step": 26,
+    "agent_message": "[PATH] Turning right toward path. angle=-149.7deg | plan=frontier, det=none, memory=0, pending=1, free=1473, occ=503",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0026.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 27,
+    "agent_message": "[PATH] Turning right toward path. angle=-144.7deg | plan=frontier, det=none, memory=0, pending=1, free=1473, occ=503",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0027.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 28,
+    "agent_message": "[PATH] Turning right toward path. angle=-139.7deg | plan=frontier, det=none, memory=0, pending=1, free=1473, occ=503",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0028.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 29,
+    "agent_message": "[PATH] Turning right toward path. angle=-134.7deg | plan=frontier, det=none, memory=0, pending=1, free=1467, occ=513",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0029.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 30,
+    "agent_message": "[PATH] Turning right toward path. angle=-129.7deg | plan=frontier, det=none, memory=0, pending=1, free=1461, occ=520",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0030.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 31,
+    "agent_message": "[PATH] Turning right toward path. angle=-124.7deg | plan=frontier, det=none, memory=0, pending=1, free=1454, occ=530",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0031.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 32,
+    "agent_message": "[PATH] Turning right toward path. angle=-119.7deg | plan=frontier, det=none, memory=0, pending=1, free=1445, occ=539",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0032.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 33,
+    "agent_message": "[PATH] Turning right toward path. angle=-114.7deg | plan=frontier, det=none, memory=0, pending=1, free=1435, occ=553",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0033.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 34,
+    "agent_message": "[PATH] Turning right toward path. angle=-109.7deg | plan=frontier, det=none, memory=0, pending=1, free=1430, occ=561",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0034.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 35,
+    "agent_message": "[PATH] Turning right toward path. angle=-104.7deg | plan=frontier, det=none, memory=0, pending=1, free=1423, occ=571",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0035.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 36,
+    "agent_message": "[PATH] Turning right toward path. angle=-99.7deg | plan=frontier, det=none, memory=0, pending=1, free=1421, occ=579",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0036.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 37,
+    "agent_message": "[PATH] Turning right toward path. angle=-94.7deg | plan=frontier, det=none, memory=0, pending=1, free=1417, occ=586",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0037.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 38,
+    "agent_message": "[PATH] Turning right toward path. angle=-89.7deg | plan=frontier, det=none, memory=0, pending=1, free=1424, occ=593",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0038.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 39,
+    "agent_message": "[PATH] Turning right toward path. angle=-84.7deg | plan=frontier, det=none, memory=0, pending=1, free=1418, occ=600",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0039.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 40,
+    "agent_message": "[PATH] Turning right toward path. angle=-79.7deg | plan=frontier, det=none, memory=0, pending=1, free=1418, occ=604",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0040.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 41,
+    "agent_message": "[PATH] Turning right toward path. angle=-74.7deg | plan=frontier, det=none, memory=0, pending=1, free=1417, occ=605",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0041.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 42,
+    "agent_message": "[PATH] Turning right toward path. angle=-69.7deg | plan=frontier, det=none, memory=0, pending=1, free=1415, occ=608",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0042.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 43,
+    "agent_message": "[PATH] Turning right toward path. angle=-64.7deg | plan=frontier, det=none, memory=0, pending=1, free=1413, occ=610",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0043.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 44,
+    "agent_message": "[PATH] Turning right toward path. angle=-59.7deg | plan=frontier, det=none, memory=0, pending=1, free=1413, occ=611",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0044.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 45,
+    "agent_message": "[PATH] Turning right toward path. angle=-54.7deg | plan=frontier, det=none, memory=0, pending=1, free=1412, occ=614",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0045.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 46,
+    "agent_message": "[PATH] Turning right toward path. angle=-49.7deg | plan=frontier, det=none, memory=0, pending=1, free=1409, occ=617",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0046.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 47,
+    "agent_message": "[PATH] Turning right toward path. angle=-44.7deg | plan=frontier, det=none, memory=0, pending=1, free=1408, occ=619",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0047.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 48,
+    "agent_message": "[PATH] Turning right toward path. angle=-39.7deg | plan=frontier, det=none, memory=0, pending=1, free=1407, occ=620",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0048.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 49,
+    "agent_message": "[PATH] Turning right toward path. angle=-34.7deg | plan=frontier, det=none, memory=0, pending=1, free=1406, occ=627",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0049.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 50,
+    "agent_message": "[PATH] Turning right toward path. angle=-29.7deg | plan=frontier, det=none, memory=0, pending=1, free=1407, occ=635",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0050.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 51,
+    "agent_message": "[PATH] Turning right toward path. angle=-24.7deg | plan=frontier, det=none, memory=0, pending=1, free=1408, occ=643",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0051.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 52,
+    "agent_message": "[PATH] Turning right toward path. angle=-19.7deg | plan=frontier, det=none, memory=0, pending=1, free=1413, occ=652",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0052.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 53,
+    "agent_message": "[PATH] Turning right toward path. angle=-14.7deg | plan=frontier, det=none, memory=0, pending=1, free=1413, occ=661",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0053.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 54,
+    "agent_message": "[PATH] Moving forward. plan=frontier, remaining=9, target_forward_steps=0 | plan=frontier, det=none, memory=0, pending=1, free=1415, occ=666",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0054.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 55,
+    "agent_message": "[PATH] Turning right toward path. angle=-17.0deg | plan=frontier, det=none, memory=0, pending=1, free=1415, occ=667",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0055.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 56,
+    "agent_message": "[PATH] Turning right toward path. angle=-12.0deg | plan=frontier, det=none, memory=0, pending=1, free=1415, occ=675",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0056.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 57,
+    "agent_message": "[PATH] Turning left toward path. angle=149.0deg | plan=frontier, det=none, memory=0, pending=1, free=1414, occ=679",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0057.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 58,
+    "agent_message": "[PATH] Turning left toward path. angle=144.0deg | plan=frontier, det=none, memory=0, pending=1, free=1414, occ=679",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0058.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 59,
+    "agent_message": "[PATH] Turning left toward path. angle=139.0deg | plan=frontier, det=none, memory=0, pending=1, free=1414, occ=679",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0059.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 60,
+    "agent_message": "[PATH] Turning left toward path. angle=134.0deg | plan=frontier, det=none, memory=0, pending=1, free=1414, occ=679",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0060.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 61,
+    "agent_message": "[PATH] Turning left toward path. angle=129.0deg | plan=frontier, det=none, memory=0, pending=1, free=1414, occ=679",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0061.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 62,
+    "agent_message": "[PATH] Turning left toward path. angle=124.0deg | plan=frontier, det=none, memory=0, pending=1, free=1414, occ=679",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0062.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 63,
+    "agent_message": "[PATH] Turning left toward path. angle=119.0deg | plan=frontier, det=none, memory=0, pending=1, free=1414, occ=679",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0063.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 64,
+    "agent_message": "[PATH] Turning left toward path. angle=114.0deg | plan=frontier, det=none, memory=0, pending=1, free=1414, occ=679",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0064.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 65,
+    "agent_message": "[PATH] Turning left toward path. angle=109.0deg | plan=frontier, det=none, memory=0, pending=1, free=1414, occ=680",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0065.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 66,
+    "agent_message": "[PATH] Turning left toward path. angle=104.0deg | plan=frontier, det=none, memory=0, pending=1, free=1414, occ=681",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0066.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 67,
+    "agent_message": "[PATH] Turning left toward path. angle=99.0deg | plan=frontier, det=none, memory=0, pending=1, free=1413, occ=682",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0067.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 68,
+    "agent_message": "[PATH] Turning left toward path. angle=94.0deg | plan=frontier, det=none, memory=0, pending=1, free=1413, occ=683",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0068.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 69,
+    "agent_message": "[PATH] Turning left toward path. angle=89.0deg | plan=frontier, det=none, memory=0, pending=1, free=1413, occ=684",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0069.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 70,
+    "agent_message": "[PATH] Turning left toward path. angle=84.0deg | plan=frontier, det=none, memory=0, pending=1, free=1412, occ=686",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0070.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 71,
+    "agent_message": "[PATH] Turning left toward path. angle=79.0deg | plan=frontier, det=none, memory=0, pending=1, free=1411, occ=688",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0071.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 72,
+    "agent_message": "[PATH] Turning left toward path. angle=74.0deg | plan=frontier, det=none, memory=0, pending=1, free=1411, occ=689",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0072.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 73,
+    "agent_message": "[PATH] Turning left toward path. angle=69.0deg | plan=frontier, det=none, memory=0, pending=1, free=1411, occ=690",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0073.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 74,
+    "agent_message": "[PATH] Turning left toward path. angle=64.0deg | plan=frontier, det=none, memory=0, pending=1, free=1411, occ=691",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0074.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 75,
+    "agent_message": "[PATH] Turning left toward path. angle=59.0deg | plan=frontier, det=none, memory=0, pending=1, free=1412, occ=692",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0075.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 76,
+    "agent_message": "[PATH] Turning left toward path. angle=54.0deg | plan=frontier, det=none, memory=0, pending=1, free=1412, occ=695",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0076.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 77,
+    "agent_message": "[PATH] Turning left toward path. angle=49.0deg | plan=frontier, det=none, memory=0, pending=1, free=1410, occ=697",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0077.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 78,
+    "agent_message": "[PATH] Turning left toward path. angle=44.0deg | plan=frontier, det=none, memory=0, pending=1, free=1410, occ=697",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0078.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 79,
+    "agent_message": "[PATH] Turning left toward path. angle=39.0deg | plan=frontier, det=none, memory=0, pending=1, free=1409, occ=701",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0079.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 80,
+    "agent_message": "[PATH] Turning left toward path. angle=34.0deg | plan=frontier, det=none, memory=0, pending=1, free=1402, occ=708",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0080.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 81,
+    "agent_message": "[PATH] Turning left toward path. angle=29.0deg | plan=frontier, det=none, memory=0, pending=1, free=1397, occ=713",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0081.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 82,
+    "agent_message": "[PATH] Turning left toward path. angle=24.0deg | plan=frontier, det=dining table score=0.61 bbox=[216, 339, 345, 393], memory=0, pending=1, free=1395, occ=715",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6074544191360474,
+      "bbox": [
+        216,
+        339,
+        345,
+        393
+      ],
+      "center_x": 0.4390942454338074,
+      "center_y": 0.7641511917114258
+    },
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0082.png",
+    "evidence_frame": "demos/table_target_lock/evidence/step_0082_dining_table_0.61.png"
+  },
+  {
+    "step": 83,
+    "agent_message": "[PATH] Turning left toward path. angle=19.0deg | plan=frontier, det=none, memory=0, pending=1, free=1397, occ=718",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0083.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 84,
+    "agent_message": "[PATH] Turning left toward path. angle=14.0deg | plan=frontier, det=none, memory=0, pending=1, free=1397, occ=720",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0084.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 85,
+    "agent_message": "[PATH] Moving forward. plan=frontier, remaining=9, target_forward_steps=0 | plan=frontier, det=none, memory=0, pending=1, free=1396, occ=721",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0085.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 86,
+    "agent_message": "[PATH] Turning left toward path. angle=13.4deg | plan=frontier, det=none, memory=0, pending=1, free=1404, occ=722",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0086.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 87,
+    "agent_message": "[PATH] Moving forward. plan=frontier, remaining=9, target_forward_steps=0 | plan=frontier, det=none, memory=0, pending=1, free=1405, occ=726",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0087.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 88,
+    "agent_message": "[PATH] Turning left toward path. angle=16.5deg | plan=frontier, det=none, memory=0, pending=1, free=1427, occ=726",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0088.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 89,
+    "agent_message": "[PATH] Turning left toward path. angle=18.0deg | plan=frontier, det=none, memory=0, pending=1, free=1431, occ=730",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0089.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 90,
+    "agent_message": "[PATH] Turning left toward path. angle=13.0deg | plan=frontier, det=none, memory=0, pending=1, free=1429, occ=736",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0090.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 91,
+    "agent_message": "[PATH] Moving forward. plan=frontier, remaining=10, target_forward_steps=0 | plan=frontier, det=none, memory=0, pending=1, free=1428, occ=748",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0091.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 92,
+    "agent_message": "[PATH] Turning left toward path. angle=30.1deg | plan=frontier, det=none, memory=0, pending=1, free=1443, occ=760",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0092.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 93,
+    "agent_message": "[PATH] Turning left toward path. angle=25.1deg | plan=frontier, det=none, memory=0, pending=1, free=1448, occ=779",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0093.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 94,
+    "agent_message": "[PATH] Turning left toward path. angle=20.1deg | plan=frontier, det=none, memory=0, pending=1, free=1443, occ=798",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0094.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 95,
+    "agent_message": "[PATH] Turning left toward path. angle=15.1deg | plan=frontier, det=dining table score=0.67 bbox=[329, 288, 480, 432], memory=0, pending=1, free=1451, occ=819",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6703876852989197,
+      "bbox": [
+        329,
+        288,
+        480,
+        432
+      ],
+      "center_x": 0.6332219362258911,
+      "center_y": 0.7511361440022787
+    },
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0095.png",
+    "evidence_frame": "demos/table_target_lock/evidence/step_0095_dining_table_0.67.png"
+  },
+  {
+    "step": 96,
+    "agent_message": "[VISUAL] Moving forward to locked table. center_x=0.68, distance=2.91, front=2.42, visible=2 | plan=visual, det=dining table score=0.75 bbox=[354, 298, 520, 435], memory=1, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.753076434135437,
+      "bbox": [
+        354,
+        298,
+        520,
+        435
+      ],
+      "center_x": 0.6838864326477051,
+      "center_y": 0.7648766835530599
+    },
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0096.png",
+    "evidence_frame": "demos/table_target_lock/evidence/step_0096_dining_table_0.75.png"
+  },
+  {
+    "step": 97,
+    "agent_message": "[VISUAL] Moving forward to locked table. center_x=0.69, distance=2.75, front=2.31, visible=3 | plan=visual, det=dining table score=0.74 bbox=[355, 305, 522, 450], memory=2, pending=2, free=1454, occ=847",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7412306070327759,
+      "bbox": [
+        355,
+        305,
+        522,
+        450
+      ],
+      "center_x": 0.6855838537216187,
+      "center_y": 0.7866085370381674
+    },
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0097.png",
+    "evidence_frame": "demos/table_target_lock/evidence/step_0097_dining_table_0.74.png"
+  },
+  {
+    "step": 98,
+    "agent_message": "[VISUAL] Moving forward to locked table. center_x=0.70, distance=2.62, front=2.20, visible=4 | plan=visual, det=dining table score=0.74 bbox=[354, 304, 537, 466], memory=3, pending=2, free=1452, occ=855",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7400302290916443,
+      "bbox": [
+        354,
+        304,
+        537,
+        466
+      ],
+      "center_x": 0.6966445207595825,
+      "center_y": 0.8030919075012207
+    },
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0098.png",
+    "evidence_frame": "demos/table_target_lock/evidence/step_0098_dining_table_0.74.png"
+  },
+  {
+    "step": 99,
+    "agent_message": "[VISUAL] Target clearly right. Turning right. center_x=0.70, distance=2.53, front=2.09 | plan=visual, det=dining table score=0.80 bbox=[355, 299, 545, 466], memory=4, pending=2, free=1453, occ=862",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7989664673805237,
+      "bbox": [
+        355,
+        299,
+        545,
+        466
+      ],
+      "center_x": 0.7033726453781128,
+      "center_y": 0.7981998761494954
+    },
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0099.png",
+    "evidence_frame": "demos/table_target_lock/evidence/step_0099_dining_table_0.80.png"
+  },
+  {
+    "step": 100,
+    "agent_message": "[VISUAL] Moving forward to locked table. center_x=0.65, distance=2.58, front=2.14, visible=6 | plan=visual, det=dining table score=0.82 bbox=[330, 295, 503, 462], memory=5, pending=2, free=1457, occ=869",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.818556010723114,
+      "bbox": [
+        330,
+        295,
+        503,
+        462
+      ],
+      "center_x": 0.6515753746032715,
+      "center_y": 0.7896998087565105
+    },
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0100.png",
+    "evidence_frame": "demos/table_target_lock/evidence/step_0100_dining_table_0.82.png"
+  },
+  {
+    "step": 101,
+    "agent_message": "[VISUAL] Moving forward to locked table. center_x=0.66, distance=2.46, front=2.03, visible=7 | plan=visual, det=dining table score=0.79 bbox=[327, 302, 518, 470], memory=6, pending=2, free=1453, occ=878",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7880352139472961,
+      "bbox": [
+        327,
+        302,
+        518,
+        470
+      ],
+      "center_x": 0.6610465764999389,
+      "center_y": 0.8047058423360188
+    },
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0101.png",
+    "evidence_frame": "demos/table_target_lock/evidence/step_0101_dining_table_0.79.png"
+  },
+  {
+    "step": 102,
+    "agent_message": "[VISUAL] Moving forward to locked table. center_x=0.67, distance=2.36, front=1.92, visible=8 | plan=visual, det=dining table score=0.80 bbox=[332, 304, 529, 477], memory=7, pending=2, free=1449, occ=884",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7996408939361572,
+      "bbox": [
+        332,
+        304,
+        529,
+        477
+      ],
+      "center_x": 0.6730008125305176,
+      "center_y": 0.8139101028442383
+    },
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0102.png",
+    "evidence_frame": "demos/table_target_lock/evidence/step_0102_dining_table_0.80.png"
+  },
+  {
+    "step": 103,
+    "agent_message": "[VISUAL] Moving forward to locked table. center_x=0.70, distance=2.29, front=1.82, visible=9 | plan=visual, det=dining table score=0.80 bbox=[343, 316, 547, 479], memory=8, pending=2, free=1447, occ=888",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.796183705329895,
+      "bbox": [
+        343,
+        316,
+        547,
+        479
+      ],
+      "center_x": 0.6956836938858032,
+      "center_y": 0.8293523788452148
+    },
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0103.png",
+    "evidence_frame": "demos/table_target_lock/evidence/step_0103_dining_table_0.80.png"
+  },
+  {
+    "step": 104,
+    "agent_message": "[VISUAL] Target clearly right. Turning right. center_x=0.71, distance=2.21, front=1.72 | plan=visual, det=dining table score=0.82 bbox=[352, 319, 551, 472], memory=8, pending=2, free=1447, occ=890",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.8190118074417114,
+      "bbox": [
+        352,
+        319,
+        551,
+        472
+      ],
+      "center_x": 0.7063958644866943,
+      "center_y": 0.824440860748291
+    },
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0104.png",
+    "evidence_frame": "demos/table_target_lock/evidence/step_0104_dining_table_0.82.png"
+  },
+  {
+    "step": 105,
+    "agent_message": "[VISUAL] Moving forward to locked table. center_x=0.66, distance=2.25, front=1.77, visible=11 | plan=visual, det=dining table score=0.71 bbox=[329, 310, 521, 480], memory=8, pending=2, free=1447, occ=898",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7078857421875,
+      "bbox": [
+        329,
+        310,
+        521,
+        480
+      ],
+      "center_x": 0.6649781942367554,
+      "center_y": 0.8234364827473958
+    },
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0105.png",
+    "evidence_frame": "demos/table_target_lock/evidence/step_0105_dining_table_0.71.png"
+  },
+  {
+    "step": 106,
+    "agent_message": "[VISUAL] Moving forward to locked table. center_x=0.67, distance=2.16, front=1.67, visible=12 | plan=visual, det=dining table score=0.82 bbox=[331, 323, 526, 478], memory=8, pending=2, free=1446, occ=901",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.8176482319831848,
+      "bbox": [
+        331,
+        323,
+        526,
+        478
+      ],
+      "center_x": 0.6698691844940186,
+      "center_y": 0.8360462506612142
+    },
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0106.png",
+    "evidence_frame": "demos/table_target_lock/evidence/step_0106_dining_table_0.82.png"
+  },
+  {
+    "step": 107,
+    "agent_message": "[VISUAL] Target clearly right. Turning right. center_x=0.70, distance=2.15, front=1.56 | plan=visual, det=dining table score=0.78 bbox=[357, 318, 541, 474], memory=8, pending=2, free=1444, occ=903",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7806099653244019,
+      "bbox": [
+        357,
+        318,
+        541,
+        474
+      ],
+      "center_x": 0.7022067070007324,
+      "center_y": 0.8263515790303548
+    },
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0107.png",
+    "evidence_frame": "demos/table_target_lock/evidence/step_0107_dining_table_0.78.png"
+  },
+  {
+    "step": 108,
+    "agent_message": "[VISUAL] Moving forward to locked table. center_x=0.65, distance=2.15, front=1.62, visible=14 | plan=visual, det=dining table score=0.80 bbox=[326, 319, 503, 476], memory=8, pending=2, free=1448, occ=906",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.8046210408210754,
+      "bbox": [
+        326,
+        319,
+        503,
+        476
+      ],
+      "center_x": 0.6482315540313721,
+      "center_y": 0.8292650858561198
+    },
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0108.png",
+    "evidence_frame": "demos/table_target_lock/evidence/step_0108_dining_table_0.80.png"
+  },
+  {
+    "step": 109,
+    "agent_message": "[VISUAL] Moving forward to locked table. center_x=0.67, distance=2.03, front=1.51, visible=15 | plan=visual, det=dining table score=0.86 bbox=[336, 329, 514, 480], memory=8, pending=2, free=1444, occ=911",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.8558822274208069,
+      "bbox": [
+        336,
+        329,
+        514,
+        480
+      ],
+      "center_x": 0.6652300119400024,
+      "center_y": 0.8434154510498046
+    },
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0109.png",
+    "evidence_frame": "demos/table_target_lock/evidence/step_0109_dining_table_0.86.png"
+  },
+  {
+    "step": 110,
+    "agent_message": "[VISUAL] Moving forward to locked table. center_x=0.69, distance=1.96, front=1.40, visible=16 | plan=visual, det=dining table score=0.74 bbox=[344, 322, 537, 478], memory=8, pending=2, free=1443, occ=912",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.738413393497467,
+      "bbox": [
+        344,
+        322,
+        537,
+        478
+      ],
+      "center_x": 0.6886813402175903,
+      "center_y": 0.8340301831563314
+    },
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0110.png",
+    "evidence_frame": "demos/table_target_lock/evidence/step_0110_dining_table_0.74.png"
+  },
+  {
+    "step": 111,
+    "agent_message": "[VISUAL] Target clearly right. Turning right. center_x=0.71, distance=1.84, front=1.29 | plan=visual, det=dining table score=0.80 bbox=[355, 326, 552, 476], memory=8, pending=2, free=1443, occ=912",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.8002781867980957,
+      "bbox": [
+        355,
+        326,
+        552,
+        476
+      ],
+      "center_x": 0.7090938568115235,
+      "center_y": 0.8365766525268554
+    },
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0111.png",
+    "evidence_frame": "demos/table_target_lock/evidence/step_0111_dining_table_0.80.png"
+  },
+  {
+    "step": 112,
+    "agent_message": "[REACQUIRE] Locked table temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1445, occ=914",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0112.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 113,
+    "agent_message": "[VISUAL] Moving forward to locked table. center_x=0.60, distance=1.87, front=1.46, visible=1 | plan=visual, det=dining table score=0.70 bbox=[304, 326, 469, 473], memory=8, pending=2, free=1450, occ=918",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7036636471748352,
+      "bbox": [
+        304,
+        326,
+        469,
+        473
+      ],
+      "center_x": 0.6044282913208008,
+      "center_y": 0.8329322497049968
+    },
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0113.png",
+    "evidence_frame": "demos/table_target_lock/evidence/step_0113_dining_table_0.70.png"
+  },
+  {
+    "step": 114,
+    "agent_message": "[VISUAL] Moving forward to locked table. center_x=0.62, distance=1.77, front=1.35, visible=2 | plan=visual, det=dining table score=0.71 bbox=[309, 327, 479, 475], memory=8, pending=2, free=1451, occ=920",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7077158093452454,
+      "bbox": [
+        309,
+        327,
+        479,
+        475
+      ],
+      "center_x": 0.6162658929824829,
+      "center_y": 0.8365427017211914
+    },
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0114.png",
+    "evidence_frame": "demos/table_target_lock/evidence/step_0114_dining_table_0.71.png"
+  },
+  {
+    "step": 115,
+    "agent_message": "[VISUAL] Moving forward to locked table. center_x=0.63, distance=1.65, front=1.25, visible=3 | plan=visual, det=dining table score=0.63 bbox=[313, 333, 489, 475], memory=8, pending=2, free=1450, occ=921",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6302210688591003,
+      "bbox": [
+        313,
+        333,
+        489,
+        475
+      ],
+      "center_x": 0.626977801322937,
+      "center_y": 0.8428574879964192
+    },
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0115.png",
+    "evidence_frame": "demos/table_target_lock/evidence/step_0115_dining_table_0.63.png"
+  },
+  {
+    "step": 116,
+    "agent_message": "[REACQUIRE] Locked table temporarily lost. Small scan left. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1449, occ=922",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0116.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 117,
+    "agent_message": "[REACQUIRE] Locked table temporarily lost. Small scan left. lost_steps=2 | plan=target_reacquire, det=none, memory=8, pending=2, free=1448, occ=923",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0117.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 118,
+    "agent_message": "[REACQUIRE] Locked table temporarily lost. Small scan left. lost_steps=3 | plan=target_reacquire, det=none, memory=8, pending=2, free=1448, occ=923",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0118.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 119,
+    "agent_message": "[REACQUIRE] Locked table temporarily lost. Small scan left. lost_steps=4 | plan=target_reacquire, det=none, memory=8, pending=2, free=1447, occ=924",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0119.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 120,
+    "agent_message": "[REACQUIRE] Locked table temporarily lost. Small scan left. lost_steps=5 | plan=target_reacquire, det=none, memory=8, pending=2, free=1447, occ=924",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0120.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 121,
+    "agent_message": "[REACQUIRE] Locked table temporarily lost. Small scan left. lost_steps=6 | plan=target_reacquire, det=none, memory=8, pending=2, free=1447, occ=924",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0121.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 122,
+    "agent_message": "[REACQUIRE] Locked table temporarily lost. Small scan left. lost_steps=7 | plan=target_reacquire, det=none, memory=8, pending=2, free=1447, occ=924",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0122.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 123,
+    "agent_message": "[REACQUIRE] Locked table temporarily lost. Small scan left. lost_steps=8 | plan=target_reacquire, det=none, memory=8, pending=2, free=1447, occ=924",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0123.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 124,
+    "agent_message": "[REACQUIRE] Locked table temporarily lost. Small scan left. lost_steps=9 | plan=target_reacquire, det=none, memory=8, pending=2, free=1447, occ=924",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0124.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 125,
+    "agent_message": "[REACQUIRE] Locked table temporarily lost. Small scan left. lost_steps=10 | plan=target_reacquire, det=none, memory=8, pending=2, free=1447, occ=924",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0125.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 126,
+    "agent_message": "[REACQUIRE] Locked table temporarily lost. Small scan left. lost_steps=11 | plan=target_reacquire, det=none, memory=8, pending=2, free=1447, occ=924",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0126.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 127,
+    "agent_message": "[REACQUIRE] Locked table temporarily lost. Small scan left. lost_steps=12 | plan=target_reacquire, det=none, memory=8, pending=2, free=1447, occ=924",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0127.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 128,
+    "agent_message": "[REACQUIRE] Locked table temporarily lost. Small scan left. lost_steps=13 | plan=target_reacquire, det=none, memory=8, pending=2, free=1447, occ=926",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0128.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 129,
+    "agent_message": "[REACQUIRE] Locked table temporarily lost. Small scan left. lost_steps=14 | plan=target_reacquire, det=none, memory=8, pending=2, free=1447, occ=931",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0129.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 130,
+    "agent_message": "[REACQUIRE] Locked table temporarily lost. Small scan left. lost_steps=15 | plan=target_reacquire, det=none, memory=8, pending=2, free=1448, occ=936",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0130.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 131,
+    "agent_message": "[REACQUIRE] Locked table temporarily lost. Small scan left. lost_steps=16 | plan=target_reacquire, det=none, memory=8, pending=2, free=1449, occ=941",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0131.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 132,
+    "agent_message": "[REACQUIRE] Locked table temporarily lost. Small scan left. lost_steps=17 | plan=target_reacquire, det=none, memory=8, pending=2, free=1450, occ=949",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0132.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 133,
+    "agent_message": "[REACQUIRE] Locked table temporarily lost. Small scan left. lost_steps=18 | plan=target_reacquire, det=none, memory=8, pending=2, free=1450, occ=954",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0133.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 134,
+    "agent_message": "[REACQUIRE] Locked table temporarily lost. Small scan left. lost_steps=19 | plan=target_reacquire, det=none, memory=8, pending=2, free=1449, occ=960",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0134.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 135,
+    "agent_message": "[REACQUIRE] Locked table temporarily lost. Small scan left. lost_steps=20 | plan=target_reacquire, det=none, memory=8, pending=2, free=1446, occ=967",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0135.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 136,
+    "agent_message": "[REACQUIRE] Locked table temporarily lost. Small scan left. lost_steps=21 | plan=target_reacquire, det=none, memory=8, pending=2, free=1443, occ=975",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0136.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 137,
+    "agent_message": "[REACQUIRE] Locked table temporarily lost. Small scan left. lost_steps=22 | plan=target_reacquire, det=none, memory=8, pending=2, free=1442, occ=980",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0137.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 138,
+    "agent_message": "[REACQUIRE] Locked table temporarily lost. Small scan left. lost_steps=23 | plan=target_reacquire, det=none, memory=8, pending=2, free=1441, occ=990",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0138.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 139,
+    "agent_message": "[REACQUIRE] Locked table temporarily lost. Small scan left. lost_steps=24 | plan=target_reacquire, det=none, memory=8, pending=2, free=1441, occ=999",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0139.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 140,
+    "agent_message": "[REACQUIRE-FAIL] Lost locked table for too long. Will replan to target memory. | plan=target_reacquire, det=none, memory=8, pending=2, free=1441, occ=1007",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0140.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 141,
+    "agent_message": "[REACQUIRE-FAIL] Lost locked table for too long. Will replan to target memory. | plan=target_reacquire, det=none, memory=8, pending=2, free=1441, occ=1007",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0141.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 142,
+    "agent_message": "[REACQUIRE-FAIL] Lost locked table for too long. Will replan to target memory. | plan=target_reacquire, det=none, memory=8, pending=2, free=1441, occ=1007",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0142.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 143,
+    "agent_message": "[REACQUIRE-FAIL] Lost locked table for too long. Will replan to target memory. | plan=target_reacquire, det=none, memory=8, pending=2, free=1441, occ=1007",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0143.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 144,
+    "agent_message": "[REACQUIRE-FAIL] Lost locked table for too long. Will replan to target memory. | plan=target_reacquire, det=none, memory=8, pending=2, free=1441, occ=1007",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0144.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 145,
+    "agent_message": "[REACQUIRE-FAIL] Lost locked table for too long. Will replan to target memory. | plan=target_reacquire, det=none, memory=8, pending=2, free=1441, occ=1007",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0145.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 146,
+    "agent_message": "[REACQUIRE-FAIL] Lost locked table for too long. Will replan to target memory. | plan=target_reacquire, det=none, memory=8, pending=2, free=1441, occ=1007",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0146.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 147,
+    "agent_message": "[REACQUIRE-FAIL] Lost locked table for too long. Will replan to target memory. | plan=target_reacquire, det=none, memory=8, pending=2, free=1441, occ=1007",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0147.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 148,
+    "agent_message": "[REACQUIRE-FAIL] Lost locked table for too long. Will replan to target memory. | plan=target_reacquire, det=none, memory=8, pending=2, free=1441, occ=1007",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0148.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 149,
+    "agent_message": "[REACQUIRE-FAIL] Lost locked table for too long. Will replan to target memory. | plan=target_reacquire, det=none, memory=8, pending=2, free=1441, occ=1007",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0149.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 150,
+    "agent_message": "[REACQUIRE-FAIL] Lost locked table for too long. Will replan to target memory. | plan=target_reacquire, det=none, memory=8, pending=2, free=1441, occ=1007",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0150.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 151,
+    "agent_message": "[REACQUIRE-FAIL] Lost locked table for too long. Will replan to target memory. | plan=target_reacquire, det=none, memory=8, pending=2, free=1441, occ=1007",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0151.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 152,
+    "agent_message": "[REACQUIRE-FAIL] Lost locked table for too long. Will replan to target memory. | plan=target_reacquire, det=none, memory=8, pending=2, free=1441, occ=1007",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0152.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 153,
+    "agent_message": "[REACQUIRE-FAIL] Lost locked table for too long. Will replan to target memory. | plan=target_reacquire, det=none, memory=8, pending=2, free=1441, occ=1007",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0153.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 154,
+    "agent_message": "[REACQUIRE-FAIL] Lost locked table for too long. Will replan to target memory. | plan=target_reacquire, det=none, memory=8, pending=2, free=1441, occ=1007",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0154.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 155,
+    "agent_message": "[REACQUIRE-FAIL] Lost locked table for too long. Will replan to target memory. | plan=target_reacquire, det=none, memory=8, pending=2, free=1441, occ=1007",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0155.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 156,
+    "agent_message": "[REACQUIRE-FAIL] Lost locked table for too long. Will replan to target memory. | plan=target_reacquire, det=none, memory=8, pending=2, free=1441, occ=1007",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0156.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 157,
+    "agent_message": "[REACQUIRE-FAIL] Lost locked table for too long. Will replan to target memory. | plan=target_reacquire, det=none, memory=8, pending=2, free=1441, occ=1007",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0157.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 158,
+    "agent_message": "[REACQUIRE-FAIL] Lost locked table for too long. Will replan to target memory. | plan=target_reacquire, det=none, memory=8, pending=2, free=1441, occ=1007",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0158.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 159,
+    "agent_message": "[REACQUIRE-FAIL] Lost locked table for too long. Will replan to target memory. | plan=target_reacquire, det=none, memory=8, pending=2, free=1441, occ=1007",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0159.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 160,
+    "agent_message": "[REACQUIRE-FAIL] Lost locked table for too long. Will replan to target memory. | plan=target_reacquire, det=none, memory=8, pending=2, free=1441, occ=1007",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0160.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 161,
+    "agent_message": "[REACQUIRE-FAIL] Lost locked table for too long. Will replan to target memory. | plan=target_reacquire, det=none, memory=8, pending=2, free=1441, occ=1007",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0161.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 162,
+    "agent_message": "[REACQUIRE-FAIL] Lost locked table for too long. Will replan to target memory. | plan=target_reacquire, det=none, memory=8, pending=2, free=1441, occ=1007",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0162.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 163,
+    "agent_message": "[REACQUIRE-FAIL] Lost locked table for too long. Will replan to target memory. | plan=target_reacquire, det=none, memory=8, pending=2, free=1441, occ=1007",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0163.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 164,
+    "agent_message": "[REACQUIRE-FAIL] Lost locked table for too long. Will replan to target memory. | plan=target_reacquire, det=none, memory=8, pending=2, free=1441, occ=1007",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0164.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 165,
+    "agent_message": "[REACQUIRE-FAIL] Lost locked table for too long. Will replan to target memory. | plan=target_reacquire, det=none, memory=8, pending=2, free=1441, occ=1007",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0165.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 166,
+    "agent_message": "[REACQUIRE-FAIL] Lost locked table for too long. Will replan to target memory. | plan=target_reacquire, det=none, memory=8, pending=2, free=1441, occ=1007",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0166.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 167,
+    "agent_message": "[REACQUIRE-FAIL] Lost locked table for too long. Will replan to target memory. | plan=target_reacquire, det=none, memory=8, pending=2, free=1441, occ=1007",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0167.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 168,
+    "agent_message": "[REACQUIRE-FAIL] Lost locked table for too long. Will replan to target memory. | plan=target_reacquire, det=none, memory=8, pending=2, free=1441, occ=1007",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0168.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 169,
+    "agent_message": "[REACQUIRE-FAIL] Lost locked table for too long. Will replan to target memory. | plan=target_reacquire, det=none, memory=8, pending=2, free=1441, occ=1007",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0169.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 170,
+    "agent_message": "[REACQUIRE-FAIL] Lost locked table for too long. Will replan to target memory. | plan=target_reacquire, det=none, memory=8, pending=2, free=1441, occ=1007",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0170.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 171,
+    "agent_message": "[REACQUIRE-FAIL] Lost locked table for too long. Will replan to target memory. | plan=target_reacquire, det=none, memory=8, pending=2, free=1441, occ=1007",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0171.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 172,
+    "agent_message": "[REACQUIRE-FAIL] Lost locked table for too long. Will replan to target memory. | plan=target_reacquire, det=none, memory=8, pending=2, free=1441, occ=1007",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0172.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 173,
+    "agent_message": "[REACQUIRE-FAIL] Lost locked table for too long. Will replan to target memory. | plan=target_reacquire, det=none, memory=8, pending=2, free=1441, occ=1007",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0173.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 174,
+    "agent_message": "[REACQUIRE-FAIL] Lost locked table for too long. Will replan to target memory. | plan=target_reacquire, det=none, memory=8, pending=2, free=1441, occ=1007",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0174.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 175,
+    "agent_message": "[REACQUIRE-FAIL] Lost locked table for too long. Will replan to target memory. | plan=target_reacquire, det=none, memory=8, pending=2, free=1441, occ=1007",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0175.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 176,
+    "agent_message": "[REACQUIRE-FAIL] Lost locked table for too long. Will replan to target memory. | plan=target_reacquire, det=none, memory=8, pending=2, free=1441, occ=1007",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0176.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 177,
+    "agent_message": "[REACQUIRE-FAIL] Lost locked table for too long. Will replan to target memory. | plan=target_reacquire, det=none, memory=8, pending=2, free=1441, occ=1007",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0177.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 178,
+    "agent_message": "[REACQUIRE-FAIL] Lost locked table for too long. Will replan to target memory. | plan=target_reacquire, det=none, memory=8, pending=2, free=1441, occ=1007",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0178.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 179,
+    "agent_message": "[REACQUIRE-FAIL] Lost locked table for too long. Will replan to target memory. | plan=target_reacquire, det=none, memory=8, pending=2, free=1441, occ=1007",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0179.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 180,
+    "agent_message": "[REACQUIRE-FAIL] Lost locked table for too long. Will replan to target memory. | plan=target_reacquire, det=none, memory=8, pending=2, free=1441, occ=1007",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0180.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 181,
+    "agent_message": "任务未在最大步数内完成。",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_target_lock/decision_frames/step_0181.png",
+    "evidence_frame": null
+  }
+]

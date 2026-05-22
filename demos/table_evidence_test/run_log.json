@@ -1,0 +1,249 @@
+[
+  {
+    "step": 0,
+    "user_command": "请到桌子旁边",
+    "agent_message": "收到。我会用 RGB-D 建立 2D occupancy map，搜索并导航到 table 旁边。",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_evidence_test/decision_frames/step_0000.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 1,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=381, occ=38",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_evidence_test/decision_frames/step_0001.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 2,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=423, occ=60",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_evidence_test/decision_frames/step_0002.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 3,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=454, occ=79",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_evidence_test/decision_frames/step_0003.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 4,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=494, occ=100",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_evidence_test/decision_frames/step_0004.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 5,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=576, occ=116",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_evidence_test/decision_frames/step_0005.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 6,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=660, occ=137",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_evidence_test/decision_frames/step_0006.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 7,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=758, occ=159",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_evidence_test/decision_frames/step_0007.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 8,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=784, occ=182",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_evidence_test/decision_frames/step_0008.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 9,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=919, occ=198",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_evidence_test/decision_frames/step_0009.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 10,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=1039, occ=215",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_evidence_test/decision_frames/step_0010.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 11,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=1114, occ=237",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_evidence_test/decision_frames/step_0011.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 12,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=1146, occ=257",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_evidence_test/decision_frames/step_0012.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 13,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=1212, occ=280",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_evidence_test/decision_frames/step_0013.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 14,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=1258, occ=303",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_evidence_test/decision_frames/step_0014.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 15,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=1293, occ=322",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_evidence_test/decision_frames/step_0015.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 16,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=1338, occ=345",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_evidence_test/decision_frames/step_0016.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 17,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=1372, occ=367",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_evidence_test/decision_frames/step_0017.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 18,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=1404, occ=389",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_evidence_test/decision_frames/step_0018.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 19,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=1426, occ=411",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_evidence_test/decision_frames/step_0019.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 20,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=1464, occ=434",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_evidence_test/decision_frames/step_0020.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 21,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=1502, occ=455",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_evidence_test/decision_frames/step_0021.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 22,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=1520, occ=478",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_evidence_test/decision_frames/step_0022.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 23,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=1533, occ=503",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_evidence_test/decision_frames/step_0023.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 24,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=1550, occ=523",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_evidence_test/decision_frames/step_0024.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 25,
+    "agent_message": "任务完成。还需要什么？ | plan=frontier, det=dining table score=0.66 bbox=[376, 285, 502, 403], memory=1, free=1563, occ=546",
+    "state": "arrived",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6600697636604309,
+      "bbox": [
+        376,
+        285,
+        502,
+        403
+      ],
+      "center_x": 0.6867288827896119,
+      "center_y": 0.7176345507303874
+    },
+    "decision_frame": "demos/table_evidence_test/decision_frames/step_0025.png",
+    "evidence_frame": "demos/table_evidence_test/evidence/step_0025_dining_table_0.66.png"
+  }
+]

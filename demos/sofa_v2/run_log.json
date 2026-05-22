@@ -1,0 +1,81 @@
+[
+  {
+    "step": 0,
+    "user_command": "请到沙发旁边",
+    "agent_message": "收到，我会基于 RGB-D 视觉导航到 sofa 旁边。",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null
+  },
+  {
+    "step": 1,
+    "agent_message": "[SEARCH] Target not visible. Scanning left. front=2.00m",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null
+  },
+  {
+    "step": 2,
+    "agent_message": "[SEARCH] Target not visible. Scanning left. front=2.07m",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null
+  },
+  {
+    "step": 3,
+    "agent_message": "[DETECT] Found couch score=0.56, center_x=0.24, distance=1.90m, area=0.18",
+    "state": "approach_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.5585436224937439,
+      "bbox": [
+        0,
+        299,
+        303,
+        479
+      ],
+      "center_x": 0.237334942817688,
+      "center_y": 0.8109070777893066
+    }
+  },
+  {
+    "step": 4,
+    "agent_message": "[CONTROL] Target left. Turning left. center_x=0.24, distance=1.90m, area=0.18, seen=2",
+    "state": "approach_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.5585436224937439,
+      "bbox": [
+        0,
+        299,
+        303,
+        479
+      ],
+      "center_x": 0.237334942817688,
+      "center_y": 0.8109070777893066
+    }
+  },
+  {
+    "step": 5,
+    "agent_message": "任务完成。还需要什么？",
+    "state": "arrived",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7546722888946533,
+      "bbox": [
+        12,
+        297,
+        334,
+        480
+      ],
+      "center_x": 0.2713446244597435,
+      "center_y": 0.8094556490580241
+    }
+  }
+]

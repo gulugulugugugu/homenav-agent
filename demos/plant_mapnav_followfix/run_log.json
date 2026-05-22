@@ -1,0 +1,5169 @@
+[
+  {
+    "step": 0,
+    "agent_message": "[PATH] Moving forward along frontier. remaining=10 | plan=frontier, det=none, memory=0, pending=0, free=507, occ=214, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 1,
+    "agent_message": "[PATH] Moving forward along frontier. remaining=9 | plan=frontier, det=none, memory=0, pending=0, free=490, occ=235, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 2,
+    "agent_message": "[PATH] Turning right toward frontier. angle=-21.0 | plan=frontier, det=none, memory=0, pending=0, free=474, occ=252, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 3,
+    "agent_message": "[PATH] Turning right toward frontier. angle=-16.0 | plan=frontier, det=none, memory=0, pending=0, free=472, occ=256, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 4,
+    "agent_message": "[PATH] Moving forward along frontier. remaining=8 | plan=frontier, det=none, memory=0, pending=0, free=472, occ=260, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 5,
+    "agent_message": "[PATH] Turning right toward frontier. angle=-19.2 | plan=frontier, det=none, memory=0, pending=0, free=471, occ=262, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 6,
+    "agent_message": "[PATH] Turning right toward frontier. angle=-14.2 | plan=frontier, det=none, memory=0, pending=0, free=473, occ=263, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 7,
+    "agent_message": "[PATH] Moving forward along frontier. remaining=8 | plan=frontier, det=none, memory=0, pending=0, free=476, occ=266, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 8,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=none, det=none, memory=0, pending=0, free=476, occ=266, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "none",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 9,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=none, det=none, memory=0, pending=0, free=476, occ=266, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "none",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 10,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=none, det=none, memory=0, pending=0, free=476, occ=266, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "none",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 11,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=none, det=none, memory=0, pending=0, free=475, occ=267, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "none",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 12,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=none, det=none, memory=0, pending=0, free=473, occ=270, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "none",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 13,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=none, det=none, memory=0, pending=0, free=473, occ=286, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "none",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 14,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=none, det=potted plant score=0.73 bbox=[0, 199, 60, 290], memory=0, pending=1, free=560, occ=325, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "none",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.7325326204299927,
+      "bbox": [
+        0,
+        199,
+        60,
+        290
+      ],
+      "center_x": 0.047565065370872614,
+      "center_y": 0.5103718916575114
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0014_potted_plant_0.73.png",
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 15,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=20.2 | plan=target_standoff, det=potted plant score=0.95 bbox=[22, 198, 100, 277], memory=1, pending=2, free=669, occ=377, standoff_all=841, standoff_trav=120, standoff_reach=145, best_len=76, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9505319595336914,
+      "bbox": [
+        22,
+        198,
+        100,
+        277
+      ],
+      "center_x": 0.09668428301811219,
+      "center_y": 0.4952703317006429
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0015_potted_plant_0.95.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 120,
+      "standoff_reachable": 145,
+      "best_path_len": 76,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 16,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=15.2 | plan=target_standoff, det=potted plant score=0.93 bbox=[71, 200, 143, 271], memory=1, pending=2, free=746, occ=439, standoff_all=841, standoff_trav=173, standoff_reach=202, best_len=76, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9264843463897705,
+      "bbox": [
+        71,
+        200,
+        143,
+        271
+      ],
+      "center_x": 0.16730722188949584,
+      "center_y": 0.49227269490559894
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0016_potted_plant_0.93.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 173,
+      "standoff_reachable": 202,
+      "best_path_len": 76,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 17,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=75 | plan=target_standoff, det=potted plant score=0.92 bbox=[113, 204, 171, 265], memory=1, pending=2, free=901, occ=468, standoff_all=841, standoff_trav=249, standoff_reach=309, best_len=76, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9243654608726501,
+      "bbox": [
+        113,
+        204,
+        171,
+        265
+      ],
+      "center_x": 0.2230972409248352,
+      "center_y": 0.4892631689707438
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0017_potted_plant_0.92.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 249,
+      "standoff_reachable": 309,
+      "best_path_len": 76,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 18,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=73 | plan=target_standoff, det=potted plant score=0.94 bbox=[107, 202, 173, 273], memory=1, pending=2, free=897, occ=479, standoff_all=841, standoff_trav=252, standoff_reach=308, best_len=74, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9411652684211731,
+      "bbox": [
+        107,
+        202,
+        173,
+        273
+      ],
+      "center_x": 0.2192522406578064,
+      "center_y": 0.49631214141845703
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0018_potted_plant_0.94.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 252,
+      "standoff_reachable": 308,
+      "best_path_len": 74,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 19,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-14.0 | plan=target_standoff, det=potted plant score=0.95 bbox=[102, 202, 171, 276], memory=1, pending=2, free=888, occ=493, standoff_all=841, standoff_trav=255, standoff_reach=309, best_len=73, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9473707675933838,
+      "bbox": [
+        102,
+        202,
+        171,
+        276
+      ],
+      "center_x": 0.2143877625465393,
+      "center_y": 0.4995568752288818
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0019_potted_plant_0.95.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 255,
+      "standoff_reachable": 309,
+      "best_path_len": 73,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 20,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=70 | plan=target_standoff, det=potted plant score=0.96 bbox=[58, 200, 136, 280], memory=1, pending=2, free=902, occ=507, standoff_all=868, standoff_trav=283, standoff_reach=321, best_len=71, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9605556130409241,
+      "bbox": [
+        58,
+        200,
+        136,
+        280
+      ],
+      "center_x": 0.15195300579071044,
+      "center_y": 0.5009057839711507
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0020_potted_plant_0.96.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        12,
+        19
+      ],
+      "standoff_all": 868,
+      "standoff_traversible": 283,
+      "standoff_reachable": 321,
+      "best_path_len": 71,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 21,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-17.2 | plan=target_standoff, det=potted plant score=0.94 bbox=[54, 199, 131, 283], memory=1, pending=2, free=906, occ=516, standoff_all=868, standoff_trav=290, standoff_reach=328, best_len=69, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9353175759315491,
+      "bbox": [
+        54,
+        199,
+        131,
+        283
+      ],
+      "center_x": 0.14514303505420684,
+      "center_y": 0.5031884352366129
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0021_potted_plant_0.94.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        12,
+        19
+      ],
+      "standoff_all": 868,
+      "standoff_traversible": 290,
+      "standoff_reachable": 328,
+      "best_path_len": 69,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 22,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-12.2 | plan=target_standoff, det=potted plant score=0.92 bbox=[3, 197, 90, 295], memory=1, pending=2, free=924, occ=526, standoff_all=868, standoff_trav=293, standoff_reach=327, best_len=69, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9223767518997192,
+      "bbox": [
+        3,
+        197,
+        90,
+        295
+      ],
+      "center_x": 0.07355727031826972,
+      "center_y": 0.5133412520090739
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0022_potted_plant_0.92.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        12,
+        19
+      ],
+      "standoff_all": 868,
+      "standoff_traversible": 293,
+      "standoff_reachable": 327,
+      "best_path_len": 69,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 23,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=70 | plan=target_standoff, det=potted plant score=0.64 bbox=[0, 205, 46, 285], memory=1, pending=2, free=935, occ=538, standoff_all=841, standoff_trav=281, standoff_reach=334, best_len=71, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.6363506317138672,
+      "bbox": [
+        0,
+        205,
+        46,
+        285
+      ],
+      "center_x": 0.035949283838272096,
+      "center_y": 0.5109668572743734
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0023_potted_plant_0.64.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 281,
+      "standoff_reachable": 334,
+      "best_path_len": 71,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 24,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=69 | plan=target_standoff, det=none, memory=1, pending=2, free=928, occ=546, standoff_all=841, standoff_trav=281, standoff_reach=334, best_len=71, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 281,
+      "standoff_reachable": 334,
+      "best_path_len": 71,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 25,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-13.5 | plan=target_standoff, det=none, memory=1, pending=2, free=928, occ=547, standoff_all=841, standoff_trav=281, standoff_reach=334, best_len=71, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 281,
+      "standoff_reachable": 334,
+      "best_path_len": 71,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 26,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=68 | plan=target_standoff, det=none, memory=1, pending=2, free=927, occ=548, standoff_all=841, standoff_trav=281, standoff_reach=334, best_len=71, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 281,
+      "standoff_reachable": 334,
+      "best_path_len": 71,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 27,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-12.7 | plan=target_standoff, det=none, memory=1, pending=2, free=927, occ=548, standoff_all=841, standoff_trav=281, standoff_reach=334, best_len=71, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 281,
+      "standoff_reachable": 334,
+      "best_path_len": 71,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 28,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=68 | plan=target_standoff, det=none, memory=1, pending=2, free=927, occ=548, standoff_all=841, standoff_trav=281, standoff_reach=334, best_len=71, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 281,
+      "standoff_reachable": 334,
+      "best_path_len": 71,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 29,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-14.9 | plan=target_standoff, det=none, memory=1, pending=2, free=927, occ=548, standoff_all=841, standoff_trav=281, standoff_reach=334, best_len=71, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 281,
+      "standoff_reachable": 334,
+      "best_path_len": 71,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 30,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=68 | plan=target_standoff, det=none, memory=1, pending=2, free=927, occ=548, standoff_all=841, standoff_trav=281, standoff_reach=334, best_len=71, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 281,
+      "standoff_reachable": 334,
+      "best_path_len": 71,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 31,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=64 | plan=target_standoff, det=none, memory=1, pending=2, free=927, occ=548, standoff_all=841, standoff_trav=280, standoff_reach=333, best_len=65, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 280,
+      "standoff_reachable": 333,
+      "best_path_len": 65,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 32,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=22.3 | plan=target_standoff, det=none, memory=1, pending=2, free=927, occ=548, standoff_all=841, standoff_trav=280, standoff_reach=333, best_len=65, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 280,
+      "standoff_reachable": 333,
+      "best_path_len": 65,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 33,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=17.3 | plan=target_standoff, det=none, memory=1, pending=2, free=927, occ=548, standoff_all=841, standoff_trav=280, standoff_reach=333, best_len=65, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 280,
+      "standoff_reachable": 333,
+      "best_path_len": 65,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 34,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=12.3 | plan=target_standoff, det=none, memory=1, pending=2, free=927, occ=548, standoff_all=841, standoff_trav=280, standoff_reach=333, best_len=65, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 280,
+      "standoff_reachable": 333,
+      "best_path_len": 65,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 35,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=63 | plan=target_standoff, det=none, memory=1, pending=2, free=927, occ=548, standoff_all=841, standoff_trav=280, standoff_reach=333, best_len=65, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 280,
+      "standoff_reachable": 333,
+      "best_path_len": 65,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 36,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=35.3 | plan=target_standoff, det=none, memory=1, pending=2, free=927, occ=548, standoff_all=841, standoff_trav=280, standoff_reach=333, best_len=65, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 280,
+      "standoff_reachable": 333,
+      "best_path_len": 65,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 37,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=30.3 | plan=target_standoff, det=none, memory=1, pending=2, free=926, occ=550, standoff_all=841, standoff_trav=280, standoff_reach=333, best_len=65, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 280,
+      "standoff_reachable": 333,
+      "best_path_len": 65,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 38,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=25.3 | plan=target_standoff, det=potted plant score=0.93 bbox=[0, 192, 80, 352], memory=1, pending=2, free=926, occ=564, standoff_all=812, standoff_trav=273, standoff_reach=328, best_len=64, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.92653888463974,
+      "bbox": [
+        0,
+        192,
+        80,
+        352
+      ],
+      "center_x": 0.06335161821916699,
+      "center_y": 0.5671006520589192
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0038_potted_plant_0.93.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 273,
+      "standoff_reachable": 328,
+      "best_path_len": 64,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 39,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=20.3 | plan=target_standoff, det=potted plant score=0.94 bbox=[30, 198, 120, 333], memory=1, pending=2, free=925, occ=578, standoff_all=811, standoff_trav=260, standoff_reach=323, best_len=65, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9381078481674194,
+      "bbox": [
+        30,
+        198,
+        120,
+        333
+      ],
+      "center_x": 0.11839796006679534,
+      "center_y": 0.5533928235371908
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0039_potted_plant_0.94.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        17
+      ],
+      "standoff_all": 811,
+      "standoff_traversible": 260,
+      "standoff_reachable": 323,
+      "best_path_len": 65,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 40,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=15.3 | plan=target_standoff, det=potted plant score=0.91 bbox=[77, 197, 159, 327], memory=1, pending=2, free=931, occ=589, standoff_all=811, standoff_trav=265, standoff_reach=327, best_len=65, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9089882373809814,
+      "bbox": [
+        77,
+        197,
+        159,
+        327
+      ],
+      "center_x": 0.18545377254486084,
+      "center_y": 0.5466641902923584
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0040_potted_plant_0.91.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        17
+      ],
+      "standoff_all": 811,
+      "standoff_traversible": 265,
+      "standoff_reachable": 327,
+      "best_path_len": 65,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 41,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=64 | plan=target_standoff, det=potted plant score=0.88 bbox=[117, 199, 192, 302], memory=1, pending=2, free=929, occ=592, standoff_all=811, standoff_trav=266, standoff_reach=328, best_len=65, reason=reachable_standoff_cell_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8807179927825928,
+      "bbox": [
+        117,
+        199,
+        192,
+        302
+      ],
+      "center_x": 0.24224371314048768,
+      "center_y": 0.5231076876322428
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0041_potted_plant_0.88.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        17
+      ],
+      "standoff_all": 811,
+      "standoff_traversible": 266,
+      "standoff_reachable": 328,
+      "best_path_len": 65,
+      "planner_reason": "reachable_standoff_cell_found"
+    }
+  },
+  {
+    "step": 42,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.82 bbox=[115, 200, 191, 328], memory=1, pending=2, free=926, occ=595, standoff_all=782, standoff_trav=259, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8198865652084351,
+      "bbox": [
+        115,
+        200,
+        191,
+        328
+      ],
+      "center_x": 0.23943590521812438,
+      "center_y": 0.5505648612976074
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0042_potted_plant_0.82.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        9,
+        17
+      ],
+      "standoff_all": 782,
+      "standoff_traversible": 259,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 43,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.81 bbox=[151, 201, 220, 281], memory=1, pending=2, free=971, occ=595, standoff_all=811, standoff_trav=280, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8109663128852844,
+      "bbox": [
+        151,
+        201,
+        220,
+        281
+      ],
+      "center_x": 0.2905331254005432,
+      "center_y": 0.5030117193857829
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0043_potted_plant_0.81.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        17
+      ],
+      "standoff_all": 811,
+      "standoff_traversible": 280,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 44,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.78 bbox=[184, 203, 249, 275], memory=1, pending=2, free=1062, occ=596, standoff_all=812, standoff_trav=300, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.7810072898864746,
+      "bbox": [
+        184,
+        203,
+        249,
+        275
+      ],
+      "center_x": 0.3386812448501587,
+      "center_y": 0.4981447537740072
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0044_potted_plant_0.78.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 300,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 45,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.84 bbox=[217, 203, 277, 273], memory=1, pending=2, free=1175, occ=597, standoff_all=812, standoff_trav=300, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8374707102775574,
+      "bbox": [
+        217,
+        203,
+        277,
+        273
+      ],
+      "center_x": 0.3865234613418579,
+      "center_y": 0.49634148279825846
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0045_potted_plant_0.84.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 300,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 46,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.87 bbox=[247, 205, 306, 270], memory=1, pending=2, free=1293, occ=610, standoff_all=812, standoff_trav=300, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8679733872413635,
+      "bbox": [
+        247,
+        205,
+        306,
+        270
+      ],
+      "center_x": 0.4326821446418762,
+      "center_y": 0.4966005007425944
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0046_potted_plant_0.87.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 300,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 47,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.93 bbox=[0, 324, 48, 400], memory=1, pending=2, free=1396, occ=635, standoff_all=812, standoff_trav=300, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9282779097557068,
+      "bbox": [
+        0,
+        324,
+        48,
+        400
+      ],
+      "center_x": 0.037942481320351364,
+      "center_y": 0.755117925008138
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0047_potted_plant_0.93.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 300,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 48,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.94 bbox=[16, 317, 100, 379], memory=1, pending=2, free=1495, occ=666, standoff_all=812, standoff_trav=300, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9375145435333252,
+      "bbox": [
+        16,
+        317,
+        100,
+        379
+      ],
+      "center_x": 0.0913536161184311,
+      "center_y": 0.7263195991516114
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0048_potted_plant_0.94.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 300,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 49,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.88 bbox=[71, 313, 137, 371], memory=1, pending=2, free=1571, occ=700, standoff_all=812, standoff_trav=300, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8762436509132385,
+      "bbox": [
+        71,
+        313,
+        137,
+        371
+      ],
+      "center_x": 0.1631844162940979,
+      "center_y": 0.7131629308064779
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0049_potted_plant_0.88.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 300,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 50,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.92 bbox=[120, 309, 172, 367], memory=1, pending=2, free=1635, occ=732, standoff_all=812, standoff_trav=300, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9177835583686829,
+      "bbox": [
+        120,
+        309,
+        172,
+        367
+      ],
+      "center_x": 0.2287655770778656,
+      "center_y": 0.705781364440918
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0050_potted_plant_0.92.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 300,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 51,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.90 bbox=[388, 203, 453, 265], memory=1, pending=2, free=1703, occ=752, standoff_all=841, standoff_trav=302, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8951209187507629,
+      "bbox": [
+        388,
+        203,
+        453,
+        265
+      ],
+      "center_x": 0.6576696872711182,
+      "center_y": 0.48822174072265623
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0051_potted_plant_0.90.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 302,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 52,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.96 bbox=[192, 303, 231, 360], memory=1, pending=2, free=1765, occ=774, standoff_all=841, standoff_trav=302, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.959989607334137,
+      "bbox": [
+        192,
+        303,
+        231,
+        360
+      ],
+      "center_x": 0.3315642595291138,
+      "center_y": 0.6914634068806966
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0052_potted_plant_0.96.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 302,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 53,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.85 bbox=[225, 304, 258, 356], memory=1, pending=2, free=1785, occ=824, standoff_all=841, standoff_trav=302, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8458036780357361,
+      "bbox": [
+        225,
+        304,
+        258,
+        356
+      ],
+      "center_x": 0.37803480625152586,
+      "center_y": 0.6881053288777669
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0053_potted_plant_0.85.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 302,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 54,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.95 bbox=[253, 301, 287, 355], memory=1, pending=2, free=1816, occ=863, standoff_all=841, standoff_trav=302, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9456789493560791,
+      "bbox": [
+        253,
+        301,
+        287,
+        355
+      ],
+      "center_x": 0.4226132154464722,
+      "center_y": 0.6845495223999023
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0054_potted_plant_0.95.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 302,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 55,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.93 bbox=[283, 302, 316, 353], memory=1, pending=2, free=1834, occ=906, standoff_all=841, standoff_trav=302, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9256309270858765,
+      "bbox": [
+        283,
+        302,
+        316,
+        353
+      ],
+      "center_x": 0.46882407665252684,
+      "center_y": 0.6828139940897624
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0055_potted_plant_0.93.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 302,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 56,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.96 bbox=[309, 301, 348, 354], memory=1, pending=2, free=1887, occ=938, standoff_all=841, standoff_trav=302, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9588215351104736,
+      "bbox": [
+        309,
+        301,
+        348,
+        354
+      ],
+      "center_x": 0.5142251491546631,
+      "center_y": 0.6830357551574707
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0056_potted_plant_0.96.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 302,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 57,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.94 bbox=[339, 302, 373, 354], memory=1, pending=2, free=1920, occ=962, standoff_all=841, standoff_trav=298, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9404429197311401,
+      "bbox": [
+        339,
+        302,
+        373,
+        354
+      ],
+      "center_x": 0.5574203252792358,
+      "center_y": 0.6845974922180176
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0057_potted_plant_0.94.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 298,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 58,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.96 bbox=[366, 301, 406, 356], memory=1, pending=2, free=1976, occ=978, standoff_all=841, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9643462896347046,
+      "bbox": [
+        366,
+        301,
+        406,
+        356
+      ],
+      "center_x": 0.6037425994873047,
+      "center_y": 0.6856120427449545
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0058_potted_plant_0.96.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 59,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.95 bbox=[397, 303, 432, 358], memory=1, pending=2, free=2038, occ=990, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9532662034034729,
+      "bbox": [
+        397,
+        303,
+        432,
+        358
+      ],
+      "center_x": 0.6479592323303223,
+      "center_y": 0.6894299507141113
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0059_potted_plant_0.95.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 60,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.76 bbox=[427, 306, 464, 355], memory=1, pending=2, free=2095, occ=1005, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.7616124749183655,
+      "bbox": [
+        427,
+        306,
+        464,
+        355
+      ],
+      "center_x": 0.696996808052063,
+      "center_y": 0.6886151631673177
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0060_potted_plant_0.76.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 61,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2161, occ=1011, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 62,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.97 bbox=[492, 312, 545, 368], memory=1, pending=2, free=2197, occ=1039, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9670714735984802,
+      "bbox": [
+        492,
+        312,
+        545,
+        368
+      ],
+      "center_x": 0.8111120462417603,
+      "center_y": 0.7087194442749023
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0062_potted_plant_0.97.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 63,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.90 bbox=[529, 315, 585, 380], memory=1, pending=2, free=2222, occ=1062, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8973882794380188,
+      "bbox": [
+        529,
+        315,
+        585,
+        380
+      ],
+      "center_x": 0.8708670616149903,
+      "center_y": 0.7258387247721354
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0063_potted_plant_0.90.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 64,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.85 bbox=[568, 322, 634, 386], memory=1, pending=2, free=2231, occ=1078, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8540583252906799,
+      "bbox": [
+        568,
+        322,
+        634,
+        386
+      ],
+      "center_x": 0.9404094219207764,
+      "center_y": 0.7381970723470052
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0064_potted_plant_0.85.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 65,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2242, occ=1091, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 66,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2245, occ=1103, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 67,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2251, occ=1114, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 68,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2253, occ=1119, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 69,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2256, occ=1126, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 70,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2258, occ=1130, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 71,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2258, occ=1137, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 72,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2259, occ=1144, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 73,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2257, occ=1148, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 74,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2257, occ=1149, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 75,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2257, occ=1150, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 76,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2257, occ=1150, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 77,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2257, occ=1150, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 78,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2257, occ=1150, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 79,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2257, occ=1150, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 80,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2257, occ=1150, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 81,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2257, occ=1150, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 82,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2257, occ=1150, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 83,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2257, occ=1150, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 84,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2257, occ=1150, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 85,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2257, occ=1150, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 86,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2257, occ=1150, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 87,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2257, occ=1150, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 88,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2257, occ=1150, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 89,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2257, occ=1150, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 90,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2257, occ=1150, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 91,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2257, occ=1150, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 92,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2257, occ=1150, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 93,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2257, occ=1150, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 94,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2257, occ=1150, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 95,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2257, occ=1150, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 96,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2257, occ=1150, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 97,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2257, occ=1150, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 98,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2257, occ=1150, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 99,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2257, occ=1150, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 100,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2257, occ=1150, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 101,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2257, occ=1150, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 102,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2257, occ=1150, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 103,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2257, occ=1150, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 104,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2257, occ=1150, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 105,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2257, occ=1150, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 106,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2257, occ=1150, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 107,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2257, occ=1150, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 108,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2257, occ=1150, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 109,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2257, occ=1150, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 110,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2257, occ=1150, standoff_all=841, standoff_trav=301, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 841,
+      "standoff_traversible": 301,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 111,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.91 bbox=[1, 193, 76, 354], memory=1, pending=2, free=2256, occ=1151, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9118589162826538,
+      "bbox": [
+        1,
+        193,
+        76,
+        354
+      ],
+      "center_x": 0.060959020908921954,
+      "center_y": 0.5706712404886881
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0111_potted_plant_0.91.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 112,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.90 bbox=[24, 193, 116, 329], memory=1, pending=2, free=2254, occ=1153, standoff_all=811, standoff_trav=279, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8964068293571472,
+      "bbox": [
+        24,
+        193,
+        116,
+        329
+      ],
+      "center_x": 0.11015608608722686,
+      "center_y": 0.544898780186971
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0112_potted_plant_0.90.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        17
+      ],
+      "standoff_all": 811,
+      "standoff_traversible": 279,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 113,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.80 bbox=[73, 197, 154, 306], memory=1, pending=2, free=2254, occ=1153, standoff_all=782, standoff_trav=275, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.7973554134368896,
+      "bbox": [
+        73,
+        197,
+        154,
+        306
+      ],
+      "center_x": 0.1777223527431488,
+      "center_y": 0.5250242710113525
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0113_potted_plant_0.80.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        9,
+        17
+      ],
+      "standoff_all": 782,
+      "standoff_traversible": 275,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 114,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.82 bbox=[115, 200, 191, 328], memory=1, pending=2, free=2254, occ=1153, standoff_all=782, standoff_trav=275, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8198865652084351,
+      "bbox": [
+        115,
+        200,
+        191,
+        328
+      ],
+      "center_x": 0.23943590521812438,
+      "center_y": 0.5505648612976074
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0114_potted_plant_0.82.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        9,
+        17
+      ],
+      "standoff_all": 782,
+      "standoff_traversible": 275,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 115,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.81 bbox=[151, 201, 220, 281], memory=1, pending=2, free=2254, occ=1153, standoff_all=811, standoff_trav=279, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8109663128852844,
+      "bbox": [
+        151,
+        201,
+        220,
+        281
+      ],
+      "center_x": 0.2905331254005432,
+      "center_y": 0.5030117193857829
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0115_potted_plant_0.81.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        17
+      ],
+      "standoff_all": 811,
+      "standoff_traversible": 279,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 116,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.78 bbox=[184, 203, 249, 275], memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.7810072898864746,
+      "bbox": [
+        184,
+        203,
+        249,
+        275
+      ],
+      "center_x": 0.3386812448501587,
+      "center_y": 0.4981447537740072
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0116_potted_plant_0.78.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 117,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.84 bbox=[217, 203, 277, 273], memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8374707102775574,
+      "bbox": [
+        217,
+        203,
+        277,
+        273
+      ],
+      "center_x": 0.3865234613418579,
+      "center_y": 0.49634148279825846
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0117_potted_plant_0.84.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 118,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.87 bbox=[247, 205, 306, 270], memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8679733872413635,
+      "bbox": [
+        247,
+        205,
+        306,
+        270
+      ],
+      "center_x": 0.4326821446418762,
+      "center_y": 0.4966005007425944
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0118_potted_plant_0.87.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 119,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.93 bbox=[0, 324, 48, 400], memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9282779097557068,
+      "bbox": [
+        0,
+        324,
+        48,
+        400
+      ],
+      "center_x": 0.037942481320351364,
+      "center_y": 0.755117925008138
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0119_potted_plant_0.93.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 120,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.94 bbox=[16, 317, 100, 379], memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9375145435333252,
+      "bbox": [
+        16,
+        317,
+        100,
+        379
+      ],
+      "center_x": 0.0913536161184311,
+      "center_y": 0.7263195991516114
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0120_potted_plant_0.94.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 121,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.88 bbox=[71, 313, 137, 371], memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8762436509132385,
+      "bbox": [
+        71,
+        313,
+        137,
+        371
+      ],
+      "center_x": 0.1631844162940979,
+      "center_y": 0.7131629308064779
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0121_potted_plant_0.88.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 122,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.92 bbox=[120, 309, 172, 367], memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9177835583686829,
+      "bbox": [
+        120,
+        309,
+        172,
+        367
+      ],
+      "center_x": 0.2287655770778656,
+      "center_y": 0.705781364440918
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0122_potted_plant_0.92.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 123,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.90 bbox=[388, 203, 453, 265], memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8951209187507629,
+      "bbox": [
+        388,
+        203,
+        453,
+        265
+      ],
+      "center_x": 0.6576696872711182,
+      "center_y": 0.48822174072265623
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0123_potted_plant_0.90.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 124,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.96 bbox=[192, 303, 231, 360], memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.959989607334137,
+      "bbox": [
+        192,
+        303,
+        231,
+        360
+      ],
+      "center_x": 0.3315642595291138,
+      "center_y": 0.6914634068806966
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0124_potted_plant_0.96.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 125,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.85 bbox=[225, 304, 258, 356], memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8458036780357361,
+      "bbox": [
+        225,
+        304,
+        258,
+        356
+      ],
+      "center_x": 0.37803480625152586,
+      "center_y": 0.6881053288777669
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0125_potted_plant_0.85.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 126,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.95 bbox=[253, 301, 287, 355], memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9456789493560791,
+      "bbox": [
+        253,
+        301,
+        287,
+        355
+      ],
+      "center_x": 0.4226132154464722,
+      "center_y": 0.6845495223999023
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0126_potted_plant_0.95.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 127,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.93 bbox=[283, 302, 316, 353], memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9256309270858765,
+      "bbox": [
+        283,
+        302,
+        316,
+        353
+      ],
+      "center_x": 0.46882407665252684,
+      "center_y": 0.6828139940897624
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0127_potted_plant_0.93.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 128,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.96 bbox=[309, 301, 348, 354], memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9588215351104736,
+      "bbox": [
+        309,
+        301,
+        348,
+        354
+      ],
+      "center_x": 0.5142251491546631,
+      "center_y": 0.6830357551574707
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0128_potted_plant_0.96.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 129,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.94 bbox=[339, 302, 373, 354], memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9404429197311401,
+      "bbox": [
+        339,
+        302,
+        373,
+        354
+      ],
+      "center_x": 0.5574203252792358,
+      "center_y": 0.6845974922180176
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0129_potted_plant_0.94.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 130,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.96 bbox=[366, 301, 406, 356], memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9643462896347046,
+      "bbox": [
+        366,
+        301,
+        406,
+        356
+      ],
+      "center_x": 0.6037425994873047,
+      "center_y": 0.6856120427449545
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0130_potted_plant_0.96.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 131,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.95 bbox=[397, 303, 432, 358], memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9532662034034729,
+      "bbox": [
+        397,
+        303,
+        432,
+        358
+      ],
+      "center_x": 0.6479592323303223,
+      "center_y": 0.6894299507141113
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0131_potted_plant_0.95.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 132,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.76 bbox=[427, 306, 464, 355], memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.7616124749183655,
+      "bbox": [
+        427,
+        306,
+        464,
+        355
+      ],
+      "center_x": 0.696996808052063,
+      "center_y": 0.6886151631673177
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0132_potted_plant_0.76.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 133,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 134,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.97 bbox=[492, 312, 545, 368], memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9670714735984802,
+      "bbox": [
+        492,
+        312,
+        545,
+        368
+      ],
+      "center_x": 0.8111120462417603,
+      "center_y": 0.7087194442749023
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0134_potted_plant_0.97.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 135,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.90 bbox=[529, 315, 585, 380], memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8973882794380188,
+      "bbox": [
+        529,
+        315,
+        585,
+        380
+      ],
+      "center_x": 0.8708670616149903,
+      "center_y": 0.7258387247721354
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0135_potted_plant_0.90.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 136,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.85 bbox=[568, 322, 634, 386], memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8540583252906799,
+      "bbox": [
+        568,
+        322,
+        634,
+        386
+      ],
+      "center_x": 0.9404094219207764,
+      "center_y": 0.7381970723470052
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0136_potted_plant_0.85.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 137,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 138,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 139,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 140,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 141,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 142,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 143,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 144,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 145,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 146,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 147,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 148,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 149,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 150,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 151,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 152,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 153,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 154,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 155,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 156,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 157,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 158,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 159,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 160,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 161,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 162,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 163,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 164,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 165,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 166,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 167,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 168,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 169,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 170,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 171,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 172,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 173,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 174,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 175,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 176,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 177,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 178,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 179,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 180,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 181,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 182,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 183,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.91 bbox=[1, 193, 76, 354], memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9118589162826538,
+      "bbox": [
+        1,
+        193,
+        76,
+        354
+      ],
+      "center_x": 0.060959020908921954,
+      "center_y": 0.5706712404886881
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0183_potted_plant_0.91.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 184,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.90 bbox=[24, 193, 116, 329], memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8964068293571472,
+      "bbox": [
+        24,
+        193,
+        116,
+        329
+      ],
+      "center_x": 0.11015608608722686,
+      "center_y": 0.544898780186971
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0184_potted_plant_0.90.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 185,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.80 bbox=[73, 197, 154, 306], memory=1, pending=2, free=2254, occ=1153, standoff_all=782, standoff_trav=275, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.7973554134368896,
+      "bbox": [
+        73,
+        197,
+        154,
+        306
+      ],
+      "center_x": 0.1777223527431488,
+      "center_y": 0.5250242710113525
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0185_potted_plant_0.80.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        9,
+        17
+      ],
+      "standoff_all": 782,
+      "standoff_traversible": 275,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 186,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.82 bbox=[115, 200, 191, 328], memory=1, pending=2, free=2254, occ=1153, standoff_all=782, standoff_trav=275, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8198865652084351,
+      "bbox": [
+        115,
+        200,
+        191,
+        328
+      ],
+      "center_x": 0.23943590521812438,
+      "center_y": 0.5505648612976074
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0186_potted_plant_0.82.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        9,
+        17
+      ],
+      "standoff_all": 782,
+      "standoff_traversible": 275,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 187,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.81 bbox=[151, 201, 220, 281], memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8109663128852844,
+      "bbox": [
+        151,
+        201,
+        220,
+        281
+      ],
+      "center_x": 0.2905331254005432,
+      "center_y": 0.5030117193857829
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0187_potted_plant_0.81.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 188,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.78 bbox=[184, 203, 249, 275], memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.7810072898864746,
+      "bbox": [
+        184,
+        203,
+        249,
+        275
+      ],
+      "center_x": 0.3386812448501587,
+      "center_y": 0.4981447537740072
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0188_potted_plant_0.78.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 189,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.84 bbox=[217, 203, 277, 273], memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8374707102775574,
+      "bbox": [
+        217,
+        203,
+        277,
+        273
+      ],
+      "center_x": 0.3865234613418579,
+      "center_y": 0.49634148279825846
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0189_potted_plant_0.84.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 190,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.87 bbox=[247, 205, 306, 270], memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8679752945899963,
+      "bbox": [
+        247,
+        205,
+        306,
+        270
+      ],
+      "center_x": 0.4326821446418762,
+      "center_y": 0.49660048484802244
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0190_potted_plant_0.87.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 191,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.93 bbox=[0, 324, 48, 400], memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9282779097557068,
+      "bbox": [
+        0,
+        324,
+        48,
+        400
+      ],
+      "center_x": 0.037942481320351364,
+      "center_y": 0.755117925008138
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0191_potted_plant_0.93.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 192,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.94 bbox=[16, 317, 100, 379], memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9375145435333252,
+      "bbox": [
+        16,
+        317,
+        100,
+        379
+      ],
+      "center_x": 0.0913536161184311,
+      "center_y": 0.7263195991516114
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0192_potted_plant_0.94.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 193,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.88 bbox=[71, 313, 137, 371], memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8762436509132385,
+      "bbox": [
+        71,
+        313,
+        137,
+        371
+      ],
+      "center_x": 0.1631844162940979,
+      "center_y": 0.7131629308064779
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0193_potted_plant_0.88.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 194,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.92 bbox=[120, 309, 172, 367], memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9177835583686829,
+      "bbox": [
+        120,
+        309,
+        172,
+        367
+      ],
+      "center_x": 0.2287655770778656,
+      "center_y": 0.705781364440918
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0194_potted_plant_0.92.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 195,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.90 bbox=[388, 203, 453, 265], memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8951209187507629,
+      "bbox": [
+        388,
+        203,
+        453,
+        265
+      ],
+      "center_x": 0.6576696872711182,
+      "center_y": 0.48822174072265623
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0195_potted_plant_0.90.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 196,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.96 bbox=[192, 303, 231, 360], memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.959989607334137,
+      "bbox": [
+        192,
+        303,
+        231,
+        360
+      ],
+      "center_x": 0.3315642595291138,
+      "center_y": 0.6914634068806966
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0196_potted_plant_0.96.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 197,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.85 bbox=[225, 304, 258, 356], memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8458036780357361,
+      "bbox": [
+        225,
+        304,
+        258,
+        356
+      ],
+      "center_x": 0.37803480625152586,
+      "center_y": 0.6881053288777669
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0197_potted_plant_0.85.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 198,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.95 bbox=[253, 301, 287, 355], memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9456789493560791,
+      "bbox": [
+        253,
+        301,
+        287,
+        355
+      ],
+      "center_x": 0.4226132154464722,
+      "center_y": 0.6845495223999023
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0198_potted_plant_0.95.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 199,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.93 bbox=[283, 302, 316, 353], memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9256309270858765,
+      "bbox": [
+        283,
+        302,
+        316,
+        353
+      ],
+      "center_x": 0.46882407665252684,
+      "center_y": 0.6828139940897624
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0199_potted_plant_0.93.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 200,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.96 bbox=[309, 301, 348, 354], memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9588215351104736,
+      "bbox": [
+        309,
+        301,
+        348,
+        354
+      ],
+      "center_x": 0.5142251491546631,
+      "center_y": 0.6830357551574707
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0200_potted_plant_0.96.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 201,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.94 bbox=[339, 302, 373, 354], memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9404429197311401,
+      "bbox": [
+        339,
+        302,
+        373,
+        354
+      ],
+      "center_x": 0.5574203252792358,
+      "center_y": 0.6845974922180176
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0201_potted_plant_0.94.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 202,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.96 bbox=[366, 301, 406, 356], memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9643462896347046,
+      "bbox": [
+        366,
+        301,
+        406,
+        356
+      ],
+      "center_x": 0.6037425994873047,
+      "center_y": 0.6856120427449545
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0202_potted_plant_0.96.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 203,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.95 bbox=[397, 303, 432, 358], memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9532662034034729,
+      "bbox": [
+        397,
+        303,
+        432,
+        358
+      ],
+      "center_x": 0.6479592323303223,
+      "center_y": 0.6894299507141113
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0203_potted_plant_0.95.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 204,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.76 bbox=[427, 306, 464, 355], memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.7616124749183655,
+      "bbox": [
+        427,
+        306,
+        464,
+        355
+      ],
+      "center_x": 0.696996808052063,
+      "center_y": 0.6886151631673177
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0204_potted_plant_0.76.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 205,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 206,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.97 bbox=[492, 312, 545, 368], memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9670714735984802,
+      "bbox": [
+        492,
+        312,
+        545,
+        368
+      ],
+      "center_x": 0.8111120462417603,
+      "center_y": 0.7087194442749023
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0206_potted_plant_0.97.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 207,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.90 bbox=[529, 315, 585, 380], memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8973882794380188,
+      "bbox": [
+        529,
+        315,
+        585,
+        380
+      ],
+      "center_x": 0.8708670616149903,
+      "center_y": 0.7258387247721354
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0207_potted_plant_0.90.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 208,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=potted plant score=0.85 bbox=[568, 322, 634, 386], memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8540583252906799,
+      "bbox": [
+        568,
+        322,
+        634,
+        386
+      ],
+      "center_x": 0.9404094219207764,
+      "center_y": 0.7381970723470052
+    },
+    "evidence_frame": "demos/plant_mapnav_followfix/evidence/step_0208_potted_plant_0.85.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 209,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 210,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 211,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 212,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 213,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 214,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 215,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 216,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 217,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 218,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  },
+  {
+    "step": 219,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2254, occ=1153, standoff_all=812, standoff_trav=299, standoff_reach=0, best_len=0, reason=robot_not_in_reachable_free_component",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        10,
+        18
+      ],
+      "standoff_all": 812,
+      "standoff_traversible": 299,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "robot_not_in_reachable_free_component"
+    }
+  }
+]

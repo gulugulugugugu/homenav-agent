@@ -1,0 +1,2205 @@
+[
+  {
+    "step": 0,
+    "user_command": "请到桌子旁边",
+    "agent_message": "收到。我会用 RGB-D 建图、探索 frontier，并导航到 first-confirmed table 旁边。",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0000.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 1,
+    "agent_message": "[PATH] Turning left toward path. angle=45.0deg | plan=frontier, det=none, memory=0, pending=0, free=373, occ=47",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0001.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 2,
+    "agent_message": "[PATH] Turning left toward path. angle=40.0deg | plan=frontier, det=none, memory=0, pending=0, free=404, occ=74",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0002.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 3,
+    "agent_message": "[PATH] Turning left toward path. angle=35.0deg | plan=frontier, det=none, memory=0, pending=0, free=425, occ=95",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0003.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 4,
+    "agent_message": "[PATH] Turning left toward path. angle=30.0deg | plan=frontier, det=none, memory=0, pending=0, free=466, occ=115",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0004.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 5,
+    "agent_message": "[PATH] Turning left toward path. angle=25.0deg | plan=frontier, det=none, memory=0, pending=0, free=589, occ=133",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0005.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 6,
+    "agent_message": "[PATH] Turning left toward path. angle=20.0deg | plan=frontier, det=none, memory=0, pending=0, free=704, occ=148",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0006.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 7,
+    "agent_message": "[PATH] Turning left toward path. angle=15.0deg | plan=frontier, det=none, memory=0, pending=0, free=755, occ=169",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0007.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 8,
+    "agent_message": "[PATH] Moving forward. plan=frontier, remaining=9, target_forward_steps=0 | plan=frontier, det=none, memory=0, pending=0, free=840, occ=186",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0008.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 9,
+    "agent_message": "[PATH] Turning left toward path. angle=54.8deg | plan=frontier, det=none, memory=0, pending=0, free=874, occ=192",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0009.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 10,
+    "agent_message": "[PATH] Turning left toward path. angle=49.8deg | plan=frontier, det=none, memory=0, pending=0, free=953, occ=204",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0010.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 11,
+    "agent_message": "[PATH] Turning left toward path. angle=44.8deg | plan=frontier, det=none, memory=0, pending=0, free=1038, occ=222",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0011.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 12,
+    "agent_message": "[PATH] Turning left toward path. angle=39.8deg | plan=frontier, det=none, memory=0, pending=0, free=1109, occ=244",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0012.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 13,
+    "agent_message": "[PATH] Turning left toward path. angle=34.8deg | plan=frontier, det=none, memory=0, pending=0, free=1144, occ=268",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0013.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 14,
+    "agent_message": "[PATH] Turning left toward path. angle=29.8deg | plan=frontier, det=none, memory=0, pending=0, free=1181, occ=296",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0014.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 15,
+    "agent_message": "[PATH] Turning left toward path. angle=24.8deg | plan=frontier, det=dining table score=0.62 bbox=[2, 271, 156, 454], memory=0, pending=1, free=1207, occ=317",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6155538558959961,
+      "bbox": [
+        2,
+        271,
+        156,
+        454
+      ],
+      "center_x": 0.12404515687376261,
+      "center_y": 0.7559027989705404
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0015.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0015_dining_table_0.62.png"
+  },
+  {
+    "step": 16,
+    "agent_message": "[PATH] Turning left toward path. angle=19.8deg | plan=frontier, det=none, memory=0, pending=1, free=1245, occ=341",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0016.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 17,
+    "agent_message": "[PATH] Turning left toward path. angle=14.8deg | plan=frontier, det=none, memory=0, pending=1, free=1277, occ=366",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0017.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 18,
+    "agent_message": "[PATH] Moving forward. plan=frontier, remaining=9, target_forward_steps=0 | plan=frontier, det=none, memory=0, pending=1, free=1315, occ=391",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0018.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 19,
+    "agent_message": "[PATH] Turning left toward path. angle=12.7deg | plan=frontier, det=none, memory=0, pending=1, free=1351, occ=401",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0019.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 20,
+    "agent_message": "[PATH] Moving forward. plan=frontier, remaining=8, target_forward_steps=0 | plan=frontier, det=none, memory=0, pending=1, free=1366, occ=426",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0020.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 21,
+    "agent_message": "[PATH] Moving forward. plan=frontier, remaining=7, target_forward_steps=0 | plan=frontier, det=none, memory=0, pending=1, free=1383, occ=437",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0021.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 22,
+    "agent_message": "[PATH] Turning left toward path. angle=32.1deg | plan=frontier, det=none, memory=0, pending=1, free=1407, occ=444",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0022.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 23,
+    "agent_message": "[PATH] Turning left toward path. angle=27.1deg | plan=frontier, det=none, memory=0, pending=1, free=1426, occ=460",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0023.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 24,
+    "agent_message": "[PATH] Turning left toward path. angle=22.1deg | plan=frontier, det=none, memory=0, pending=1, free=1439, occ=479",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0024.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 25,
+    "agent_message": "[PATH] Turning right toward path. angle=-154.7deg | plan=frontier, det=dining table score=0.61 bbox=[238, 299, 370, 416], memory=0, pending=1, free=1473, occ=503",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6060323715209961,
+      "bbox": [
+        238,
+        299,
+        370,
+        416
+      ],
+      "center_x": 0.4756970167160034,
+      "center_y": 0.7453668594360352
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0025.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0025_dining_table_0.61.png"
+  },
+  {
+    "step": 26,
+    "agent_message": "[PATH] Turning right toward path. angle=-149.7deg | plan=frontier, det=none, memory=0, pending=1, free=1473, occ=503",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0026.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 27,
+    "agent_message": "[PATH] Turning right toward path. angle=-144.7deg | plan=frontier, det=none, memory=0, pending=1, free=1473, occ=503",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0027.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 28,
+    "agent_message": "[PATH] Turning right toward path. angle=-139.7deg | plan=frontier, det=none, memory=0, pending=1, free=1473, occ=503",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0028.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 29,
+    "agent_message": "[PATH] Turning right toward path. angle=-134.7deg | plan=frontier, det=none, memory=0, pending=1, free=1467, occ=513",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0029.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 30,
+    "agent_message": "[PATH] Turning right toward path. angle=-129.7deg | plan=frontier, det=none, memory=0, pending=1, free=1461, occ=520",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0030.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 31,
+    "agent_message": "[PATH] Turning right toward path. angle=-124.7deg | plan=frontier, det=none, memory=0, pending=1, free=1454, occ=530",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0031.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 32,
+    "agent_message": "[PATH] Turning right toward path. angle=-119.7deg | plan=frontier, det=none, memory=0, pending=1, free=1445, occ=539",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0032.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 33,
+    "agent_message": "[PATH] Turning right toward path. angle=-114.7deg | plan=frontier, det=none, memory=0, pending=1, free=1435, occ=553",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0033.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 34,
+    "agent_message": "[PATH] Turning right toward path. angle=-109.7deg | plan=frontier, det=none, memory=0, pending=1, free=1430, occ=561",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0034.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 35,
+    "agent_message": "[PATH] Turning right toward path. angle=-104.7deg | plan=frontier, det=none, memory=0, pending=1, free=1423, occ=571",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0035.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 36,
+    "agent_message": "[PATH] Turning right toward path. angle=-99.7deg | plan=frontier, det=none, memory=0, pending=1, free=1421, occ=579",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0036.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 37,
+    "agent_message": "[PATH] Turning right toward path. angle=-94.7deg | plan=frontier, det=none, memory=0, pending=1, free=1417, occ=586",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0037.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 38,
+    "agent_message": "[PATH] Turning right toward path. angle=-89.7deg | plan=frontier, det=none, memory=0, pending=1, free=1424, occ=593",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0038.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 39,
+    "agent_message": "[PATH] Turning right toward path. angle=-84.7deg | plan=frontier, det=none, memory=0, pending=1, free=1418, occ=600",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0039.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 40,
+    "agent_message": "[PATH] Turning right toward path. angle=-79.7deg | plan=frontier, det=none, memory=0, pending=1, free=1418, occ=604",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0040.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 41,
+    "agent_message": "[PATH] Turning right toward path. angle=-74.7deg | plan=frontier, det=none, memory=0, pending=1, free=1417, occ=605",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0041.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 42,
+    "agent_message": "[PATH] Turning right toward path. angle=-69.7deg | plan=frontier, det=none, memory=0, pending=1, free=1415, occ=608",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0042.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 43,
+    "agent_message": "[PATH] Turning right toward path. angle=-64.7deg | plan=frontier, det=none, memory=0, pending=1, free=1413, occ=610",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0043.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 44,
+    "agent_message": "[PATH] Turning right toward path. angle=-59.7deg | plan=frontier, det=none, memory=0, pending=1, free=1413, occ=611",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0044.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 45,
+    "agent_message": "[PATH] Turning right toward path. angle=-54.7deg | plan=frontier, det=none, memory=0, pending=1, free=1412, occ=614",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0045.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 46,
+    "agent_message": "[PATH] Turning right toward path. angle=-49.7deg | plan=frontier, det=none, memory=0, pending=1, free=1409, occ=617",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0046.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 47,
+    "agent_message": "[PATH] Turning right toward path. angle=-44.7deg | plan=frontier, det=none, memory=0, pending=1, free=1408, occ=619",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0047.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 48,
+    "agent_message": "[PATH] Turning right toward path. angle=-39.7deg | plan=frontier, det=none, memory=0, pending=1, free=1407, occ=620",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0048.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 49,
+    "agent_message": "[PATH] Turning right toward path. angle=-34.7deg | plan=frontier, det=none, memory=0, pending=1, free=1406, occ=627",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0049.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 50,
+    "agent_message": "[PATH] Turning right toward path. angle=-29.7deg | plan=frontier, det=none, memory=0, pending=1, free=1407, occ=635",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0050.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 51,
+    "agent_message": "[PATH] Turning right toward path. angle=-24.7deg | plan=frontier, det=none, memory=0, pending=1, free=1408, occ=643",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0051.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 52,
+    "agent_message": "[PATH] Turning right toward path. angle=-19.7deg | plan=frontier, det=none, memory=0, pending=1, free=1413, occ=652",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0052.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 53,
+    "agent_message": "[PATH] Turning right toward path. angle=-14.7deg | plan=frontier, det=none, memory=0, pending=1, free=1413, occ=661",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0053.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 54,
+    "agent_message": "[PATH] Moving forward. plan=frontier, remaining=9, target_forward_steps=0 | plan=frontier, det=none, memory=0, pending=1, free=1415, occ=666",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0054.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 55,
+    "agent_message": "[PATH] Turning right toward path. angle=-17.0deg | plan=frontier, det=none, memory=0, pending=1, free=1415, occ=667",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0055.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 56,
+    "agent_message": "[PATH] Turning right toward path. angle=-12.0deg | plan=frontier, det=none, memory=0, pending=1, free=1415, occ=675",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0056.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 57,
+    "agent_message": "[PATH] Turning left toward path. angle=149.0deg | plan=frontier, det=none, memory=0, pending=1, free=1414, occ=679",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0057.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 58,
+    "agent_message": "[PATH] Turning left toward path. angle=144.0deg | plan=frontier, det=none, memory=0, pending=1, free=1414, occ=679",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0058.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 59,
+    "agent_message": "[PATH] Turning left toward path. angle=139.0deg | plan=frontier, det=none, memory=0, pending=1, free=1414, occ=679",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0059.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 60,
+    "agent_message": "[PATH] Turning left toward path. angle=134.0deg | plan=frontier, det=none, memory=0, pending=1, free=1414, occ=679",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0060.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 61,
+    "agent_message": "[PATH] Turning left toward path. angle=129.0deg | plan=frontier, det=none, memory=0, pending=1, free=1414, occ=679",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0061.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 62,
+    "agent_message": "[PATH] Turning left toward path. angle=124.0deg | plan=frontier, det=none, memory=0, pending=1, free=1414, occ=679",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0062.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 63,
+    "agent_message": "[PATH] Turning left toward path. angle=119.0deg | plan=frontier, det=none, memory=0, pending=1, free=1414, occ=679",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0063.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 64,
+    "agent_message": "[PATH] Turning left toward path. angle=114.0deg | plan=frontier, det=none, memory=0, pending=1, free=1414, occ=679",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0064.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 65,
+    "agent_message": "[PATH] Turning left toward path. angle=109.0deg | plan=frontier, det=none, memory=0, pending=1, free=1414, occ=680",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0065.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 66,
+    "agent_message": "[PATH] Turning left toward path. angle=104.0deg | plan=frontier, det=none, memory=0, pending=1, free=1414, occ=681",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0066.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 67,
+    "agent_message": "[PATH] Turning left toward path. angle=99.0deg | plan=frontier, det=none, memory=0, pending=1, free=1413, occ=682",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0067.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 68,
+    "agent_message": "[PATH] Turning left toward path. angle=94.0deg | plan=frontier, det=none, memory=0, pending=1, free=1413, occ=683",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0068.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 69,
+    "agent_message": "[PATH] Turning left toward path. angle=89.0deg | plan=frontier, det=none, memory=0, pending=1, free=1413, occ=684",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0069.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 70,
+    "agent_message": "[PATH] Turning left toward path. angle=84.0deg | plan=frontier, det=none, memory=0, pending=1, free=1412, occ=686",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0070.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 71,
+    "agent_message": "[PATH] Turning left toward path. angle=79.0deg | plan=frontier, det=none, memory=0, pending=1, free=1411, occ=688",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0071.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 72,
+    "agent_message": "[PATH] Turning left toward path. angle=74.0deg | plan=frontier, det=none, memory=0, pending=1, free=1411, occ=689",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0072.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 73,
+    "agent_message": "[PATH] Turning left toward path. angle=69.0deg | plan=frontier, det=none, memory=0, pending=1, free=1411, occ=690",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0073.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 74,
+    "agent_message": "[PATH] Turning left toward path. angle=64.0deg | plan=frontier, det=none, memory=0, pending=1, free=1411, occ=691",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0074.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 75,
+    "agent_message": "[PATH] Turning left toward path. angle=59.0deg | plan=frontier, det=none, memory=0, pending=1, free=1412, occ=692",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0075.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 76,
+    "agent_message": "[PATH] Turning left toward path. angle=54.0deg | plan=frontier, det=none, memory=0, pending=1, free=1412, occ=695",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0076.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 77,
+    "agent_message": "[PATH] Turning left toward path. angle=49.0deg | plan=frontier, det=none, memory=0, pending=1, free=1410, occ=697",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0077.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 78,
+    "agent_message": "[PATH] Turning left toward path. angle=44.0deg | plan=frontier, det=none, memory=0, pending=1, free=1410, occ=697",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0078.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 79,
+    "agent_message": "[PATH] Turning left toward path. angle=39.0deg | plan=frontier, det=none, memory=0, pending=1, free=1409, occ=701",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0079.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 80,
+    "agent_message": "[PATH] Turning left toward path. angle=34.0deg | plan=frontier, det=none, memory=0, pending=1, free=1402, occ=708",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0080.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 81,
+    "agent_message": "[PATH] Turning left toward path. angle=29.0deg | plan=frontier, det=none, memory=0, pending=1, free=1397, occ=713",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0081.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 82,
+    "agent_message": "[PATH] Turning left toward path. angle=24.0deg | plan=frontier, det=dining table score=0.61 bbox=[216, 339, 345, 393], memory=0, pending=1, free=1395, occ=715",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6074544191360474,
+      "bbox": [
+        216,
+        339,
+        345,
+        393
+      ],
+      "center_x": 0.4390942454338074,
+      "center_y": 0.7641511917114258
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0082.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0082_dining_table_0.61.png"
+  },
+  {
+    "step": 83,
+    "agent_message": "[PATH] Turning left toward path. angle=19.0deg | plan=frontier, det=none, memory=0, pending=1, free=1397, occ=718",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0083.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 84,
+    "agent_message": "[PATH] Turning left toward path. angle=14.0deg | plan=frontier, det=none, memory=0, pending=1, free=1397, occ=720",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0084.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 85,
+    "agent_message": "[PATH] Moving forward. plan=frontier, remaining=9, target_forward_steps=0 | plan=frontier, det=none, memory=0, pending=1, free=1396, occ=721",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0085.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 86,
+    "agent_message": "[PATH] Turning left toward path. angle=13.4deg | plan=frontier, det=none, memory=0, pending=1, free=1404, occ=722",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0086.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 87,
+    "agent_message": "[PATH] Moving forward. plan=frontier, remaining=9, target_forward_steps=0 | plan=frontier, det=none, memory=0, pending=1, free=1405, occ=726",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0087.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 88,
+    "agent_message": "[PATH] Turning left toward path. angle=16.5deg | plan=frontier, det=none, memory=0, pending=1, free=1427, occ=726",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0088.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 89,
+    "agent_message": "[PATH] Turning left toward path. angle=18.0deg | plan=frontier, det=none, memory=0, pending=1, free=1431, occ=730",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0089.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 90,
+    "agent_message": "[PATH] Turning left toward path. angle=13.0deg | plan=frontier, det=none, memory=0, pending=1, free=1429, occ=736",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0090.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 91,
+    "agent_message": "[PATH] Moving forward. plan=frontier, remaining=10, target_forward_steps=0 | plan=frontier, det=none, memory=0, pending=1, free=1428, occ=748",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0091.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 92,
+    "agent_message": "[PATH] Turning left toward path. angle=30.1deg | plan=frontier, det=none, memory=0, pending=1, free=1443, occ=760",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0092.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 93,
+    "agent_message": "[PATH] Turning left toward path. angle=25.1deg | plan=frontier, det=none, memory=0, pending=1, free=1448, occ=779",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0093.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 94,
+    "agent_message": "[PATH] Turning left toward path. angle=20.1deg | plan=frontier, det=none, memory=0, pending=1, free=1443, occ=798",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0094.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 95,
+    "agent_message": "[PATH] Turning left toward path. angle=15.1deg | plan=frontier, det=dining table score=0.67 bbox=[329, 288, 480, 432], memory=0, pending=1, free=1451, occ=819",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6703876852989197,
+      "bbox": [
+        329,
+        288,
+        480,
+        432
+      ],
+      "center_x": 0.6332219362258911,
+      "center_y": 0.7511361440022787
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0095.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0095_dining_table_0.67.png"
+  },
+  {
+    "step": 96,
+    "agent_message": "[VISUAL] Target right. Turning right. center_x=0.68, distance=2.91, front=2.42 | plan=visual, det=dining table score=0.75 bbox=[354, 298, 520, 435], memory=1, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.753076434135437,
+      "bbox": [
+        354,
+        298,
+        520,
+        435
+      ],
+      "center_x": 0.6838864326477051,
+      "center_y": 0.7648766835530599
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0096.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0096_dining_table_0.75.png"
+  },
+  {
+    "step": 97,
+    "agent_message": "[VISUAL] Target right. Turning right. center_x=0.63, distance=2.97, front=2.48 | plan=visual, det=dining table score=0.67 bbox=[329, 288, 480, 432], memory=2, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6703876852989197,
+      "bbox": [
+        329,
+        288,
+        480,
+        432
+      ],
+      "center_x": 0.6332219362258911,
+      "center_y": 0.7511361440022787
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0097.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0097_dining_table_0.67.png"
+  },
+  {
+    "step": 98,
+    "agent_message": "[PATH] Turning left toward path. angle=108.9deg | plan=frontier, det=none, memory=2, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0098.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 99,
+    "agent_message": "[VISUAL] Target right. Turning right. center_x=0.63, distance=2.97, front=2.48 | plan=visual, det=dining table score=0.67 bbox=[329, 288, 480, 432], memory=3, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6703876852989197,
+      "bbox": [
+        329,
+        288,
+        480,
+        432
+      ],
+      "center_x": 0.6332219362258911,
+      "center_y": 0.7511361440022787
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0099.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0099_dining_table_0.67.png"
+  },
+  {
+    "step": 100,
+    "agent_message": "[PATH] Turning left toward path. angle=108.9deg | plan=frontier, det=none, memory=3, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0100.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 101,
+    "agent_message": "[VISUAL] Target right. Turning right. center_x=0.63, distance=2.97, front=2.48 | plan=visual, det=dining table score=0.67 bbox=[329, 288, 480, 432], memory=4, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6703876852989197,
+      "bbox": [
+        329,
+        288,
+        480,
+        432
+      ],
+      "center_x": 0.6332219362258911,
+      "center_y": 0.7511361440022787
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0101.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0101_dining_table_0.67.png"
+  },
+  {
+    "step": 102,
+    "agent_message": "[PATH] Turning left toward path. angle=108.9deg | plan=frontier, det=none, memory=4, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0102.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 103,
+    "agent_message": "[VISUAL] Target right. Turning right. center_x=0.63, distance=2.97, front=2.48 | plan=visual, det=dining table score=0.67 bbox=[329, 288, 480, 432], memory=5, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6703876852989197,
+      "bbox": [
+        329,
+        288,
+        480,
+        432
+      ],
+      "center_x": 0.6332219362258911,
+      "center_y": 0.7511361440022787
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0103.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0103_dining_table_0.67.png"
+  },
+  {
+    "step": 104,
+    "agent_message": "[PATH] Turning left toward path. angle=108.9deg | plan=frontier, det=none, memory=5, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0104.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 105,
+    "agent_message": "[VISUAL] Target right. Turning right. center_x=0.63, distance=2.97, front=2.48 | plan=visual, det=dining table score=0.67 bbox=[329, 288, 480, 432], memory=6, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6703876852989197,
+      "bbox": [
+        329,
+        288,
+        480,
+        432
+      ],
+      "center_x": 0.6332219362258911,
+      "center_y": 0.7511361440022787
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0105.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0105_dining_table_0.67.png"
+  },
+  {
+    "step": 106,
+    "agent_message": "[PATH] Turning left toward path. angle=108.9deg | plan=frontier, det=none, memory=6, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0106.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 107,
+    "agent_message": "[VISUAL] Target right. Turning right. center_x=0.63, distance=2.97, front=2.48 | plan=visual, det=dining table score=0.67 bbox=[329, 288, 480, 432], memory=7, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6703876852989197,
+      "bbox": [
+        329,
+        288,
+        480,
+        432
+      ],
+      "center_x": 0.6332219362258911,
+      "center_y": 0.7511361440022787
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0107.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0107_dining_table_0.67.png"
+  },
+  {
+    "step": 108,
+    "agent_message": "[PATH] Turning left toward path. angle=108.9deg | plan=frontier, det=none, memory=7, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0108.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 109,
+    "agent_message": "[VISUAL] Target right. Turning right. center_x=0.63, distance=2.97, front=2.48 | plan=visual, det=dining table score=0.67 bbox=[329, 288, 480, 432], memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6703876852989197,
+      "bbox": [
+        329,
+        288,
+        480,
+        432
+      ],
+      "center_x": 0.6332219362258911,
+      "center_y": 0.7511361440022787
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0109.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0109_dining_table_0.67.png"
+  },
+  {
+    "step": 110,
+    "agent_message": "[PATH] Turning left toward path. angle=108.9deg | plan=frontier, det=none, memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0110.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 111,
+    "agent_message": "[VISUAL] Target right. Turning right. center_x=0.63, distance=2.97, front=2.48 | plan=visual, det=dining table score=0.67 bbox=[329, 288, 480, 432], memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6703876852989197,
+      "bbox": [
+        329,
+        288,
+        480,
+        432
+      ],
+      "center_x": 0.6332219362258911,
+      "center_y": 0.7511361440022787
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0111.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0111_dining_table_0.67.png"
+  },
+  {
+    "step": 112,
+    "agent_message": "[PATH] Turning left toward path. angle=108.9deg | plan=frontier, det=none, memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0112.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 113,
+    "agent_message": "[VISUAL] Target right. Turning right. center_x=0.63, distance=2.97, front=2.48 | plan=visual, det=dining table score=0.67 bbox=[329, 288, 480, 432], memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6703876852989197,
+      "bbox": [
+        329,
+        288,
+        480,
+        432
+      ],
+      "center_x": 0.6332219362258911,
+      "center_y": 0.7511361440022787
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0113.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0113_dining_table_0.67.png"
+  },
+  {
+    "step": 114,
+    "agent_message": "[PATH] Turning left toward path. angle=108.9deg | plan=frontier, det=none, memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0114.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 115,
+    "agent_message": "[VISUAL] Target right. Turning right. center_x=0.63, distance=2.97, front=2.48 | plan=visual, det=dining table score=0.67 bbox=[329, 288, 480, 432], memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6703876852989197,
+      "bbox": [
+        329,
+        288,
+        480,
+        432
+      ],
+      "center_x": 0.6332219362258911,
+      "center_y": 0.7511361440022787
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0115.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0115_dining_table_0.67.png"
+  },
+  {
+    "step": 116,
+    "agent_message": "[PATH] Turning left toward path. angle=108.9deg | plan=frontier, det=none, memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0116.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 117,
+    "agent_message": "[VISUAL] Target right. Turning right. center_x=0.63, distance=2.97, front=2.48 | plan=visual, det=dining table score=0.67 bbox=[329, 288, 480, 432], memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6703876852989197,
+      "bbox": [
+        329,
+        288,
+        480,
+        432
+      ],
+      "center_x": 0.6332219362258911,
+      "center_y": 0.7511361440022787
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0117.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0117_dining_table_0.67.png"
+  },
+  {
+    "step": 118,
+    "agent_message": "[PATH] Turning left toward path. angle=108.9deg | plan=frontier, det=none, memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0118.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 119,
+    "agent_message": "[VISUAL] Target right. Turning right. center_x=0.63, distance=2.97, front=2.48 | plan=visual, det=dining table score=0.67 bbox=[329, 288, 480, 432], memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6703876852989197,
+      "bbox": [
+        329,
+        288,
+        480,
+        432
+      ],
+      "center_x": 0.6332219362258911,
+      "center_y": 0.7511361440022787
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0119.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0119_dining_table_0.67.png"
+  },
+  {
+    "step": 120,
+    "agent_message": "[PATH] Turning left toward path. angle=108.9deg | plan=frontier, det=none, memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0120.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 121,
+    "agent_message": "[VISUAL] Target right. Turning right. center_x=0.63, distance=2.97, front=2.48 | plan=visual, det=dining table score=0.67 bbox=[329, 288, 480, 432], memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6703876852989197,
+      "bbox": [
+        329,
+        288,
+        480,
+        432
+      ],
+      "center_x": 0.6332219362258911,
+      "center_y": 0.7511361440022787
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0121.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0121_dining_table_0.67.png"
+  },
+  {
+    "step": 122,
+    "agent_message": "[PATH] Turning left toward path. angle=108.9deg | plan=frontier, det=none, memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0122.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 123,
+    "agent_message": "[VISUAL] Target right. Turning right. center_x=0.63, distance=2.97, front=2.48 | plan=visual, det=dining table score=0.67 bbox=[329, 288, 480, 432], memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6703876852989197,
+      "bbox": [
+        329,
+        288,
+        480,
+        432
+      ],
+      "center_x": 0.6332219362258911,
+      "center_y": 0.7511361440022787
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0123.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0123_dining_table_0.67.png"
+  },
+  {
+    "step": 124,
+    "agent_message": "[PATH] Turning left toward path. angle=108.9deg | plan=frontier, det=none, memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0124.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 125,
+    "agent_message": "[VISUAL] Target right. Turning right. center_x=0.63, distance=2.97, front=2.48 | plan=visual, det=dining table score=0.67 bbox=[329, 288, 480, 432], memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6703876852989197,
+      "bbox": [
+        329,
+        288,
+        480,
+        432
+      ],
+      "center_x": 0.6332219362258911,
+      "center_y": 0.7511361440022787
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0125.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0125_dining_table_0.67.png"
+  },
+  {
+    "step": 126,
+    "agent_message": "[PATH] Turning left toward path. angle=108.9deg | plan=frontier, det=none, memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0126.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 127,
+    "agent_message": "[VISUAL] Target right. Turning right. center_x=0.63, distance=2.97, front=2.48 | plan=visual, det=dining table score=0.67 bbox=[329, 288, 480, 432], memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6703876852989197,
+      "bbox": [
+        329,
+        288,
+        480,
+        432
+      ],
+      "center_x": 0.6332219362258911,
+      "center_y": 0.7511361440022787
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0127.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0127_dining_table_0.67.png"
+  },
+  {
+    "step": 128,
+    "agent_message": "[PATH] Turning left toward path. angle=108.9deg | plan=frontier, det=none, memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0128.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 129,
+    "agent_message": "[VISUAL] Target right. Turning right. center_x=0.63, distance=2.97, front=2.48 | plan=visual, det=dining table score=0.67 bbox=[329, 288, 480, 432], memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6703876852989197,
+      "bbox": [
+        329,
+        288,
+        480,
+        432
+      ],
+      "center_x": 0.6332219362258911,
+      "center_y": 0.7511361440022787
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0129.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0129_dining_table_0.67.png"
+  },
+  {
+    "step": 130,
+    "agent_message": "[PATH] Turning left toward path. angle=108.9deg | plan=frontier, det=none, memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0130.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 131,
+    "agent_message": "[VISUAL] Target right. Turning right. center_x=0.63, distance=2.97, front=2.48 | plan=visual, det=dining table score=0.67 bbox=[329, 288, 480, 432], memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6703876852989197,
+      "bbox": [
+        329,
+        288,
+        480,
+        432
+      ],
+      "center_x": 0.6332219362258911,
+      "center_y": 0.7511361440022787
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0131.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0131_dining_table_0.67.png"
+  },
+  {
+    "step": 132,
+    "agent_message": "[PATH] Turning left toward path. angle=108.9deg | plan=frontier, det=none, memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0132.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 133,
+    "agent_message": "[VISUAL] Target right. Turning right. center_x=0.63, distance=2.97, front=2.48 | plan=visual, det=dining table score=0.67 bbox=[329, 288, 480, 432], memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6703876852989197,
+      "bbox": [
+        329,
+        288,
+        480,
+        432
+      ],
+      "center_x": 0.6332219362258911,
+      "center_y": 0.7511361440022787
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0133.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0133_dining_table_0.67.png"
+  },
+  {
+    "step": 134,
+    "agent_message": "[PATH] Turning left toward path. angle=108.9deg | plan=frontier, det=none, memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0134.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 135,
+    "agent_message": "[VISUAL] Target right. Turning right. center_x=0.63, distance=2.97, front=2.48 | plan=visual, det=dining table score=0.67 bbox=[329, 288, 480, 432], memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6703876852989197,
+      "bbox": [
+        329,
+        288,
+        480,
+        432
+      ],
+      "center_x": 0.6332219362258911,
+      "center_y": 0.7511361440022787
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0135.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0135_dining_table_0.67.png"
+  },
+  {
+    "step": 136,
+    "agent_message": "[PATH] Turning left toward path. angle=108.9deg | plan=frontier, det=none, memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0136.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 137,
+    "agent_message": "[VISUAL] Target right. Turning right. center_x=0.63, distance=2.97, front=2.48 | plan=visual, det=dining table score=0.67 bbox=[329, 288, 480, 432], memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6703876852989197,
+      "bbox": [
+        329,
+        288,
+        480,
+        432
+      ],
+      "center_x": 0.6332219362258911,
+      "center_y": 0.7511361440022787
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0137.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0137_dining_table_0.67.png"
+  },
+  {
+    "step": 138,
+    "agent_message": "[PATH] Turning left toward path. angle=108.9deg | plan=frontier, det=none, memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0138.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 139,
+    "agent_message": "[VISUAL] Target right. Turning right. center_x=0.63, distance=2.97, front=2.48 | plan=visual, det=dining table score=0.67 bbox=[329, 288, 480, 432], memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6703876852989197,
+      "bbox": [
+        329,
+        288,
+        480,
+        432
+      ],
+      "center_x": 0.6332219362258911,
+      "center_y": 0.7511361440022787
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0139.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0139_dining_table_0.67.png"
+  },
+  {
+    "step": 140,
+    "agent_message": "[PATH] Turning left toward path. angle=108.9deg | plan=frontier, det=none, memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0140.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 141,
+    "agent_message": "[VISUAL] Target right. Turning right. center_x=0.63, distance=2.97, front=2.48 | plan=visual, det=dining table score=0.67 bbox=[329, 288, 480, 432], memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6703876852989197,
+      "bbox": [
+        329,
+        288,
+        480,
+        432
+      ],
+      "center_x": 0.6332219362258911,
+      "center_y": 0.7511361440022787
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0141.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0141_dining_table_0.67.png"
+  },
+  {
+    "step": 142,
+    "agent_message": "[PATH] Turning left toward path. angle=108.9deg | plan=frontier, det=none, memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0142.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 143,
+    "agent_message": "[VISUAL] Target right. Turning right. center_x=0.63, distance=2.97, front=2.48 | plan=visual, det=dining table score=0.67 bbox=[329, 288, 480, 432], memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6703876852989197,
+      "bbox": [
+        329,
+        288,
+        480,
+        432
+      ],
+      "center_x": 0.6332219362258911,
+      "center_y": 0.7511361440022787
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0143.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0143_dining_table_0.67.png"
+  },
+  {
+    "step": 144,
+    "agent_message": "[PATH] Turning left toward path. angle=108.9deg | plan=frontier, det=none, memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0144.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 145,
+    "agent_message": "[VISUAL] Target right. Turning right. center_x=0.63, distance=2.97, front=2.48 | plan=visual, det=dining table score=0.67 bbox=[329, 288, 480, 432], memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6703876852989197,
+      "bbox": [
+        329,
+        288,
+        480,
+        432
+      ],
+      "center_x": 0.6332219362258911,
+      "center_y": 0.7511361440022787
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0145.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0145_dining_table_0.67.png"
+  },
+  {
+    "step": 146,
+    "agent_message": "[PATH] Turning left toward path. angle=108.9deg | plan=frontier, det=none, memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0146.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 147,
+    "agent_message": "[VISUAL] Target right. Turning right. center_x=0.63, distance=2.97, front=2.48 | plan=visual, det=dining table score=0.67 bbox=[329, 288, 480, 432], memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6703876852989197,
+      "bbox": [
+        329,
+        288,
+        480,
+        432
+      ],
+      "center_x": 0.6332219362258911,
+      "center_y": 0.7511361440022787
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0147.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0147_dining_table_0.67.png"
+  },
+  {
+    "step": 148,
+    "agent_message": "[PATH] Turning left toward path. angle=108.9deg | plan=frontier, det=none, memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0148.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 149,
+    "agent_message": "[VISUAL] Target right. Turning right. center_x=0.63, distance=2.97, front=2.48 | plan=visual, det=dining table score=0.67 bbox=[329, 288, 480, 432], memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6703876852989197,
+      "bbox": [
+        329,
+        288,
+        480,
+        432
+      ],
+      "center_x": 0.6332219362258911,
+      "center_y": 0.7511361440022787
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0149.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0149_dining_table_0.67.png"
+  },
+  {
+    "step": 150,
+    "agent_message": "[PATH] Turning left toward path. angle=108.9deg | plan=frontier, det=none, memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0150.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 151,
+    "agent_message": "[VISUAL] Target right. Turning right. center_x=0.63, distance=2.97, front=2.48 | plan=visual, det=dining table score=0.67 bbox=[329, 288, 480, 432], memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6703876852989197,
+      "bbox": [
+        329,
+        288,
+        480,
+        432
+      ],
+      "center_x": 0.6332219362258911,
+      "center_y": 0.7511361440022787
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0151.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0151_dining_table_0.67.png"
+  },
+  {
+    "step": 152,
+    "agent_message": "[PATH] Turning left toward path. angle=108.9deg | plan=frontier, det=none, memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0152.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 153,
+    "agent_message": "[VISUAL] Target right. Turning right. center_x=0.63, distance=2.97, front=2.48 | plan=visual, det=dining table score=0.67 bbox=[329, 288, 480, 432], memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6703876852989197,
+      "bbox": [
+        329,
+        288,
+        480,
+        432
+      ],
+      "center_x": 0.6332219362258911,
+      "center_y": 0.7511361440022787
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0153.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0153_dining_table_0.67.png"
+  },
+  {
+    "step": 154,
+    "agent_message": "[PATH] Turning left toward path. angle=108.9deg | plan=frontier, det=none, memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0154.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 155,
+    "agent_message": "[VISUAL] Target right. Turning right. center_x=0.63, distance=2.97, front=2.48 | plan=visual, det=dining table score=0.67 bbox=[329, 288, 480, 432], memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6703876852989197,
+      "bbox": [
+        329,
+        288,
+        480,
+        432
+      ],
+      "center_x": 0.6332219362258911,
+      "center_y": 0.7511361440022787
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0155.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0155_dining_table_0.67.png"
+  },
+  {
+    "step": 156,
+    "agent_message": "[PATH] Turning left toward path. angle=108.9deg | plan=frontier, det=none, memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0156.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 157,
+    "agent_message": "[VISUAL] Target right. Turning right. center_x=0.63, distance=2.97, front=2.48 | plan=visual, det=dining table score=0.67 bbox=[329, 288, 480, 432], memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6703876852989197,
+      "bbox": [
+        329,
+        288,
+        480,
+        432
+      ],
+      "center_x": 0.6332219362258911,
+      "center_y": 0.7511361440022787
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0157.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0157_dining_table_0.67.png"
+  },
+  {
+    "step": 158,
+    "agent_message": "[PATH] Turning left toward path. angle=108.9deg | plan=frontier, det=none, memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0158.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 159,
+    "agent_message": "[VISUAL] Target right. Turning right. center_x=0.63, distance=2.97, front=2.48 | plan=visual, det=dining table score=0.67 bbox=[329, 288, 480, 432], memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6703876852989197,
+      "bbox": [
+        329,
+        288,
+        480,
+        432
+      ],
+      "center_x": 0.6332219362258911,
+      "center_y": 0.7511361440022787
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0159.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0159_dining_table_0.67.png"
+  },
+  {
+    "step": 160,
+    "agent_message": "[PATH] Turning left toward path. angle=108.9deg | plan=frontier, det=none, memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0160.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 161,
+    "agent_message": "[VISUAL] Target right. Turning right. center_x=0.63, distance=2.97, front=2.48 | plan=visual, det=dining table score=0.67 bbox=[329, 288, 480, 432], memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6703876852989197,
+      "bbox": [
+        329,
+        288,
+        480,
+        432
+      ],
+      "center_x": 0.6332219362258911,
+      "center_y": 0.7511361440022787
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0161.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0161_dining_table_0.67.png"
+  },
+  {
+    "step": 162,
+    "agent_message": "[PATH] Turning left toward path. angle=108.9deg | plan=frontier, det=none, memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0162.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 163,
+    "agent_message": "[VISUAL] Target right. Turning right. center_x=0.63, distance=2.97, front=2.48 | plan=visual, det=dining table score=0.67 bbox=[329, 288, 480, 432], memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6703876852989197,
+      "bbox": [
+        329,
+        288,
+        480,
+        432
+      ],
+      "center_x": 0.6332219362258911,
+      "center_y": 0.7511361440022787
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0163.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0163_dining_table_0.67.png"
+  },
+  {
+    "step": 164,
+    "agent_message": "[PATH] Turning left toward path. angle=108.9deg | plan=frontier, det=none, memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0164.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 165,
+    "agent_message": "[VISUAL] Target right. Turning right. center_x=0.63, distance=2.97, front=2.48 | plan=visual, det=dining table score=0.67 bbox=[329, 288, 480, 432], memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6703876852989197,
+      "bbox": [
+        329,
+        288,
+        480,
+        432
+      ],
+      "center_x": 0.6332219362258911,
+      "center_y": 0.7511361440022787
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0165.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0165_dining_table_0.67.png"
+  },
+  {
+    "step": 166,
+    "agent_message": "[PATH] Turning left toward path. angle=108.9deg | plan=frontier, det=none, memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0166.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 167,
+    "agent_message": "[VISUAL] Target right. Turning right. center_x=0.63, distance=2.97, front=2.48 | plan=visual, det=dining table score=0.67 bbox=[329, 288, 480, 432], memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6703876852989197,
+      "bbox": [
+        329,
+        288,
+        480,
+        432
+      ],
+      "center_x": 0.6332219362258911,
+      "center_y": 0.7511361440022787
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0167.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0167_dining_table_0.67.png"
+  },
+  {
+    "step": 168,
+    "agent_message": "[PATH] Turning left toward path. angle=108.9deg | plan=frontier, det=none, memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0168.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 169,
+    "agent_message": "[VISUAL] Target right. Turning right. center_x=0.63, distance=2.97, front=2.48 | plan=visual, det=dining table score=0.67 bbox=[329, 288, 480, 432], memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6703876852989197,
+      "bbox": [
+        329,
+        288,
+        480,
+        432
+      ],
+      "center_x": 0.6332219362258911,
+      "center_y": 0.7511361440022787
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0169.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0169_dining_table_0.67.png"
+  },
+  {
+    "step": 170,
+    "agent_message": "[PATH] Turning left toward path. angle=108.9deg | plan=frontier, det=none, memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0170.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 171,
+    "agent_message": "[VISUAL] Target right. Turning right. center_x=0.63, distance=2.97, front=2.48 | plan=visual, det=dining table score=0.67 bbox=[329, 288, 480, 432], memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6703876852989197,
+      "bbox": [
+        329,
+        288,
+        480,
+        432
+      ],
+      "center_x": 0.6332219362258911,
+      "center_y": 0.7511361440022787
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0171.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0171_dining_table_0.67.png"
+  },
+  {
+    "step": 172,
+    "agent_message": "[PATH] Turning left toward path. angle=108.9deg | plan=frontier, det=none, memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0172.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 173,
+    "agent_message": "[VISUAL] Target right. Turning right. center_x=0.63, distance=2.97, front=2.48 | plan=visual, det=dining table score=0.67 bbox=[329, 288, 480, 432], memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6703876852989197,
+      "bbox": [
+        329,
+        288,
+        480,
+        432
+      ],
+      "center_x": 0.6332219362258911,
+      "center_y": 0.7511361440022787
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0173.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0173_dining_table_0.67.png"
+  },
+  {
+    "step": 174,
+    "agent_message": "[PATH] Turning left toward path. angle=108.9deg | plan=frontier, det=none, memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0174.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 175,
+    "agent_message": "[VISUAL] Target right. Turning right. center_x=0.63, distance=2.97, front=2.48 | plan=visual, det=dining table score=0.67 bbox=[329, 288, 480, 432], memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6703876852989197,
+      "bbox": [
+        329,
+        288,
+        480,
+        432
+      ],
+      "center_x": 0.6332219362258911,
+      "center_y": 0.7511361440022787
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0175.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0175_dining_table_0.67.png"
+  },
+  {
+    "step": 176,
+    "agent_message": "[PATH] Turning left toward path. angle=108.9deg | plan=frontier, det=none, memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0176.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 177,
+    "agent_message": "[VISUAL] Target right. Turning right. center_x=0.63, distance=2.97, front=2.48 | plan=visual, det=dining table score=0.67 bbox=[329, 288, 480, 432], memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6703876852989197,
+      "bbox": [
+        329,
+        288,
+        480,
+        432
+      ],
+      "center_x": 0.6332219362258911,
+      "center_y": 0.7511361440022787
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0177.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0177_dining_table_0.67.png"
+  },
+  {
+    "step": 178,
+    "agent_message": "[PATH] Turning left toward path. angle=108.9deg | plan=frontier, det=none, memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0178.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 179,
+    "agent_message": "[VISUAL] Target right. Turning right. center_x=0.63, distance=2.97, front=2.48 | plan=visual, det=dining table score=0.67 bbox=[329, 288, 480, 432], memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6703876852989197,
+      "bbox": [
+        329,
+        288,
+        480,
+        432
+      ],
+      "center_x": 0.6332219362258911,
+      "center_y": 0.7511361440022787
+    },
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0179.png",
+    "evidence_frame": "demos/table_vlfm_lite/evidence/step_0179_dining_table_0.67.png"
+  },
+  {
+    "step": 180,
+    "agent_message": "[PATH] Turning left toward path. angle=108.9deg | plan=frontier, det=none, memory=8, pending=2, free=1455, occ=841",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0180.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 181,
+    "agent_message": "任务未在最大步数内完成。",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_vlfm_lite/decision_frames/step_0181.png",
+    "evidence_frame": null
+  }
+]

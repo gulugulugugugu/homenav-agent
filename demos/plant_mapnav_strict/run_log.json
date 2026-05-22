@@ -1,0 +1,2847 @@
+[
+  {
+    "step": 0,
+    "agent_message": "[PATH] Moving forward along frontier. remaining=10 | plan=frontier, det=none, memory=0, pending=0, free=507, occ=214, instances=0, active=None, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 1,
+    "agent_message": "[PATH] Moving forward along frontier. remaining=9 | plan=frontier, det=none, memory=0, pending=0, free=490, occ=235, instances=0, active=None, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 2,
+    "agent_message": "[PATH] Turning right toward frontier. angle=-21.0 | plan=frontier, det=none, memory=0, pending=0, free=474, occ=252, instances=0, active=None, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 3,
+    "agent_message": "[PATH] Turning right toward frontier. angle=-16.0 | plan=frontier, det=none, memory=0, pending=0, free=472, occ=256, instances=0, active=None, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 4,
+    "agent_message": "[PATH] Moving forward along frontier. remaining=8 | plan=frontier, det=none, memory=0, pending=0, free=472, occ=260, instances=0, active=None, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 5,
+    "agent_message": "[PATH] Turning right toward frontier. angle=-19.2 | plan=frontier, det=none, memory=0, pending=0, free=471, occ=262, instances=0, active=None, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 6,
+    "agent_message": "[PATH] Turning right toward frontier. angle=-14.2 | plan=frontier, det=none, memory=0, pending=0, free=473, occ=263, instances=0, active=None, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 7,
+    "agent_message": "[PATH] Moving forward along frontier. remaining=8 | plan=frontier, det=none, memory=0, pending=0, free=476, occ=266, instances=0, active=None, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 8,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=none, det=none, memory=0, pending=0, free=476, occ=266, instances=0, active=None, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "none",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 9,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=none, det=none, memory=0, pending=0, free=476, occ=266, instances=0, active=None, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "none",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 10,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=none, det=none, memory=0, pending=0, free=476, occ=266, instances=0, active=None, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "none",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 11,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=none, det=none, memory=0, pending=0, free=475, occ=267, instances=0, active=None, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "none",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 12,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=none, det=none, memory=0, pending=0, free=473, occ=270, instances=0, active=None, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "none",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 13,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=none, det=none, memory=0, pending=0, free=473, occ=286, instances=0, active=None, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "none",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 14,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=none, det=potted plant score=0.73 bbox=[0, 199, 60, 290], memory=0, pending=1, free=560, occ=325, instances=1, active=None, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "none",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.7325326204299927,
+      "bbox": [
+        0,
+        199,
+        60,
+        290
+      ],
+      "center_x": 0.047565065370872614,
+      "center_y": 0.5103718916575114
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0014_potted_plant_0.73.png",
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 15,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=20.2 | plan=target_standoff, det=potted plant score=0.95 bbox=[22, 198, 100, 277], memory=1, pending=2, free=669, occ=377, instances=1, active=0, standoff_all=244, standoff_trav=50, standoff_reach=55, best_len=81, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9505319595336914,
+      "bbox": [
+        22,
+        198,
+        100,
+        277
+      ],
+      "center_x": 0.09668428301811219,
+      "center_y": 0.4952703317006429
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0015_potted_plant_0.95.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 50,
+      "standoff_reachable": 55,
+      "best_path_len": 81,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 16,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=15.2 | plan=target_standoff, det=potted plant score=0.93 bbox=[71, 200, 143, 271], memory=1, pending=1, free=746, occ=439, instances=2, active=0, standoff_all=244, standoff_trav=59, standoff_reach=69, best_len=81, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9264843463897705,
+      "bbox": [
+        71,
+        200,
+        143,
+        271
+      ],
+      "center_x": 0.16730722188949584,
+      "center_y": 0.49227269490559894
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0016_potted_plant_0.93.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        11,
+        18
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 59,
+      "standoff_reachable": 69,
+      "best_path_len": 81,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 17,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=62 | plan=target_standoff, det=potted plant score=0.92 bbox=[113, 204, 171, 265], memory=1, pending=2, free=901, occ=468, instances=2, active=1, standoff_all=244, standoff_trav=142, standoff_reach=161, best_len=63, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9243654608726501,
+      "bbox": [
+        113,
+        204,
+        171,
+        265
+      ],
+      "center_x": 0.2230972409248352,
+      "center_y": 0.4892631689707438
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0017_potted_plant_0.92.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 142,
+      "standoff_reachable": 161,
+      "best_path_len": 63,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 18,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=66 | plan=target_standoff, det=potted plant score=0.94 bbox=[107, 202, 173, 273], memory=1, pending=3, free=897, occ=479, instances=2, active=1, standoff_all=244, standoff_trav=134, standoff_reach=156, best_len=67, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9411652684211731,
+      "bbox": [
+        107,
+        202,
+        173,
+        273
+      ],
+      "center_x": 0.2192522406578064,
+      "center_y": 0.49631214141845703
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0018_potted_plant_0.94.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 134,
+      "standoff_reachable": 156,
+      "best_path_len": 67,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 19,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-14.0 | plan=target_standoff, det=potted plant score=0.95 bbox=[102, 202, 171, 276], memory=1, pending=4, free=888, occ=493, instances=2, active=1, standoff_all=244, standoff_trav=132, standoff_reach=153, best_len=66, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9473707675933838,
+      "bbox": [
+        102,
+        202,
+        171,
+        276
+      ],
+      "center_x": 0.2143877625465393,
+      "center_y": 0.4995568752288818
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0019_potted_plant_0.95.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 132,
+      "standoff_reachable": 153,
+      "best_path_len": 66,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 20,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=65 | plan=target_standoff, det=potted plant score=0.96 bbox=[58, 200, 136, 280], memory=1, pending=3, free=902, occ=507, instances=2, active=1, standoff_all=244, standoff_trav=131, standoff_reach=152, best_len=66, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9605556130409241,
+      "bbox": [
+        58,
+        200,
+        136,
+        280
+      ],
+      "center_x": 0.15195300579071044,
+      "center_y": 0.5009057839711507
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0020_potted_plant_0.96.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 131,
+      "standoff_reachable": 152,
+      "best_path_len": 66,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 21,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-17.2 | plan=target_standoff, det=potted plant score=0.94 bbox=[54, 199, 131, 283], memory=1, pending=4, free=906, occ=516, instances=2, active=1, standoff_all=244, standoff_trav=131, standoff_reach=152, best_len=64, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9353175759315491,
+      "bbox": [
+        54,
+        199,
+        131,
+        283
+      ],
+      "center_x": 0.14514303505420684,
+      "center_y": 0.5031884352366129
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0021_potted_plant_0.94.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 131,
+      "standoff_reachable": 152,
+      "best_path_len": 64,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 22,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-12.2 | plan=target_standoff, det=potted plant score=0.92 bbox=[3, 197, 90, 295], memory=1, pending=5, free=924, occ=526, instances=2, active=1, standoff_all=244, standoff_trav=128, standoff_reach=149, best_len=64, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9223767518997192,
+      "bbox": [
+        3,
+        197,
+        90,
+        295
+      ],
+      "center_x": 0.07355727031826972,
+      "center_y": 0.5133412520090739
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0022_potted_plant_0.92.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 128,
+      "standoff_reachable": 149,
+      "best_path_len": 64,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 23,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=63 | plan=target_standoff, det=potted plant score=0.64 bbox=[0, 205, 46, 285], memory=1, pending=6, free=935, occ=538, instances=2, active=1, standoff_all=244, standoff_trav=128, standoff_reach=149, best_len=64, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.6363506317138672,
+      "bbox": [
+        0,
+        205,
+        46,
+        285
+      ],
+      "center_x": 0.035949283838272096,
+      "center_y": 0.5109668572743734
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0023_potted_plant_0.64.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 128,
+      "standoff_reachable": 149,
+      "best_path_len": 64,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 24,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=62 | plan=target_standoff, det=none, memory=1, pending=6, free=928, occ=546, instances=2, active=1, standoff_all=244, standoff_trav=128, standoff_reach=149, best_len=64, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 128,
+      "standoff_reachable": 149,
+      "best_path_len": 64,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 25,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-13.5 | plan=target_standoff, det=none, memory=1, pending=6, free=928, occ=547, instances=2, active=1, standoff_all=244, standoff_trav=128, standoff_reach=149, best_len=64, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 128,
+      "standoff_reachable": 149,
+      "best_path_len": 64,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 26,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=61 | plan=target_standoff, det=none, memory=1, pending=6, free=927, occ=548, instances=2, active=1, standoff_all=244, standoff_trav=128, standoff_reach=149, best_len=64, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 128,
+      "standoff_reachable": 149,
+      "best_path_len": 64,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 27,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-12.7 | plan=target_standoff, det=none, memory=1, pending=6, free=927, occ=548, instances=2, active=1, standoff_all=244, standoff_trav=128, standoff_reach=149, best_len=64, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 128,
+      "standoff_reachable": 149,
+      "best_path_len": 64,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 28,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=61 | plan=target_standoff, det=none, memory=1, pending=6, free=927, occ=548, instances=2, active=1, standoff_all=244, standoff_trav=128, standoff_reach=149, best_len=64, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 128,
+      "standoff_reachable": 149,
+      "best_path_len": 64,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 29,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-14.9 | plan=target_standoff, det=none, memory=1, pending=6, free=927, occ=548, instances=2, active=1, standoff_all=244, standoff_trav=128, standoff_reach=149, best_len=64, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 128,
+      "standoff_reachable": 149,
+      "best_path_len": 64,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 30,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=61 | plan=target_standoff, det=none, memory=1, pending=6, free=927, occ=548, instances=2, active=1, standoff_all=244, standoff_trav=128, standoff_reach=149, best_len=64, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 128,
+      "standoff_reachable": 149,
+      "best_path_len": 64,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 31,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=57 | plan=target_standoff, det=none, memory=1, pending=6, free=927, occ=548, instances=2, active=1, standoff_all=244, standoff_trav=127, standoff_reach=148, best_len=58, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 127,
+      "standoff_reachable": 148,
+      "best_path_len": 58,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 32,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=22.3 | plan=target_standoff, det=none, memory=1, pending=6, free=927, occ=548, instances=2, active=1, standoff_all=244, standoff_trav=127, standoff_reach=148, best_len=58, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 127,
+      "standoff_reachable": 148,
+      "best_path_len": 58,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 33,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=17.3 | plan=target_standoff, det=none, memory=1, pending=6, free=927, occ=548, instances=2, active=1, standoff_all=244, standoff_trav=127, standoff_reach=148, best_len=58, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 127,
+      "standoff_reachable": 148,
+      "best_path_len": 58,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 34,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=12.3 | plan=target_standoff, det=none, memory=1, pending=6, free=927, occ=548, instances=2, active=1, standoff_all=244, standoff_trav=127, standoff_reach=148, best_len=58, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 127,
+      "standoff_reachable": 148,
+      "best_path_len": 58,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 35,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=56 | plan=target_standoff, det=none, memory=1, pending=6, free=927, occ=548, instances=2, active=1, standoff_all=244, standoff_trav=127, standoff_reach=148, best_len=58, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 127,
+      "standoff_reachable": 148,
+      "best_path_len": 58,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 36,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=35.3 | plan=target_standoff, det=none, memory=1, pending=6, free=927, occ=548, instances=2, active=1, standoff_all=244, standoff_trav=127, standoff_reach=148, best_len=58, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 127,
+      "standoff_reachable": 148,
+      "best_path_len": 58,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 37,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=30.3 | plan=target_standoff, det=none, memory=1, pending=6, free=926, occ=550, instances=2, active=1, standoff_all=244, standoff_trav=127, standoff_reach=148, best_len=58, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 127,
+      "standoff_reachable": 148,
+      "best_path_len": 58,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 38,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=25.3 | plan=target_standoff, det=potted plant score=0.93 bbox=[0, 192, 80, 352], memory=1, pending=7, free=926, occ=564, instances=2, active=1, standoff_all=244, standoff_trav=126, standoff_reach=147, best_len=56, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.92653888463974,
+      "bbox": [
+        0,
+        192,
+        80,
+        352
+      ],
+      "center_x": 0.06335161821916699,
+      "center_y": 0.5671006520589192
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0038_potted_plant_0.93.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 126,
+      "standoff_reachable": 147,
+      "best_path_len": 56,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 39,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=20.3 | plan=target_standoff, det=potted plant score=0.94 bbox=[30, 198, 120, 333], memory=1, pending=8, free=925, occ=578, instances=2, active=1, standoff_all=244, standoff_trav=123, standoff_reach=144, best_len=56, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9381078481674194,
+      "bbox": [
+        30,
+        198,
+        120,
+        333
+      ],
+      "center_x": 0.11839796006679534,
+      "center_y": 0.5533928235371908
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0039_potted_plant_0.94.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 123,
+      "standoff_reachable": 144,
+      "best_path_len": 56,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 40,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=15.3 | plan=target_standoff, det=potted plant score=0.91 bbox=[77, 197, 159, 327], memory=1, pending=9, free=931, occ=589, instances=2, active=1, standoff_all=244, standoff_trav=123, standoff_reach=144, best_len=56, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9089882373809814,
+      "bbox": [
+        77,
+        197,
+        159,
+        327
+      ],
+      "center_x": 0.18545377254486084,
+      "center_y": 0.5466641902923584
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0040_potted_plant_0.91.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 123,
+      "standoff_reachable": 144,
+      "best_path_len": 56,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 41,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=55 | plan=target_standoff, det=potted plant score=0.88 bbox=[117, 199, 192, 302], memory=1, pending=9, free=929, occ=592, instances=2, active=1, standoff_all=244, standoff_trav=123, standoff_reach=144, best_len=56, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8807179927825928,
+      "bbox": [
+        117,
+        199,
+        192,
+        302
+      ],
+      "center_x": 0.24224371314048768,
+      "center_y": 0.5231076876322428
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0041_potted_plant_0.88.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 123,
+      "standoff_reachable": 144,
+      "best_path_len": 56,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 42,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=14.9 | plan=target_standoff, det=potted plant score=0.82 bbox=[115, 200, 191, 328], memory=1, pending=10, free=926, occ=595, instances=2, active=1, standoff_all=244, standoff_trav=123, standoff_reach=144, best_len=54, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8198865652084351,
+      "bbox": [
+        115,
+        200,
+        191,
+        328
+      ],
+      "center_x": 0.23943590521812438,
+      "center_y": 0.5505648612976074
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0042_potted_plant_0.82.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 123,
+      "standoff_reachable": 144,
+      "best_path_len": 54,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 43,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=53 | plan=target_standoff, det=potted plant score=0.81 bbox=[151, 201, 220, 281], memory=1, pending=11, free=971, occ=595, instances=2, active=1, standoff_all=244, standoff_trav=123, standoff_reach=144, best_len=54, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8109663128852844,
+      "bbox": [
+        151,
+        201,
+        220,
+        281
+      ],
+      "center_x": 0.2905331254005432,
+      "center_y": 0.5030117193857829
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0043_potted_plant_0.81.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 123,
+      "standoff_reachable": 144,
+      "best_path_len": 54,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 44,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=36.8 | plan=target_standoff, det=potted plant score=0.79 bbox=[146, 199, 216, 303], memory=1, pending=12, free=972, occ=598, instances=2, active=1, standoff_all=244, standoff_trav=123, standoff_reach=144, best_len=52, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.7858589291572571,
+      "bbox": [
+        146,
+        199,
+        216,
+        303
+      ],
+      "center_x": 0.2834739685058594,
+      "center_y": 0.5245331287384033
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0044_potted_plant_0.79.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 123,
+      "standoff_reachable": 144,
+      "best_path_len": 52,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 45,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=31.8 | plan=target_standoff, det=potted plant score=0.88 bbox=[179, 201, 249, 305], memory=1, pending=12, free=1041, occ=598, instances=2, active=1, standoff_all=244, standoff_trav=123, standoff_reach=144, best_len=52, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8810352683067322,
+      "bbox": [
+        179,
+        201,
+        249,
+        305
+      ],
+      "center_x": 0.3352570414543152,
+      "center_y": 0.5279430548350016
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0045_potted_plant_0.88.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 123,
+      "standoff_reachable": 144,
+      "best_path_len": 52,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 46,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=26.8 | plan=target_standoff, det=potted plant score=0.73 bbox=[214, 204, 275, 284], memory=1, pending=13, free=1148, occ=599, instances=2, active=1, standoff_all=244, standoff_trav=122, standoff_reach=143, best_len=52, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.7288721799850464,
+      "bbox": [
+        214,
+        204,
+        275,
+        284
+      ],
+      "center_x": 0.38289780616760255,
+      "center_y": 0.5100325425465901
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0046_potted_plant_0.73.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 122,
+      "standoff_reachable": 143,
+      "best_path_len": 52,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 47,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=21.8 | plan=target_standoff, det=potted plant score=0.80 bbox=[245, 205, 304, 274], memory=1, pending=14, free=1260, occ=606, instances=2, active=1, standoff_all=244, standoff_trav=122, standoff_reach=143, best_len=52, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8039342761039734,
+      "bbox": [
+        245,
+        205,
+        304,
+        274
+      ],
+      "center_x": 0.42930170297622683,
+      "center_y": 0.4996004263559977
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0047_potted_plant_0.80.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 122,
+      "standoff_reachable": 143,
+      "best_path_len": 52,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 48,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=16.8 | plan=target_standoff, det=potted plant score=0.85 bbox=[272, 203, 331, 273], memory=1, pending=15, free=1365, occ=631, instances=2, active=1, standoff_all=244, standoff_trav=122, standoff_reach=143, best_len=52, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8541670441627502,
+      "bbox": [
+        272,
+        203,
+        331,
+        273
+      ],
+      "center_x": 0.4719324350357056,
+      "center_y": 0.4975320021311442
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0048_potted_plant_0.85.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 122,
+      "standoff_reachable": 143,
+      "best_path_len": 52,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 49,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=51 | plan=target_standoff, det=potted plant score=0.97 bbox=[9, 321, 86, 392], memory=1, pending=1, free=1464, occ=661, instances=3, active=1, standoff_all=244, standoff_trav=122, standoff_reach=143, best_len=52, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9739766716957092,
+      "bbox": [
+        9,
+        321,
+        86,
+        392
+      ],
+      "center_x": 0.07480218634009361,
+      "center_y": 0.7432561874389648
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0049_potted_plant_0.97.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 122,
+      "standoff_reachable": 143,
+      "best_path_len": 52,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 50,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-21.6 | plan=target_standoff, det=potted plant score=0.98 bbox=[1, 323, 67, 401], memory=1, pending=2, free=1463, occ=666, instances=3, active=1, standoff_all=244, standoff_trav=122, standoff_reach=143, best_len=50, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9776960611343384,
+      "bbox": [
+        1,
+        323,
+        67,
+        401
+      ],
+      "center_x": 0.05379768395796418,
+      "center_y": 0.7554774284362793
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0050_potted_plant_0.98.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 122,
+      "standoff_reachable": 143,
+      "best_path_len": 50,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 51,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-16.6 | plan=target_standoff, det=potted plant score=0.81 bbox=[271, 201, 332, 276], memory=1, pending=16, free=1465, occ=666, instances=3, active=1, standoff_all=244, standoff_trav=122, standoff_reach=143, best_len=50, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8096306920051575,
+      "bbox": [
+        271,
+        201,
+        332,
+        276
+      ],
+      "center_x": 0.47209155559539795,
+      "center_y": 0.4977489630381266
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0051_potted_plant_0.81.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 122,
+      "standoff_reachable": 143,
+      "best_path_len": 50,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 52,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=49 | plan=target_standoff, det=potted plant score=0.85 bbox=[242, 203, 306, 300], memory=1, pending=16, free=1467, occ=667, instances=3, active=1, standoff_all=244, standoff_trav=122, standoff_reach=143, best_len=50, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8458419442176819,
+      "bbox": [
+        242,
+        203,
+        306,
+        300
+      ],
+      "center_x": 0.42920238971710206,
+      "center_y": 0.5257893562316894
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0052_potted_plant_0.85.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 122,
+      "standoff_reachable": 143,
+      "best_path_len": 50,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 53,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=48 | plan=target_standoff, det=potted plant score=0.84 bbox=[239, 202, 306, 305], memory=1, pending=16, free=1468, occ=668, instances=3, active=1, standoff_all=244, standoff_trav=122, standoff_reach=143, best_len=49, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8384555578231812,
+      "bbox": [
+        239,
+        202,
+        306,
+        305
+      ],
+      "center_x": 0.42697117328643797,
+      "center_y": 0.5289998054504395
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0053_potted_plant_0.84.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 122,
+      "standoff_reachable": 143,
+      "best_path_len": 49,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 54,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=46 | plan=target_standoff, det=potted plant score=0.83 bbox=[239, 202, 305, 278], memory=1, pending=17, free=1466, occ=671, instances=3, active=1, standoff_all=244, standoff_trav=122, standoff_reach=143, best_len=47, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8318118453025818,
+      "bbox": [
+        239,
+        202,
+        305,
+        278
+      ],
+      "center_x": 0.42638068199157714,
+      "center_y": 0.5010179360707601
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0054_potted_plant_0.83.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 122,
+      "standoff_reachable": 143,
+      "best_path_len": 47,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 55,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=14.6 | plan=target_standoff, det=potted plant score=0.82 bbox=[237, 199, 306, 332], memory=1, pending=18, free=1466, occ=671, instances=3, active=1, standoff_all=244, standoff_trav=122, standoff_reach=143, best_len=45, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8207034468650818,
+      "bbox": [
+        237,
+        199,
+        306,
+        332
+      ],
+      "center_x": 0.4250269055366516,
+      "center_y": 0.5545454661051432
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0055_potted_plant_0.82.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 122,
+      "standoff_reachable": 143,
+      "best_path_len": 45,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 56,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=44 | plan=target_standoff, det=potted plant score=0.76 bbox=[267, 202, 330, 269], memory=1, pending=19, free=1466, occ=672, instances=3, active=1, standoff_all=244, standoff_trav=122, standoff_reach=143, best_len=45, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.7556701898574829,
+      "bbox": [
+        267,
+        202,
+        330,
+        269
+      ],
+      "center_x": 0.4671914100646973,
+      "center_y": 0.49084628423055016
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0056_potted_plant_0.76.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 122,
+      "standoff_reachable": 143,
+      "best_path_len": 45,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 57,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=43 | plan=target_standoff, det=potted plant score=0.83 bbox=[267, 198, 334, 335], memory=1, pending=20, free=1463, occ=675, instances=3, active=1, standoff_all=244, standoff_trav=122, standoff_reach=143, best_len=44, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8341541886329651,
+      "bbox": [
+        267,
+        198,
+        334,
+        335
+      ],
+      "center_x": 0.47021868228912356,
+      "center_y": 0.5564054807027181
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0057_potted_plant_0.83.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 122,
+      "standoff_reachable": 143,
+      "best_path_len": 44,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 58,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-13.4 | plan=target_standoff, det=potted plant score=0.81 bbox=[264, 197, 334, 335], memory=1, pending=20, free=1459, occ=679, instances=3, active=1, standoff_all=244, standoff_trav=119, standoff_reach=140, best_len=42, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8112945556640625,
+      "bbox": [
+        264,
+        197,
+        334,
+        335
+      ],
+      "center_x": 0.4679111957550049,
+      "center_y": 0.555837074915568
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0058_potted_plant_0.81.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 119,
+      "standoff_reachable": 140,
+      "best_path_len": 42,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 59,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=41 | plan=target_standoff, det=potted plant score=0.89 bbox=[234, 196, 307, 331], memory=1, pending=20, free=1459, occ=679, instances=3, active=1, standoff_all=244, standoff_trav=119, standoff_reach=140, best_len=42, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8879979848861694,
+      "bbox": [
+        234,
+        196,
+        307,
+        331
+      ],
+      "center_x": 0.42269808053970337,
+      "center_y": 0.5500490347544352
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0059_potted_plant_0.89.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 119,
+      "standoff_reachable": 140,
+      "best_path_len": 42,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 60,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=12.5 | plan=target_standoff, det=potted plant score=0.82 bbox=[232, 197, 301, 269], memory=1, pending=20, free=1458, occ=681, instances=3, active=1, standoff_all=244, standoff_trav=119, standoff_reach=140, best_len=40, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.824259877204895,
+      "bbox": [
+        232,
+        197,
+        301,
+        269
+      ],
+      "center_x": 0.4173367977142334,
+      "center_y": 0.4867127259572347
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0060_potted_plant_0.82.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 119,
+      "standoff_reachable": 140,
+      "best_path_len": 40,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 61,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=39 | plan=target_standoff, det=potted plant score=0.86 bbox=[261, 198, 331, 315], memory=1, pending=20, free=1457, occ=682, instances=3, active=1, standoff_all=244, standoff_trav=119, standoff_reach=140, best_len=40, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8611167073249817,
+      "bbox": [
+        261,
+        198,
+        331,
+        315
+      ],
+      "center_x": 0.4632817029953003,
+      "center_y": 0.5352400143941244
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0061_potted_plant_0.86.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 119,
+      "standoff_reachable": 140,
+      "best_path_len": 40,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 62,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=38 | plan=target_standoff, det=potted plant score=0.89 bbox=[259, 197, 331, 308], memory=1, pending=20, free=1452, occ=689, instances=3, active=1, standoff_all=244, standoff_trav=116, standoff_reach=137, best_len=39, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8925575017929077,
+      "bbox": [
+        259,
+        197,
+        331,
+        308
+      ],
+      "center_x": 0.4619621276855469,
+      "center_y": 0.5273528258005779
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0062_potted_plant_0.89.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 116,
+      "standoff_reachable": 137,
+      "best_path_len": 39,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 63,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-15.8 | plan=target_standoff, det=potted plant score=0.93 bbox=[258, 195, 332, 322], memory=1, pending=20, free=1451, occ=690, instances=3, active=1, standoff_all=244, standoff_trav=116, standoff_reach=137, best_len=37, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9290803670883179,
+      "bbox": [
+        258,
+        195,
+        332,
+        322
+      ],
+      "center_x": 0.46214971542358396,
+      "center_y": 0.5390364011128743
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0063_potted_plant_0.93.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 116,
+      "standoff_reachable": 137,
+      "best_path_len": 37,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 64,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=36 | plan=target_standoff, det=potted plant score=0.84 bbox=[229, 194, 302, 295], memory=1, pending=20, free=1450, occ=691, instances=3, active=1, standoff_all=244, standoff_trav=116, standoff_reach=137, best_len=37, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8442271947860718,
+      "bbox": [
+        229,
+        194,
+        302,
+        295
+      ],
+      "center_x": 0.41600459814071655,
+      "center_y": 0.5108146826426189
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0064_potted_plant_0.84.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 116,
+      "standoff_reachable": 137,
+      "best_path_len": 37,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 65,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=34 | plan=target_standoff, det=potted plant score=0.85 bbox=[225, 193, 307, 311], memory=1, pending=20, free=1448, occ=693, instances=3, active=1, standoff_all=244, standoff_trav=113, standoff_reach=134, best_len=35, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8541329503059387,
+      "bbox": [
+        225,
+        193,
+        307,
+        311
+      ],
+      "center_x": 0.41585190296173097,
+      "center_y": 0.5258121649424236
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0065_potted_plant_0.85.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 113,
+      "standoff_reachable": 134,
+      "best_path_len": 35,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 66,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=33 | plan=target_standoff, det=potted plant score=0.73 bbox=[221, 193, 304, 310], memory=1, pending=20, free=1447, occ=694, instances=3, active=1, standoff_all=244, standoff_trav=113, standoff_reach=134, best_len=34, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.7279362678527832,
+      "bbox": [
+        221,
+        193,
+        304,
+        310
+      ],
+      "center_x": 0.4110820531845093,
+      "center_y": 0.5245930830637614
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0066_potted_plant_0.73.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 113,
+      "standoff_reachable": 134,
+      "best_path_len": 34,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 67,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=31 | plan=target_standoff, det=potted plant score=0.84 bbox=[219, 189, 305, 346], memory=1, pending=20, free=1445, occ=696, instances=3, active=1, standoff_all=244, standoff_trav=112, standoff_reach=133, best_len=32, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8421452641487122,
+      "bbox": [
+        219,
+        189,
+        305,
+        346
+      ],
+      "center_x": 0.4101529598236084,
+      "center_y": 0.5586976528167724
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0067_potted_plant_0.84.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 112,
+      "standoff_reachable": 133,
+      "best_path_len": 32,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 68,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=29 | plan=target_standoff, det=potted plant score=0.91 bbox=[218, 189, 304, 364], memory=1, pending=20, free=1444, occ=698, instances=3, active=1, standoff_all=244, standoff_trav=109, standoff_reach=130, best_len=30, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9122291207313538,
+      "bbox": [
+        218,
+        189,
+        304,
+        364
+      ],
+      "center_x": 0.40834989547729494,
+      "center_y": 0.5764987627665202
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0068_potted_plant_0.91.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 109,
+      "standoff_reachable": 130,
+      "best_path_len": 30,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 69,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=28 | plan=target_standoff, det=potted plant score=0.89 bbox=[213, 184, 303, 363], memory=1, pending=20, free=1442, occ=701, instances=3, active=1, standoff_all=244, standoff_trav=108, standoff_reach=129, best_len=29, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8870500326156616,
+      "bbox": [
+        213,
+        184,
+        303,
+        363
+      ],
+      "center_x": 0.403519070148468,
+      "center_y": 0.5703992048899332
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0069_potted_plant_0.89.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 108,
+      "standoff_reachable": 129,
+      "best_path_len": 29,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 70,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=17.9 | plan=target_standoff, det=potted plant score=0.93 bbox=[208, 185, 304, 375], memory=1, pending=20, free=1436, occ=707, instances=3, active=1, standoff_all=244, standoff_trav=107, standoff_reach=128, best_len=27, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9275351166725159,
+      "bbox": [
+        208,
+        185,
+        304,
+        375
+      ],
+      "center_x": 0.40099775791168213,
+      "center_y": 0.5842184066772461
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0070_potted_plant_0.93.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 107,
+      "standoff_reachable": 128,
+      "best_path_len": 27,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 71,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=12.9 | plan=target_standoff, det=potted plant score=0.93 bbox=[243, 176, 335, 375], memory=1, pending=20, free=1434, occ=709, instances=3, active=1, standoff_all=244, standoff_trav=106, standoff_reach=127, best_len=27, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9282860159873962,
+      "bbox": [
+        243,
+        176,
+        335,
+        375
+      ],
+      "center_x": 0.4521248936653137,
+      "center_y": 0.5746990362803142
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0071_potted_plant_0.93.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 106,
+      "standoff_reachable": 127,
+      "best_path_len": 27,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 72,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=26 | plan=target_standoff, det=potted plant score=0.95 bbox=[267, 186, 359, 368], memory=1, pending=20, free=1433, occ=710, instances=3, active=1, standoff_all=244, standoff_trav=106, standoff_reach=127, best_len=27, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.945222020149231,
+      "bbox": [
+        267,
+        186,
+        359,
+        368
+      ],
+      "center_x": 0.4904342174530029,
+      "center_y": 0.5782363414764404
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0072_potted_plant_0.95.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 106,
+      "standoff_reachable": 127,
+      "best_path_len": 27,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 73,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=24 | plan=target_standoff, det=potted plant score=0.93 bbox=[266, 181, 364, 377], memory=1, pending=20, free=1432, occ=711, instances=3, active=1, standoff_all=244, standoff_trav=106, standoff_reach=127, best_len=25, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9339553713798523,
+      "bbox": [
+        266,
+        181,
+        364,
+        377
+      ],
+      "center_x": 0.4927905797958374,
+      "center_y": 0.5822003364562989
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0073_potted_plant_0.93.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 106,
+      "standoff_reachable": 127,
+      "best_path_len": 25,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 74,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=23 | plan=target_standoff, det=potted plant score=0.92 bbox=[263, 176, 362, 376], memory=1, pending=20, free=1427, occ=716, instances=3, active=1, standoff_all=244, standoff_trav=105, standoff_reach=126, best_len=24, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.9179955124855042,
+      "bbox": [
+        263,
+        176,
+        362,
+        376
+      ],
+      "center_x": 0.4891119718551636,
+      "center_y": 0.5765607833862305
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0074_potted_plant_0.92.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 105,
+      "standoff_reachable": 126,
+      "best_path_len": 24,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 75,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=21 | plan=target_standoff, det=potted plant score=0.87 bbox=[262, 180, 362, 380], memory=1, pending=20, free=1427, occ=716, instances=3, active=1, standoff_all=244, standoff_trav=105, standoff_reach=126, best_len=22, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8658467531204224,
+      "bbox": [
+        262,
+        180,
+        362,
+        380
+      ],
+      "center_x": 0.488222336769104,
+      "center_y": 0.5838666915893554
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0075_potted_plant_0.87.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 105,
+      "standoff_reachable": 126,
+      "best_path_len": 22,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 76,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-22.2 | plan=target_standoff, det=potted plant score=0.84 bbox=[257, 178, 363, 324], memory=1, pending=20, free=1425, occ=718, instances=3, active=1, standoff_all=244, standoff_trav=105, standoff_reach=126, best_len=21, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8376713991165161,
+      "bbox": [
+        257,
+        178,
+        363,
+        324
+      ],
+      "center_x": 0.48525543212890626,
+      "center_y": 0.5242066224416096
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0076_potted_plant_0.84.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 105,
+      "standoff_reachable": 126,
+      "best_path_len": 21,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 77,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-17.2 | plan=target_standoff, det=potted plant score=0.74 bbox=[230, 179, 337, 373], memory=1, pending=20, free=1424, occ=719, instances=3, active=1, standoff_all=244, standoff_trav=104, standoff_reach=125, best_len=21, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.7434744238853455,
+      "bbox": [
+        230,
+        179,
+        337,
+        373
+      ],
+      "center_x": 0.44401572942733764,
+      "center_y": 0.5764364878336589
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0077_potted_plant_0.74.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 104,
+      "standoff_reachable": 125,
+      "best_path_len": 21,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 78,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-12.2 | plan=target_standoff, det=potted plant score=0.72 bbox=[248, 314, 291, 400], memory=1, pending=20, free=1424, occ=719, instances=3, active=1, standoff_all=244, standoff_trav=104, standoff_reach=125, best_len=21, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.7206543684005737,
+      "bbox": [
+        248,
+        314,
+        291,
+        400
+      ],
+      "center_x": 0.4223336696624756,
+      "center_y": 0.744330088297526
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0078_potted_plant_0.72.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 104,
+      "standoff_reachable": 125,
+      "best_path_len": 21,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 79,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=20 | plan=target_standoff, det=potted plant score=0.83 bbox=[164, 179, 282, 372], memory=1, pending=20, free=1424, occ=719, instances=3, active=1, standoff_all=244, standoff_trav=104, standoff_reach=125, best_len=21, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8282389640808105,
+      "bbox": [
+        164,
+        179,
+        282,
+        372
+      ],
+      "center_x": 0.34907883405685425,
+      "center_y": 0.5752612113952636
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0079_potted_plant_0.83.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 104,
+      "standoff_reachable": 125,
+      "best_path_len": 21,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 80,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=17.9 | plan=target_standoff, det=potted plant score=0.85 bbox=[212, 316, 259, 412], memory=1, pending=20, free=1424, occ=719, instances=3, active=1, standoff_all=244, standoff_trav=104, standoff_reach=125, best_len=19, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.846404492855072,
+      "bbox": [
+        212,
+        316,
+        259,
+        412
+      ],
+      "center_x": 0.36858721971511843,
+      "center_y": 0.7590608596801758
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0080_potted_plant_0.85.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 104,
+      "standoff_reachable": 125,
+      "best_path_len": 19,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 81,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=12.9 | plan=target_standoff, det=potted plant score=0.86 bbox=[191, 180, 305, 384], memory=1, pending=20, free=1425, occ=719, instances=3, active=1, standoff_all=244, standoff_trav=104, standoff_reach=125, best_len=19, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8607630133628845,
+      "bbox": [
+        191,
+        180,
+        305,
+        384
+      ],
+      "center_x": 0.3879380464553833,
+      "center_y": 0.5881323337554931
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0081_potted_plant_0.86.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 104,
+      "standoff_reachable": 125,
+      "best_path_len": 19,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 82,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=18 | plan=target_standoff, det=potted plant score=0.83 bbox=[224, 176, 334, 385], memory=1, pending=20, free=1425, occ=719, instances=3, active=1, standoff_all=244, standoff_trav=104, standoff_reach=125, best_len=19, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8327381610870361,
+      "bbox": [
+        224,
+        176,
+        334,
+        385
+      ],
+      "center_x": 0.43743152618408204,
+      "center_y": 0.5862167358398438
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0082_potted_plant_0.83.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 104,
+      "standoff_reachable": 125,
+      "best_path_len": 19,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 83,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=17 | plan=target_standoff, det=potted plant score=0.82 bbox=[220, 178, 335, 376], memory=1, pending=20, free=1424, occ=720, instances=3, active=1, standoff_all=244, standoff_trav=103, standoff_reach=124, best_len=18, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8231145143508911,
+      "bbox": [
+        220,
+        178,
+        335,
+        376
+      ],
+      "center_x": 0.43420701026916503,
+      "center_y": 0.5783054987589519
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0083_potted_plant_0.82.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 103,
+      "standoff_reachable": 124,
+      "best_path_len": 18,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 84,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=15 | plan=target_standoff, det=potted plant score=0.77 bbox=[213, 176, 337, 399], memory=1, pending=20, free=1424, occ=720, instances=3, active=1, standoff_all=244, standoff_trav=103, standoff_reach=124, best_len=16, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.7658616304397583,
+      "bbox": [
+        213,
+        176,
+        337,
+        399
+      ],
+      "center_x": 0.4303976893424988,
+      "center_y": 0.6007400353749593
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0084_potted_plant_0.77.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 103,
+      "standoff_reachable": 124,
+      "best_path_len": 16,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 85,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=13 | plan=target_standoff, det=potted plant score=0.80 bbox=[207, 174, 334, 372], memory=1, pending=20, free=1424, occ=720, instances=3, active=1, standoff_all=244, standoff_trav=103, standoff_reach=124, best_len=14, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.798744797706604,
+      "bbox": [
+        207,
+        174,
+        334,
+        372
+      ],
+      "center_x": 0.423516309261322,
+      "center_y": 0.569571050008138
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0085_potted_plant_0.80.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 103,
+      "standoff_reachable": 124,
+      "best_path_len": 14,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 86,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-15.8 | plan=target_standoff, det=potted plant score=0.78 bbox=[200, 167, 335, 378], memory=1, pending=20, free=1423, occ=721, instances=3, active=1, standoff_all=244, standoff_trav=103, standoff_reach=124, best_len=13, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.7775158286094666,
+      "bbox": [
+        200,
+        167,
+        335,
+        378
+      ],
+      "center_x": 0.4190670132637024,
+      "center_y": 0.569108788172404
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0086_potted_plant_0.78.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 103,
+      "standoff_reachable": 124,
+      "best_path_len": 13,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 87,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=12 | plan=target_standoff, det=potted plant score=0.82 bbox=[168, 166, 309, 405], memory=1, pending=20, free=1422, occ=722, instances=3, active=1, standoff_all=244, standoff_trav=103, standoff_reach=124, best_len=13, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8180351257324219,
+      "bbox": [
+        168,
+        166,
+        309,
+        405
+      ],
+      "center_x": 0.3731624007225037,
+      "center_y": 0.5961862246195475
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0087_potted_plant_0.82.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 103,
+      "standoff_reachable": 124,
+      "best_path_len": 13,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 88,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=13.5 | plan=target_standoff, det=potted plant score=0.67 bbox=[155, 165, 309, 387], memory=1, pending=20, free=1421, occ=723, instances=3, active=1, standoff_all=244, standoff_trav=103, standoff_reach=124, best_len=11, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.6717138290405273,
+      "bbox": [
+        155,
+        165,
+        309,
+        387
+      ],
+      "center_x": 0.3635334610939026,
+      "center_y": 0.5754287560780843
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0088_potted_plant_0.67.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 103,
+      "standoff_reachable": 124,
+      "best_path_len": 11,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 89,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=10 | plan=target_standoff, det=potted plant score=0.83 bbox=[259, 335, 317, 453], memory=1, pending=20, free=1420, occ=724, instances=3, active=1, standoff_all=244, standoff_trav=103, standoff_reach=124, best_len=11, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8313814401626587,
+      "bbox": [
+        259,
+        335,
+        317,
+        453
+      ],
+      "center_x": 0.4506425142288208,
+      "center_y": 0.8213430404663086
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0089_potted_plant_0.83.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 103,
+      "standoff_reachable": 124,
+      "best_path_len": 11,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 90,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=22.7 | plan=target_standoff, det=potted plant score=0.65 bbox=[184, 161, 337, 399], memory=1, pending=20, free=1420, occ=724, instances=3, active=1, standoff_all=244, standoff_trav=103, standoff_reach=124, best_len=9, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.6527156233787537,
+      "bbox": [
+        184,
+        161,
+        337,
+        399
+      ],
+      "center_x": 0.4077145457267761,
+      "center_y": 0.5841266949971516
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0090_potted_plant_0.65.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 103,
+      "standoff_reachable": 124,
+      "best_path_len": 9,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 91,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=17.7 | plan=target_standoff, det=potted plant score=0.80 bbox=[216, 165, 362, 404], memory=1, pending=20, free=1420, occ=724, instances=3, active=1, standoff_all=244, standoff_trav=103, standoff_reach=124, best_len=9, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8014365434646606,
+      "bbox": [
+        216,
+        165,
+        362,
+        404
+      ],
+      "center_x": 0.4526421666145325,
+      "center_y": 0.5942672729492188
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0091_potted_plant_0.80.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 103,
+      "standoff_reachable": 124,
+      "best_path_len": 9,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 92,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=12.7 | plan=target_standoff, det=potted plant score=0.74 bbox=[246, 161, 395, 394], memory=1, pending=20, free=1420, occ=724, instances=3, active=1, standoff_all=244, standoff_trav=103, standoff_reach=124, best_len=9, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.7360028624534607,
+      "bbox": [
+        246,
+        161,
+        395,
+        394
+      ],
+      "center_x": 0.5012115597724914,
+      "center_y": 0.5794413884480795
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0092_potted_plant_0.74.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 103,
+      "standoff_reachable": 124,
+      "best_path_len": 9,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 93,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=8 | plan=target_standoff, det=potted plant score=0.72 bbox=[273, 161, 422, 388], memory=1, pending=20, free=1420, occ=724, instances=3, active=1, standoff_all=244, standoff_trav=103, standoff_reach=124, best_len=9, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.7223044037818909,
+      "bbox": [
+        273,
+        161,
+        422,
+        388
+      ],
+      "center_x": 0.5435500144958496,
+      "center_y": 0.5730623563130697
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0093_potted_plant_0.72.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 103,
+      "standoff_reachable": 124,
+      "best_path_len": 9,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 94,
+    "agent_message": "[PATH] Turning left toward target_standoff. angle=12.3 | plan=target_standoff, det=potted plant score=0.68 bbox=[268, 156, 431, 343], memory=1, pending=20, free=1420, occ=724, instances=3, active=1, standoff_all=244, standoff_trav=103, standoff_reach=124, best_len=8, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.6796271204948425,
+      "bbox": [
+        268,
+        156,
+        431,
+        343
+      ],
+      "center_x": 0.5470409870147706,
+      "center_y": 0.520916732152303
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0094_potted_plant_0.68.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 103,
+      "standoff_reachable": 124,
+      "best_path_len": 8,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 95,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=7 | plan=target_standoff, det=potted plant score=0.65 bbox=[369, 358, 435, 475], memory=1, pending=20, free=1420, occ=724, instances=3, active=1, standoff_all=244, standoff_trav=103, standoff_reach=124, best_len=8, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.645374059677124,
+      "bbox": [
+        369,
+        358,
+        435,
+        475
+      ],
+      "center_x": 0.6285783529281617,
+      "center_y": 0.8688016891479492
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0095_potted_plant_0.65.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 103,
+      "standoff_reachable": 124,
+      "best_path_len": 8,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 96,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=7 | plan=target_standoff, det=none, memory=1, pending=20, free=1420, occ=724, instances=3, active=1, standoff_all=244, standoff_trav=103, standoff_reach=124, best_len=8, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 103,
+      "standoff_reachable": 124,
+      "best_path_len": 8,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 97,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-28.9 | plan=target_standoff, det=potted plant score=0.76 bbox=[377, 371, 449, 478], memory=1, pending=20, free=1420, occ=724, instances=3, active=1, standoff_all=244, standoff_trav=103, standoff_reach=124, best_len=5, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.7571821808815002,
+      "bbox": [
+        377,
+        371,
+        449,
+        478
+      ],
+      "center_x": 0.6461308240890503,
+      "center_y": 0.8857591629028321
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0097_potted_plant_0.76.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 103,
+      "standoff_reachable": 124,
+      "best_path_len": 5,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 98,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-23.9 | plan=target_standoff, det=none, memory=1, pending=20, free=1420, occ=724, instances=3, active=1, standoff_all=244, standoff_trav=103, standoff_reach=124, best_len=5, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 103,
+      "standoff_reachable": 124,
+      "best_path_len": 5,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 99,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-18.9 | plan=target_standoff, det=potted plant score=0.61 bbox=[241, 146, 425, 456], memory=1, pending=20, free=1420, occ=724, instances=3, active=1, standoff_all=244, standoff_trav=103, standoff_reach=124, best_len=5, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.6092560887336731,
+      "bbox": [
+        241,
+        146,
+        425,
+        456
+      ],
+      "center_x": 0.5212389230728149,
+      "center_y": 0.6276205539703369
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0099_potted_plant_0.61.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 103,
+      "standoff_reachable": 124,
+      "best_path_len": 5,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 100,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-13.9 | plan=target_standoff, det=none, memory=1, pending=20, free=1420, occ=724, instances=3, active=1, standoff_all=244, standoff_trav=103, standoff_reach=124, best_len=5, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 103,
+      "standoff_reachable": 124,
+      "best_path_len": 5,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 101,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=4 | plan=target_standoff, det=none, memory=1, pending=20, free=1420, occ=724, instances=3, active=1, standoff_all=244, standoff_trav=103, standoff_reach=124, best_len=5, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 103,
+      "standoff_reachable": 124,
+      "best_path_len": 5,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 102,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-15.5 | plan=target_standoff, det=potted plant score=0.86 bbox=[261, 375, 330, 478], memory=1, pending=20, free=1420, occ=724, instances=3, active=1, standoff_all=244, standoff_trav=103, standoff_reach=124, best_len=3, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8567147254943848,
+      "bbox": [
+        261,
+        375,
+        330,
+        478
+      ],
+      "center_x": 0.4625521183013916,
+      "center_y": 0.8901710828145345
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0102_potted_plant_0.86.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 103,
+      "standoff_reachable": 124,
+      "best_path_len": 3,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 103,
+    "agent_message": "[PATH] Moving forward along target_standoff. remaining=2 | plan=target_standoff, det=potted plant score=0.71 bbox=[232, 375, 303, 478], memory=1, pending=20, free=1420, occ=724, instances=3, active=1, standoff_all=244, standoff_trav=103, standoff_reach=124, best_len=3, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.7148558497428894,
+      "bbox": [
+        232,
+        375,
+        303,
+        478
+      ],
+      "center_x": 0.41879338026046753,
+      "center_y": 0.8894723892211914
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0103_potted_plant_0.71.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 103,
+      "standoff_reachable": 124,
+      "best_path_len": 3,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 104,
+    "agent_message": "[PATH] Turning right toward target_standoff. angle=-37.4 | plan=target_standoff, det=none, memory=1, pending=20, free=1420, occ=724, instances=3, active=1, standoff_all=244, standoff_trav=103, standoff_reach=124, best_len=3, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 103,
+      "standoff_reachable": 124,
+      "best_path_len": 3,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  },
+  {
+    "step": 105,
+    "agent_message": "任务完成。还需要什么？ [MAP-ARRIVED] reached reachable standoff cell. anchor_dist=0.48 | plan=target_standoff, det=potted plant score=0.82 bbox=[192, 398, 272, 479], memory=1, pending=20, free=1420, occ=724, instances=3, active=1, standoff_all=244, standoff_trav=103, standoff_reach=124, best_len=1, reason=nearest_reachable_instance_found",
+    "plan": "target_standoff",
+    "detection": {
+      "label": "potted plant",
+      "target": "potted plant",
+      "score": 0.8235539793968201,
+      "bbox": [
+        192,
+        398,
+        272,
+        479
+      ],
+      "center_x": 0.3635461926460266,
+      "center_y": 0.9138705253601074
+    },
+    "evidence_frame": "demos/plant_mapnav_strict/evidence/step_0105_potted_plant_0.82.png",
+    "done": true,
+    "debug": {
+      "target_grid": [
+        23,
+        28
+      ],
+      "standoff_all": 244,
+      "standoff_traversible": 103,
+      "standoff_reachable": 124,
+      "best_path_len": 1,
+      "planner_reason": "nearest_reachable_instance_found"
+    }
+  }
+]

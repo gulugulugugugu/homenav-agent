@@ -1,0 +1,696 @@
+[
+  {
+    "step": 0,
+    "user_command": "请到桌子旁边",
+    "agent_message": "收到。我会用 RGB-D 建图、探索 frontier，并导航到 first-confirmed table 旁边。",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0000.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 1,
+    "agent_message": "[PATH] Turning left toward path. angle=45.0deg | plan=frontier, det=none, memory=0, pending=0, free=373, occ=47",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0001.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 2,
+    "agent_message": "[PATH] Turning left toward path. angle=40.0deg | plan=frontier, det=none, memory=0, pending=0, free=404, occ=74",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0002.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 3,
+    "agent_message": "[PATH] Turning left toward path. angle=35.0deg | plan=frontier, det=none, memory=0, pending=0, free=425, occ=95",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0003.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 4,
+    "agent_message": "[PATH] Turning left toward path. angle=30.0deg | plan=frontier, det=none, memory=0, pending=0, free=466, occ=115",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0004.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 5,
+    "agent_message": "[PATH] Turning left toward path. angle=25.0deg | plan=frontier, det=none, memory=0, pending=0, free=589, occ=133",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0005.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 6,
+    "agent_message": "[PATH] Turning left toward path. angle=20.0deg | plan=frontier, det=none, memory=0, pending=0, free=704, occ=148",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0006.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 7,
+    "agent_message": "[PATH] Turning left toward path. angle=15.0deg | plan=frontier, det=none, memory=0, pending=0, free=755, occ=169",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0007.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 8,
+    "agent_message": "[PATH] Moving forward. plan=frontier, remaining=9, target_forward_steps=0 | plan=frontier, det=none, memory=0, pending=0, free=840, occ=186",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0008.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 9,
+    "agent_message": "[PATH] Turning left toward path. angle=54.8deg | plan=frontier, det=none, memory=0, pending=0, free=874, occ=192",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0009.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 10,
+    "agent_message": "[PATH] Turning left toward path. angle=49.8deg | plan=frontier, det=none, memory=0, pending=0, free=953, occ=204",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0010.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 11,
+    "agent_message": "[PATH] Turning left toward path. angle=44.8deg | plan=frontier, det=none, memory=0, pending=0, free=1038, occ=222",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0011.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 12,
+    "agent_message": "[PATH] Turning left toward path. angle=39.8deg | plan=frontier, det=none, memory=0, pending=0, free=1109, occ=244",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0012.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 13,
+    "agent_message": "[PATH] Turning left toward path. angle=34.8deg | plan=frontier, det=none, memory=0, pending=0, free=1144, occ=268",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0013.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 14,
+    "agent_message": "[PATH] Turning left toward path. angle=29.8deg | plan=frontier, det=none, memory=0, pending=0, free=1181, occ=296",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0014.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 15,
+    "agent_message": "[CANDIDATE] Saw possible table; turning left to confirm. center_x=0.12, distance=2.74, candidate_steps=1 | plan=candidate, det=dining table score=0.62 bbox=[2, 271, 156, 454], memory=0, pending=1, free=1207, occ=317",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6155538558959961,
+      "bbox": [
+        2,
+        271,
+        156,
+        454
+      ],
+      "center_x": 0.12404515687376261,
+      "center_y": 0.7559027989705404
+    },
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0015.png",
+    "evidence_frame": "demos/table_candidate_lock/evidence/step_0015_dining_table_0.62.png"
+  },
+  {
+    "step": 16,
+    "agent_message": "[CANDIDATE-REACQUIRE] Searching left for second confirmation. steps=2 | plan=candidate_reacquire, det=none, memory=0, pending=1, free=1245, occ=341",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0016.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 17,
+    "agent_message": "[CANDIDATE-REACQUIRE] Searching left for second confirmation. steps=3 | plan=candidate_reacquire, det=none, memory=0, pending=1, free=1277, occ=366",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0017.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 18,
+    "agent_message": "[CANDIDATE-REACQUIRE] Searching left for second confirmation. steps=4 | plan=candidate_reacquire, det=none, memory=0, pending=1, free=1315, occ=391",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0018.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 19,
+    "agent_message": "[CANDIDATE-REACQUIRE] Searching left for second confirmation. steps=5 | plan=candidate_reacquire, det=none, memory=0, pending=1, free=1373, occ=419",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0019.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 20,
+    "agent_message": "[CANDIDATE-REACQUIRE] Searching left for second confirmation. steps=6 | plan=candidate_reacquire, det=none, memory=0, pending=1, free=1385, occ=447",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0020.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 21,
+    "agent_message": "[CANDIDATE-REACQUIRE] Searching left for second confirmation. steps=7 | plan=candidate_reacquire, det=none, memory=0, pending=1, free=1418, occ=473",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0021.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 22,
+    "agent_message": "[CANDIDATE-REACQUIRE] Searching left for second confirmation. steps=8 | plan=candidate_reacquire, det=none, memory=0, pending=1, free=1440, occ=496",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0022.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 23,
+    "agent_message": "[CANDIDATE-REACQUIRE] Searching left for second confirmation. steps=9 | plan=candidate_reacquire, det=none, memory=0, pending=1, free=1465, occ=523",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0023.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 24,
+    "agent_message": "[CANDIDATE-REACQUIRE] Searching left for second confirmation. steps=10 | plan=candidate_reacquire, det=none, memory=0, pending=1, free=1481, occ=553",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0024.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 25,
+    "agent_message": "[CANDIDATE-REACQUIRE] Searching left for second confirmation. steps=11 | plan=candidate_reacquire, det=none, memory=0, pending=1, free=1501, occ=581",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0025.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 26,
+    "agent_message": "[VISUAL] Moving forward to locked table. center_x=0.67, distance=3.44, front=2.70, visual_forward_steps=1 | plan=visual, det=dining table score=0.81 bbox=[363, 287, 492, 403], memory=1, pending=2, free=1510, occ=602",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.8134483695030212,
+      "bbox": [
+        363,
+        287,
+        492,
+        403
+      ],
+      "center_x": 0.669038963317871,
+      "center_y": 0.7193721453348796
+    },
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0026.png",
+    "evidence_frame": "demos/table_candidate_lock/evidence/step_0026_dining_table_0.81.png"
+  },
+  {
+    "step": 27,
+    "agent_message": "[VISUAL] Moving forward to locked table. center_x=0.68, distance=3.32, front=2.60, visual_forward_steps=2 | plan=visual, det=dining table score=0.66 bbox=[371, 302, 504, 412], memory=2, pending=2, free=1514, occ=605",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6634602546691895,
+      "bbox": [
+        371,
+        302,
+        504,
+        412
+      ],
+      "center_x": 0.6844978094100952,
+      "center_y": 0.7451320966084798
+    },
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0027.png",
+    "evidence_frame": "demos/table_candidate_lock/evidence/step_0027_dining_table_0.66.png"
+  },
+  {
+    "step": 28,
+    "agent_message": "[REACQUIRE] Locked table temporarily lost. Small scan left. lost_steps=1 | plan=target_reacquire, det=none, memory=2, pending=2, free=1518, occ=608",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0028.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 29,
+    "agent_message": "[VISUAL] Moving forward to locked table. center_x=0.74, distance=3.14, front=2.43, visual_forward_steps=3 | plan=visual, det=dining table score=0.70 bbox=[400, 297, 551, 418], memory=3, pending=2, free=1510, occ=631",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7026085257530212,
+      "bbox": [
+        400,
+        297,
+        551,
+        418
+      ],
+      "center_x": 0.7433659315109253,
+      "center_y": 0.7459669748942057
+    },
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0029.png",
+    "evidence_frame": "demos/table_candidate_lock/evidence/step_0029_dining_table_0.70.png"
+  },
+  {
+    "step": 30,
+    "agent_message": "[VISUAL] Moving forward to locked table. center_x=0.75, distance=3.02, front=2.32, visual_forward_steps=4 | plan=visual, det=dining table score=0.68 bbox=[405, 285, 555, 429], memory=4, pending=2, free=1506, occ=635",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6773780584335327,
+      "bbox": [
+        405,
+        285,
+        555,
+        429
+      ],
+      "center_x": 0.7509537935256958,
+      "center_y": 0.745608393351237
+    },
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0030.png",
+    "evidence_frame": "demos/table_candidate_lock/evidence/step_0030_dining_table_0.68.png"
+  },
+  {
+    "step": 31,
+    "agent_message": "[VISUAL] Moving forward to locked table. center_x=0.75, distance=2.82, front=2.21, visual_forward_steps=5 | plan=visual, det=dining table score=0.73 bbox=[397, 300, 566, 447], memory=5, pending=2, free=1506, occ=638",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7313113212585449,
+      "bbox": [
+        397,
+        300,
+        566,
+        447
+      ],
+      "center_x": 0.7532629251480103,
+      "center_y": 0.7795960744222005
+    },
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0031.png",
+    "evidence_frame": "demos/table_candidate_lock/evidence/step_0031_dining_table_0.73.png"
+  },
+  {
+    "step": 32,
+    "agent_message": "[VISUAL] Moving forward to locked table. center_x=0.77, distance=2.72, front=2.11, visual_forward_steps=6 | plan=visual, det=dining table score=0.74 bbox=[407, 304, 583, 456], memory=6, pending=2, free=1501, occ=644",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7424280047416687,
+      "bbox": [
+        407,
+        304,
+        583,
+        456
+      ],
+      "center_x": 0.7737276315689087,
+      "center_y": 0.7935283025105794
+    },
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0032.png",
+    "evidence_frame": "demos/table_candidate_lock/evidence/step_0032_dining_table_0.74.png"
+  },
+  {
+    "step": 33,
+    "agent_message": "[VISUAL] Moving forward to locked table. center_x=0.77, distance=2.59, front=2.00, visual_forward_steps=7 | plan=visual, det=dining table score=0.87 bbox=[408, 301, 582, 463], memory=7, pending=2, free=1495, occ=650",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.8655572533607483,
+      "bbox": [
+        408,
+        301,
+        582,
+        463
+      ],
+      "center_x": 0.7746829986572266,
+      "center_y": 0.7970742225646973
+    },
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0033.png",
+    "evidence_frame": "demos/table_candidate_lock/evidence/step_0033_dining_table_0.87.png"
+  },
+  {
+    "step": 34,
+    "agent_message": "[VISUAL] Target clearly right. Turning right. center_x=0.79, distance=2.49, front=1.89 | plan=visual, det=dining table score=0.81 bbox=[410, 295, 599, 467], memory=8, pending=2, free=1490, occ=656",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.8051459789276123,
+      "bbox": [
+        410,
+        295,
+        599,
+        467
+      ],
+      "center_x": 0.7889342308044434,
+      "center_y": 0.7950435956319173
+    },
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0034.png",
+    "evidence_frame": "demos/table_candidate_lock/evidence/step_0034_dining_table_0.81.png"
+  },
+  {
+    "step": 35,
+    "agent_message": "[VISUAL] Moving forward to locked table. center_x=0.74, distance=2.59, front=1.94, visual_forward_steps=8 | plan=visual, det=dining table score=0.75 bbox=[393, 306, 556, 464], memory=8, pending=2, free=1493, occ=658",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7525064945220947,
+      "bbox": [
+        393,
+        306,
+        556,
+        464
+      ],
+      "center_x": 0.7424378871917725,
+      "center_y": 0.8037201245625814
+    },
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0035.png",
+    "evidence_frame": "demos/table_candidate_lock/evidence/step_0035_dining_table_0.75.png"
+  },
+  {
+    "step": 36,
+    "agent_message": "[VISUAL] Moving forward to locked table. center_x=0.74, distance=2.41, front=1.83, visual_forward_steps=9 | plan=visual, det=dining table score=0.88 bbox=[389, 309, 556, 479], memory=8, pending=2, free=1486, occ=665",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.8832751512527466,
+      "bbox": [
+        389,
+        309,
+        556,
+        479
+      ],
+      "center_x": 0.7385309934616089,
+      "center_y": 0.8218097050984701
+    },
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0036.png",
+    "evidence_frame": "demos/table_candidate_lock/evidence/step_0036_dining_table_0.88.png"
+  },
+  {
+    "step": 37,
+    "agent_message": "[VISUAL] Moving forward to locked table. center_x=0.76, distance=2.34, front=1.72, visual_forward_steps=10 | plan=visual, det=dining table score=0.82 bbox=[395, 308, 577, 480], memory=8, pending=2, free=1480, occ=671",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.8194335699081421,
+      "bbox": [
+        395,
+        308,
+        577,
+        480
+      ],
+      "center_x": 0.7601158142089843,
+      "center_y": 0.8216458956400553
+    },
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0037.png",
+    "evidence_frame": "demos/table_candidate_lock/evidence/step_0037_dining_table_0.82.png"
+  },
+  {
+    "step": 38,
+    "agent_message": "[VISUAL] Moving forward to locked table. center_x=0.77, distance=2.22, front=1.62, visual_forward_steps=11 | plan=visual, det=dining table score=0.86 bbox=[395, 324, 584, 480], memory=8, pending=2, free=1477, occ=674",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.8586797118186951,
+      "bbox": [
+        395,
+        324,
+        584,
+        480
+      ],
+      "center_x": 0.7654484987258912,
+      "center_y": 0.8375129063924154
+    },
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0038.png",
+    "evidence_frame": "demos/table_candidate_lock/evidence/step_0038_dining_table_0.86.png"
+  },
+  {
+    "step": 39,
+    "agent_message": "[VISUAL] Moving forward to locked table. center_x=0.78, distance=2.13, front=1.51, visual_forward_steps=12 | plan=visual, det=dining table score=0.82 bbox=[400, 323, 595, 480], memory=8, pending=2, free=1475, occ=676",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.8221860527992249,
+      "bbox": [
+        400,
+        323,
+        595,
+        480
+      ],
+      "center_x": 0.7778639316558837,
+      "center_y": 0.8366224288940429
+    },
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0039.png",
+    "evidence_frame": "demos/table_candidate_lock/evidence/step_0039_dining_table_0.82.png"
+  },
+  {
+    "step": 40,
+    "agent_message": "[VISUAL] Target clearly right. Turning right. center_x=0.80, distance=2.03, front=1.41 | plan=visual, det=dining table score=0.76 bbox=[408, 324, 616, 480], memory=8, pending=2, free=1475, occ=676",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.759152352809906,
+      "bbox": [
+        408,
+        324,
+        616,
+        480
+      ],
+      "center_x": 0.8007842779159546,
+      "center_y": 0.8379917144775391
+    },
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0040.png",
+    "evidence_frame": "demos/table_candidate_lock/evidence/step_0040_dining_table_0.76.png"
+  },
+  {
+    "step": 41,
+    "agent_message": "[VISUAL] Moving forward to locked table. center_x=0.74, distance=2.09, front=1.45, visual_forward_steps=13 | plan=visual, det=dining table score=0.79 bbox=[380, 323, 568, 480], memory=8, pending=2, free=1474, occ=680",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7892952561378479,
+      "bbox": [
+        380,
+        323,
+        568,
+        480
+      ],
+      "center_x": 0.7412127733230591,
+      "center_y": 0.8368282318115234
+    },
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0041.png",
+    "evidence_frame": "demos/table_candidate_lock/evidence/step_0041_dining_table_0.79.png"
+  },
+  {
+    "step": 42,
+    "agent_message": "[VISUAL] Moving forward to locked table. center_x=0.76, distance=1.98, front=1.35, visual_forward_steps=14 | plan=visual, det=dining table score=0.82 bbox=[384, 325, 586, 480], memory=8, pending=2, free=1474, occ=680",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.8207255601882935,
+      "bbox": [
+        384,
+        325,
+        586,
+        480
+      ],
+      "center_x": 0.7588389396667481,
+      "center_y": 0.8393945376078288
+    },
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0042.png",
+    "evidence_frame": "demos/table_candidate_lock/evidence/step_0042_dining_table_0.82.png"
+  },
+  {
+    "step": 43,
+    "agent_message": "[VISUAL] Moving forward to locked table. center_x=0.77, distance=1.82, front=1.24, visual_forward_steps=15 | plan=visual, det=dining table score=0.83 bbox=[395, 334, 593, 479], memory=8, pending=2, free=1474, occ=681",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.8329729437828064,
+      "bbox": [
+        395,
+        334,
+        593,
+        479
+      ],
+      "center_x": 0.7725442409515381,
+      "center_y": 0.8476611137390136
+    },
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0043.png",
+    "evidence_frame": "demos/table_candidate_lock/evidence/step_0043_dining_table_0.83.png"
+  },
+  {
+    "step": 44,
+    "agent_message": "[VISUAL] Target clearly right. Turning right. center_x=0.79, distance=1.67, front=1.14 | plan=visual, det=dining table score=0.61 bbox=[401, 334, 607, 478], memory=8, pending=2, free=1474, occ=681",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6131576895713806,
+      "bbox": [
+        401,
+        334,
+        607,
+        478
+      ],
+      "center_x": 0.788690710067749,
+      "center_y": 0.8474112192789713
+    },
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0044.png",
+    "evidence_frame": "demos/table_candidate_lock/evidence/step_0044_dining_table_0.61.png"
+  },
+  {
+    "step": 45,
+    "agent_message": "[VISUAL] Moving forward to locked table. center_x=0.73, distance=1.73, front=1.19, visual_forward_steps=16 | plan=visual, det=dining table score=0.73 bbox=[373, 330, 563, 475], memory=8, pending=2, free=1483, occ=689",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7269477844238281,
+      "bbox": [
+        373,
+        330,
+        563,
+        475
+      ],
+      "center_x": 0.7319548845291137,
+      "center_y": 0.8390110969543457
+    },
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0045.png",
+    "evidence_frame": "demos/table_candidate_lock/evidence/step_0045_dining_table_0.73.png"
+  },
+  {
+    "step": 46,
+    "agent_message": "[VISUAL] Moving forward to locked table. center_x=0.74, distance=1.55, front=1.09, visual_forward_steps=17 | plan=visual, det=dining table score=0.64 bbox=[369, 350, 573, 475], memory=8, pending=2, free=1481, occ=693",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6354951858520508,
+      "bbox": [
+        369,
+        350,
+        573,
+        475
+      ],
+      "center_x": 0.7366598606109619,
+      "center_y": 0.859577210744222
+    },
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0046.png",
+    "evidence_frame": "demos/table_candidate_lock/evidence/step_0046_dining_table_0.64.png"
+  },
+  {
+    "step": 47,
+    "agent_message": "[REACQUIRE] Locked table temporarily lost. Small scan left. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1480, occ=695",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0047.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 48,
+    "agent_message": "任务完成。还需要什么？ [LOST-NEAR-SAFE-STOP] last_distance=1.55, visual_forward_steps=17 | plan=target_reacquire, det=none, memory=8, pending=2, free=1479, occ=696",
+    "state": "arrived",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_candidate_lock/decision_frames/step_0048.png",
+    "evidence_frame": null
+  }
+]

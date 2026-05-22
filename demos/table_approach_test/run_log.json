@@ -1,0 +1,2169 @@
+[
+  {
+    "step": 0,
+    "user_command": "请到桌子旁边",
+    "agent_message": "收到。我会用 RGB-D 建立 2D occupancy map，搜索并导航到 table 旁边。",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0000.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 1,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=381, occ=38",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0001.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 2,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=423, occ=60",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0002.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 3,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=454, occ=79",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0003.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 4,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=494, occ=100",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0004.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 5,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=576, occ=116",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0005.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 6,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=660, occ=137",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0006.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 7,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=758, occ=159",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0007.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 8,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=784, occ=182",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0008.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 9,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=919, occ=198",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0009.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 10,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=1039, occ=215",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0010.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 11,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=1114, occ=237",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0011.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 12,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=1146, occ=257",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0012.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 13,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=1212, occ=280",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0013.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 14,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=1258, occ=303",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0014.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 15,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=1293, occ=322",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0015.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 16,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=1338, occ=345",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0016.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 17,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=1372, occ=367",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0017.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 18,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=1404, occ=389",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0018.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 19,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=1426, occ=411",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0019.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 20,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=1464, occ=434",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0020.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 21,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=1502, occ=455",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0021.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 22,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=1520, occ=478",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0022.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 23,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=1533, occ=503",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0023.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 24,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=1550, occ=523",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0024.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 25,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=dining table score=0.66 bbox=[376, 285, 502, 403], memory=1, free=1563, occ=546",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6600697636604309,
+      "bbox": [
+        376,
+        285,
+        502,
+        403
+      ],
+      "center_x": 0.6867288827896119,
+      "center_y": 0.7176345507303874
+    },
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0025.png",
+    "evidence_frame": "demos/table_approach_test/evidence/step_0025_dining_table_0.66.png"
+  },
+  {
+    "step": 26,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=dining table score=0.76 bbox=[412, 301, 548, 409], memory=2, free=1577, occ=565",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.76418536901474,
+      "bbox": [
+        412,
+        301,
+        548,
+        409
+      ],
+      "center_x": 0.7501032590866089,
+      "center_y": 0.7415985425313314
+    },
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0026.png",
+    "evidence_frame": "demos/table_approach_test/evidence/step_0026_dining_table_0.76.png"
+  },
+  {
+    "step": 27,
+    "agent_message": "[PATH] Turning left toward path. angle=50.0deg | plan=frontier, det=dining table score=0.76 bbox=[442, 308, 592, 418], memory=3, free=1586, occ=585",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7642092704772949,
+      "bbox": [
+        442,
+        308,
+        592,
+        418
+      ],
+      "center_x": 0.8089123010635376,
+      "center_y": 0.7579515457153321
+    },
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0027.png",
+    "evidence_frame": "demos/table_approach_test/evidence/step_0027_dining_table_0.76.png"
+  },
+  {
+    "step": 28,
+    "agent_message": "[PATH] Turning left toward path. angle=45.0deg | plan=frontier, det=none, memory=3, free=1587, occ=597",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0028.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 29,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=dining table score=0.70 bbox=[514, 307, 633, 439], memory=4, free=1594, occ=606",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7046894431114197,
+      "bbox": [
+        514,
+        307,
+        633,
+        439
+      ],
+      "center_x": 0.8970563411712646,
+      "center_y": 0.7785100301106771
+    },
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0029.png",
+    "evidence_frame": "demos/table_approach_test/evidence/step_0029_dining_table_0.70.png"
+  },
+  {
+    "step": 30,
+    "agent_message": "[PATH] Turning right toward path. angle=-55.0deg | plan=target, det=dining table score=0.83 bbox=[548, 307, 640, 458], memory=5, free=1591, occ=617",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.8337746262550354,
+      "bbox": [
+        548,
+        307,
+        640,
+        458
+      ],
+      "center_x": 0.928427791595459,
+      "center_y": 0.7980582555135091
+    },
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0030.png",
+    "evidence_frame": "demos/table_approach_test/evidence/step_0030_dining_table_0.83.png"
+  },
+  {
+    "step": 31,
+    "agent_message": "[PATH] Turning right toward path. angle=-50.0deg | plan=target, det=dining table score=0.71 bbox=[514, 307, 633, 439], memory=6, free=1591, occ=617",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7064021229743958,
+      "bbox": [
+        514,
+        307,
+        633,
+        439
+      ],
+      "center_x": 0.8970664978027344,
+      "center_y": 0.7785885175069173
+    },
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0031.png",
+    "evidence_frame": "demos/table_approach_test/evidence/step_0031_dining_table_0.71.png"
+  },
+  {
+    "step": 32,
+    "agent_message": "[PATH] Turning right toward path. angle=-45.0deg | plan=target, det=none, memory=6, free=1591, occ=617",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0032.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 33,
+    "agent_message": "[PATH] Turning right toward path. angle=-40.0deg | plan=target, det=dining table score=0.76 bbox=[442, 308, 592, 418], memory=7, free=1591, occ=617",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7640126347541809,
+      "bbox": [
+        442,
+        308,
+        592,
+        418
+      ],
+      "center_x": 0.8088964700698853,
+      "center_y": 0.7579504013061523
+    },
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0033.png",
+    "evidence_frame": "demos/table_approach_test/evidence/step_0033_dining_table_0.76.png"
+  },
+  {
+    "step": 34,
+    "agent_message": "[PATH] Turning right toward path. angle=-35.0deg | plan=target, det=dining table score=0.76 bbox=[412, 301, 548, 409], memory=8, free=1591, occ=617",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7635757327079773,
+      "bbox": [
+        412,
+        301,
+        548,
+        409
+      ],
+      "center_x": 0.7501145839691162,
+      "center_y": 0.7415898640950521
+    },
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0034.png",
+    "evidence_frame": "demos/table_approach_test/evidence/step_0034_dining_table_0.76.png"
+  },
+  {
+    "step": 35,
+    "agent_message": "[PATH] Turning right toward path. angle=-30.0deg | plan=target, det=dining table score=0.66 bbox=[376, 285, 502, 403], memory=8, free=1591, occ=617",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.66138756275177,
+      "bbox": [
+        376,
+        285,
+        502,
+        403
+      ],
+      "center_x": 0.6867186784744262,
+      "center_y": 0.717646058400472
+    },
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0035.png",
+    "evidence_frame": "demos/table_approach_test/evidence/step_0035_dining_table_0.66.png"
+  },
+  {
+    "step": 36,
+    "agent_message": "[PATH] Turning right toward path. angle=-25.0deg | plan=target, det=none, memory=8, free=1591, occ=617",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0036.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 37,
+    "agent_message": "[PATH] Turning right toward path. angle=-20.0deg | plan=target, det=none, memory=8, free=1591, occ=617",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0037.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 38,
+    "agent_message": "[PATH] Turning right toward path. angle=-15.0deg | plan=target, det=none, memory=8, free=1591, occ=617",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0038.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 39,
+    "agent_message": "[PATH] Moving forward along planned path. plan=target, remaining=25, target_forward_steps=1 | plan=target, det=none, memory=8, free=1591, occ=617",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0039.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 40,
+    "agent_message": "[PATH] Turning right toward path. angle=-13.1deg | plan=target, det=none, memory=8, free=1605, occ=620",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0040.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 41,
+    "agent_message": "[PATH] Moving forward along planned path. plan=target, remaining=24, target_forward_steps=1 | plan=target, det=none, memory=8, free=1606, occ=623",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0041.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 42,
+    "agent_message": "[PATH] Moving forward along planned path. plan=target, remaining=23, target_forward_steps=2 | plan=target, det=none, memory=8, free=1629, occ=626",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0042.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 43,
+    "agent_message": "[PATH] Turning right toward path. angle=-14.8deg | plan=target, det=none, memory=8, free=1648, occ=630",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0043.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 44,
+    "agent_message": "[PATH] Moving forward along planned path. plan=target, remaining=23, target_forward_steps=3 | plan=target, det=none, memory=8, free=1650, occ=637",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0044.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 45,
+    "agent_message": "[PATH] Turning right toward path. angle=-18.8deg | plan=target, det=none, memory=8, free=1673, occ=639",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0045.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 46,
+    "agent_message": "[PATH] Turning right toward path. angle=-13.8deg | plan=target, det=none, memory=8, free=1675, occ=646",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0046.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 47,
+    "agent_message": "[PATH] Moving forward along planned path. plan=target, remaining=23, target_forward_steps=4 | plan=target, det=none, memory=8, free=1677, occ=652",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0047.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 48,
+    "agent_message": "[PATH] Turning right toward path. angle=-67.7deg | plan=target, det=dining table score=0.67 bbox=[104, 288, 264, 460], memory=8, free=1689, occ=658",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6684073209762573,
+      "bbox": [
+        104,
+        288,
+        264,
+        460
+      ],
+      "center_x": 0.28782328963279724,
+      "center_y": 0.7797301610310873
+    },
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0048.png",
+    "evidence_frame": "demos/table_approach_test/evidence/step_0048_dining_table_0.67.png"
+  },
+  {
+    "step": 49,
+    "agent_message": "[PATH] Turning right toward path. angle=-62.7deg | plan=target, det=none, memory=8, free=1699, occ=662",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0049.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 50,
+    "agent_message": "[PATH] Turning left toward path. angle=17.0deg | plan=target, det=dining table score=0.65 bbox=[22, 293, 199, 474], memory=8, free=1695, occ=675",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6532144546508789,
+      "bbox": [
+        22,
+        293,
+        199,
+        474
+      ],
+      "center_x": 0.1738268107175827,
+      "center_y": 0.7994666417439779
+    },
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0050.png",
+    "evidence_frame": "demos/table_approach_test/evidence/step_0050_dining_table_0.65.png"
+  },
+  {
+    "step": 51,
+    "agent_message": "[PATH] Turning left toward path. angle=12.0deg | plan=target, det=none, memory=8, free=1695, occ=675",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0051.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 52,
+    "agent_message": "[PATH] Moving forward along planned path. plan=target, remaining=18, target_forward_steps=1 | plan=target, det=dining table score=0.67 bbox=[104, 288, 264, 460], memory=8, free=1695, occ=675",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6684073209762573,
+      "bbox": [
+        104,
+        288,
+        264,
+        460
+      ],
+      "center_x": 0.28782328963279724,
+      "center_y": 0.7797301610310873
+    },
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0052.png",
+    "evidence_frame": "demos/table_approach_test/evidence/step_0052_dining_table_0.67.png"
+  },
+  {
+    "step": 53,
+    "agent_message": "[PATH] Moving forward along planned path. plan=target, remaining=17, target_forward_steps=2 | plan=target, det=dining table score=0.61 bbox=[95, 289, 263, 471], memory=8, free=1712, occ=679",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.607051432132721,
+      "bbox": [
+        95,
+        289,
+        263,
+        471
+      ],
+      "center_x": 0.2809162616729736,
+      "center_y": 0.7931804339090983
+    },
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0053.png",
+    "evidence_frame": "demos/table_approach_test/evidence/step_0053_dining_table_0.61.png"
+  },
+  {
+    "step": 54,
+    "agent_message": "[PATH] Turning left toward path. angle=13.2deg | plan=target, det=dining table score=0.61 bbox=[83, 291, 260, 476], memory=8, free=1732, occ=686",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6121594309806824,
+      "bbox": [
+        83,
+        291,
+        260,
+        476
+      ],
+      "center_x": 0.26892523765563964,
+      "center_y": 0.7995175361633301
+    },
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0054.png",
+    "evidence_frame": "demos/table_approach_test/evidence/step_0054_dining_table_0.61.png"
+  },
+  {
+    "step": 55,
+    "agent_message": "[PATH] Moving forward along planned path. plan=target, remaining=16, target_forward_steps=3 | plan=target, det=dining table score=0.62 bbox=[125, 290, 290, 478], memory=8, free=1736, occ=690",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6161307692527771,
+      "bbox": [
+        125,
+        290,
+        290,
+        478
+      ],
+      "center_x": 0.32473843097686766,
+      "center_y": 0.8006065686543783
+    },
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0055.png",
+    "evidence_frame": "demos/table_approach_test/evidence/step_0055_dining_table_0.62.png"
+  },
+  {
+    "step": 56,
+    "agent_message": "[PATH] Turning left toward path. angle=12.2deg | plan=target, det=none, memory=8, free=1771, occ=694",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0056.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 57,
+    "agent_message": "[PATH] Moving forward along planned path. plan=target, remaining=16, target_forward_steps=4 | plan=target, det=dining table score=0.65 bbox=[151, 289, 317, 470], memory=8, free=1776, occ=701",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6465273499488831,
+      "bbox": [
+        151,
+        289,
+        317,
+        470
+      ],
+      "center_x": 0.36654350757598875,
+      "center_y": 0.7915193875630696
+    },
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0057.png",
+    "evidence_frame": "demos/table_approach_test/evidence/step_0057_dining_table_0.65.png"
+  },
+  {
+    "step": 58,
+    "agent_message": "[PATH] Turning left toward path. angle=13.6deg | plan=target, det=dining table score=0.74 bbox=[139, 291, 317, 472], memory=8, free=1796, occ=708",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7439727187156677,
+      "bbox": [
+        139,
+        291,
+        317,
+        472
+      ],
+      "center_x": 0.35688941478729247,
+      "center_y": 0.7957889238993326
+    },
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0058.png",
+    "evidence_frame": "demos/table_approach_test/evidence/step_0058_dining_table_0.74.png"
+  },
+  {
+    "step": 59,
+    "agent_message": "[PATH] Moving forward along planned path. plan=target, remaining=16, target_forward_steps=5 | plan=target, det=none, memory=8, free=1797, occ=718",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0059.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 60,
+    "agent_message": "[PATH] Turning left toward path. angle=172.0deg | plan=frontier, det=dining table score=0.81 bbox=[181, 299, 348, 474], memory=8, free=1804, occ=724",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.811278760433197,
+      "bbox": [
+        181,
+        299,
+        348,
+        474
+      ],
+      "center_x": 0.41381579637527466,
+      "center_y": 0.8061320622762044
+    },
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0060.png",
+    "evidence_frame": "demos/table_approach_test/evidence/step_0060_dining_table_0.81.png"
+  },
+  {
+    "step": 61,
+    "agent_message": "[PATH] Turning left toward path. angle=167.0deg | plan=frontier, det=dining table score=0.63 bbox=[219, 279, 377, 469], memory=8, free=1800, occ=733",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6336106061935425,
+      "bbox": [
+        219,
+        279,
+        377,
+        469
+      ],
+      "center_x": 0.4668253779411316,
+      "center_y": 0.7802299817403158
+    },
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0061.png",
+    "evidence_frame": "demos/table_approach_test/evidence/step_0061_dining_table_0.63.png"
+  },
+  {
+    "step": 62,
+    "agent_message": "[PATH] Turning left toward path. angle=162.0deg | plan=frontier, det=dining table score=0.85 bbox=[242, 294, 406, 465], memory=8, free=1798, occ=742",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.846924364566803,
+      "bbox": [
+        242,
+        294,
+        406,
+        465
+      ],
+      "center_x": 0.5069108963012695,
+      "center_y": 0.7915042241414388
+    },
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0062.png",
+    "evidence_frame": "demos/table_approach_test/evidence/step_0062_dining_table_0.85.png"
+  },
+  {
+    "step": 63,
+    "agent_message": "[PATH] Turning left toward path. angle=157.0deg | plan=frontier, det=dining table score=0.62 bbox=[274, 305, 439, 475], memory=8, free=1794, occ=748",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6197841167449951,
+      "bbox": [
+        274,
+        305,
+        439,
+        475
+      ],
+      "center_x": 0.5574768543243408,
+      "center_y": 0.8128155072530111
+    },
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0063.png",
+    "evidence_frame": "demos/table_approach_test/evidence/step_0063_dining_table_0.62.png"
+  },
+  {
+    "step": 64,
+    "agent_message": "[PATH] Turning left toward path. angle=152.0deg | plan=frontier, det=dining table score=0.79 bbox=[298, 299, 480, 468], memory=8, free=1791, occ=755",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7909989356994629,
+      "bbox": [
+        298,
+        299,
+        480,
+        468
+      ],
+      "center_x": 0.6082010746002198,
+      "center_y": 0.8003151257832845
+    },
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0064.png",
+    "evidence_frame": "demos/table_approach_test/evidence/step_0064_dining_table_0.79.png"
+  },
+  {
+    "step": 65,
+    "agent_message": "[PATH] Turning left toward path. angle=147.0deg | plan=frontier, det=dining table score=0.79 bbox=[330, 309, 504, 474], memory=8, free=1789, occ=762",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7936542630195618,
+      "bbox": [
+        330,
+        309,
+        504,
+        474
+      ],
+      "center_x": 0.652106785774231,
+      "center_y": 0.8166967074076334
+    },
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0065.png",
+    "evidence_frame": "demos/table_approach_test/evidence/step_0065_dining_table_0.79.png"
+  },
+  {
+    "step": 66,
+    "agent_message": "[PATH] Turning left toward path. angle=142.0deg | plan=frontier, det=dining table score=0.84 bbox=[346, 307, 555, 473], memory=8, free=1784, occ=768",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.84489905834198,
+      "bbox": [
+        346,
+        307,
+        555,
+        473
+      ],
+      "center_x": 0.704212760925293,
+      "center_y": 0.81338472366333
+    },
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0066.png",
+    "evidence_frame": "demos/table_approach_test/evidence/step_0066_dining_table_0.84.png"
+  },
+  {
+    "step": 67,
+    "agent_message": "[PATH] Turning left toward path. angle=137.0deg | plan=frontier, det=dining table score=0.86 bbox=[380, 320, 608, 474], memory=8, free=1782, occ=770",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.8638191223144531,
+      "bbox": [
+        380,
+        320,
+        608,
+        474
+      ],
+      "center_x": 0.7729447603225708,
+      "center_y": 0.8282639821370442
+    },
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0067.png",
+    "evidence_frame": "demos/table_approach_test/evidence/step_0067_dining_table_0.86.png"
+  },
+  {
+    "step": 68,
+    "agent_message": "[PATH] Turning left toward path. angle=132.0deg | plan=frontier, det=dining table score=0.81 bbox=[423, 328, 637, 472], memory=8, free=1781, occ=771",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.8096132874488831,
+      "bbox": [
+        423,
+        328,
+        637,
+        472
+      ],
+      "center_x": 0.8283522605895997,
+      "center_y": 0.8343461990356446
+    },
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0068.png",
+    "evidence_frame": "demos/table_approach_test/evidence/step_0068_dining_table_0.81.png"
+  },
+  {
+    "step": 69,
+    "agent_message": "[PATH] Turning left toward path. angle=127.0deg | plan=frontier, det=dining table score=0.77 bbox=[455, 332, 639, 476], memory=8, free=1781, occ=771",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7713108062744141,
+      "bbox": [
+        455,
+        332,
+        639,
+        476
+      ],
+      "center_x": 0.855628490447998,
+      "center_y": 0.8429910659790039
+    },
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0069.png",
+    "evidence_frame": "demos/table_approach_test/evidence/step_0069_dining_table_0.77.png"
+  },
+  {
+    "step": 70,
+    "agent_message": "[PATH] Turning left toward path. angle=122.0deg | plan=frontier, det=dining table score=0.71 bbox=[488, 335, 638, 475], memory=8, free=1781, occ=771",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.710490345954895,
+      "bbox": [
+        488,
+        335,
+        638,
+        475
+      ],
+      "center_x": 0.8800471544265747,
+      "center_y": 0.8449304580688477
+    },
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0070.png",
+    "evidence_frame": "demos/table_approach_test/evidence/step_0070_dining_table_0.71.png"
+  },
+  {
+    "step": 71,
+    "agent_message": "[PATH] Turning left toward path. angle=117.0deg | plan=frontier, det=none, memory=8, free=1781, occ=771",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0071.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 72,
+    "agent_message": "[PATH] Turning left toward path. angle=112.0deg | plan=frontier, det=none, memory=8, free=1779, occ=773",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0072.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 73,
+    "agent_message": "[PATH] Turning left toward path. angle=107.0deg | plan=frontier, det=none, memory=8, free=1776, occ=777",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0073.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 74,
+    "agent_message": "[PATH] Turning left toward path. angle=102.0deg | plan=frontier, det=none, memory=8, free=1774, occ=780",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0074.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 75,
+    "agent_message": "[PATH] Turning left toward path. angle=97.0deg | plan=frontier, det=none, memory=8, free=1768, occ=787",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0075.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 76,
+    "agent_message": "[PATH] Turning left toward path. angle=92.0deg | plan=frontier, det=none, memory=8, free=1764, occ=794",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0076.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 77,
+    "agent_message": "[PATH] Turning left toward path. angle=87.0deg | plan=frontier, det=none, memory=8, free=1758, occ=801",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0077.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 78,
+    "agent_message": "[PATH] Turning left toward path. angle=82.0deg | plan=frontier, det=none, memory=8, free=1754, occ=806",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0078.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 79,
+    "agent_message": "[PATH] Turning left toward path. angle=77.0deg | plan=frontier, det=none, memory=8, free=1750, occ=813",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0079.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 80,
+    "agent_message": "[PATH] Turning left toward path. angle=72.0deg | plan=frontier, det=none, memory=8, free=1745, occ=822",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0080.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 81,
+    "agent_message": "[PATH] Turning left toward path. angle=67.0deg | plan=frontier, det=none, memory=8, free=1743, occ=827",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0081.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 82,
+    "agent_message": "[PATH] Turning left toward path. angle=62.0deg | plan=frontier, det=none, memory=8, free=1737, occ=835",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0082.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 83,
+    "agent_message": "[PATH] Turning left toward path. angle=57.0deg | plan=frontier, det=none, memory=8, free=1733, occ=840",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0083.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 84,
+    "agent_message": "[PATH] Turning left toward path. angle=52.0deg | plan=frontier, det=none, memory=8, free=1732, occ=842",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0084.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 85,
+    "agent_message": "[PATH] Turning left toward path. angle=47.0deg | plan=frontier, det=none, memory=8, free=1732, occ=849",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0085.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 86,
+    "agent_message": "[PATH] Turning left toward path. angle=42.0deg | plan=frontier, det=none, memory=8, free=1732, occ=856",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0086.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 87,
+    "agent_message": "[PATH] Turning left toward path. angle=37.0deg | plan=frontier, det=none, memory=8, free=1733, occ=862",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0087.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 88,
+    "agent_message": "[PATH] Turning left toward path. angle=32.0deg | plan=frontier, det=none, memory=8, free=1734, occ=870",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0088.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 89,
+    "agent_message": "[PATH] Turning left toward path. angle=27.0deg | plan=frontier, det=none, memory=8, free=1735, occ=877",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0089.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 90,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1738, occ=884",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0090.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 91,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1737, occ=894",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0091.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 92,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1735, occ=903",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0092.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 93,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1732, occ=912",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0093.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 94,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1729, occ=922",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0094.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 95,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1724, occ=934",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0095.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 96,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1720, occ=943",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0096.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 97,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1718, occ=950",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0097.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 98,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1716, occ=956",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0098.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 99,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1715, occ=961",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0099.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 100,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1715, occ=964",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0100.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 101,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1715, occ=966",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0101.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 102,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1714, occ=968",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0102.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 103,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1710, occ=973",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0103.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 104,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1707, occ=976",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0104.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 105,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1706, occ=978",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0105.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 106,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1702, occ=982",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0106.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 107,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1701, occ=983",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0107.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 108,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1698, occ=986",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0108.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 109,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1690, occ=994",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0109.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 110,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1681, occ=1003",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0110.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 111,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1677, occ=1007",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0111.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 112,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1672, occ=1013",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0112.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 113,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1670, occ=1015",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0113.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 114,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1667, occ=1018",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0114.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 115,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1683, occ=1021",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0115.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 116,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1691, occ=1028",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0116.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 117,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1690, occ=1038",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0117.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 118,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1686, occ=1046",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0118.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 119,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1684, occ=1053",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0119.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 120,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1693, occ=1057",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0120.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 121,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1704, occ=1061",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0121.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 122,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1701, occ=1067",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0122.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 123,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1690, occ=1078",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0123.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 124,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=dining table score=0.65 bbox=[161, 363, 352, 454], memory=8, free=1683, occ=1089",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.650696337223053,
+      "bbox": [
+        161,
+        363,
+        352,
+        454
+      ],
+      "center_x": 0.40163464546203614,
+      "center_y": 0.8521347999572754
+    },
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0124.png",
+    "evidence_frame": "demos/table_approach_test/evidence/step_0124_dining_table_0.65.png"
+  },
+  {
+    "step": 125,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1674, occ=1100",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0125.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 126,
+    "agent_message": "[PATH] Turning left toward path. angle=27.9deg | plan=target, det=dining table score=0.61 bbox=[226, 359, 398, 458], memory=8, free=1665, occ=1111",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6084325313568115,
+      "bbox": [
+        226,
+        359,
+        398,
+        458
+      ],
+      "center_x": 0.4876394748687744,
+      "center_y": 0.8523297627766927
+    },
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0126.png",
+    "evidence_frame": "demos/table_approach_test/evidence/step_0126_dining_table_0.61.png"
+  },
+  {
+    "step": 127,
+    "agent_message": "[PATH] Turning left toward path. angle=22.9deg | plan=target, det=none, memory=8, free=1661, occ=1115",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0127.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 128,
+    "agent_message": "[PATH] Turning left toward path. angle=17.9deg | plan=target, det=none, memory=8, free=1660, occ=1116",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0128.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 129,
+    "agent_message": "[PATH] Turning left toward path. angle=12.9deg | plan=target, det=dining table score=0.60 bbox=[70, 308, 276, 478], memory=8, free=1657, occ=1119",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6046372652053833,
+      "bbox": [
+        70,
+        308,
+        276,
+        478
+      ],
+      "center_x": 0.2710672378540039,
+      "center_y": 0.8197726885477702
+    },
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0129.png",
+    "evidence_frame": "demos/table_approach_test/evidence/step_0129_dining_table_0.60.png"
+  },
+  {
+    "step": 130,
+    "agent_message": "[PATH] Moving forward along planned path. plan=target, remaining=13, target_forward_steps=1 | plan=target, det=dining table score=0.72 bbox=[110, 303, 291, 474], memory=8, free=1657, occ=1122",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7208420634269714,
+      "bbox": [
+        110,
+        303,
+        291,
+        474
+      ],
+      "center_x": 0.31423441767692567,
+      "center_y": 0.8096657117207845
+    },
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0130.png",
+    "evidence_frame": "demos/table_approach_test/evidence/step_0130_dining_table_0.72.png"
+  },
+  {
+    "step": 131,
+    "agent_message": "[PATH] Moving forward along planned path. plan=target, remaining=12, target_forward_steps=2 | plan=target, det=dining table score=0.71 bbox=[116, 299, 301, 476], memory=8, free=1670, occ=1122",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7051821947097778,
+      "bbox": [
+        116,
+        299,
+        301,
+        476
+      ],
+      "center_x": 0.326537960767746,
+      "center_y": 0.8085292498270671
+    },
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0131.png",
+    "evidence_frame": "demos/table_approach_test/evidence/step_0131_dining_table_0.71.png"
+  },
+  {
+    "step": 132,
+    "agent_message": "[PATH] Moving forward along planned path. plan=target, remaining=11, target_forward_steps=3 | plan=target, det=none, memory=8, free=1681, occ=1126",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0132.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 133,
+    "agent_message": "[PATH] Turning left toward path. angle=16.8deg | plan=target, det=dining table score=0.61 bbox=[130, 306, 312, 479], memory=8, free=1690, occ=1128",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6091206669807434,
+      "bbox": [
+        130,
+        306,
+        312,
+        479
+      ],
+      "center_x": 0.34586602449417114,
+      "center_y": 0.8187503496805827
+    },
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0133.png",
+    "evidence_frame": "demos/table_approach_test/evidence/step_0133_dining_table_0.61.png"
+  },
+  {
+    "step": 134,
+    "agent_message": "[PATH] Moving forward along planned path. plan=target, remaining=11, target_forward_steps=4 | plan=target, det=none, memory=8, free=1687, occ=1132",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0134.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 135,
+    "agent_message": "[PATH] Turning left toward path. angle=21.8deg | plan=target, det=dining table score=0.65 bbox=[171, 310, 341, 479], memory=8, free=1689, occ=1136",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6488844156265259,
+      "bbox": [
+        171,
+        310,
+        341,
+        479
+      ],
+      "center_x": 0.40101826190948486,
+      "center_y": 0.8224609692891439
+    },
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0135.png",
+    "evidence_frame": "demos/table_approach_test/evidence/step_0135_dining_table_0.65.png"
+  },
+  {
+    "step": 136,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1684, occ=1142",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0136.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 137,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=dining table score=0.66 bbox=[230, 309, 401, 480], memory=8, free=1681, occ=1145",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6551147699356079,
+      "bbox": [
+        230,
+        309,
+        401,
+        480
+      ],
+      "center_x": 0.4937835097312927,
+      "center_y": 0.8225504875183105
+    },
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0137.png",
+    "evidence_frame": "demos/table_approach_test/evidence/step_0137_dining_table_0.66.png"
+  },
+  {
+    "step": 138,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=dining table score=0.68 bbox=[259, 308, 429, 479], memory=8, free=1680, occ=1147",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6800554990768433,
+      "bbox": [
+        259,
+        308,
+        429,
+        479
+      ],
+      "center_x": 0.5383172035217285,
+      "center_y": 0.8204906145731609
+    },
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0138.png",
+    "evidence_frame": "demos/table_approach_test/evidence/step_0138_dining_table_0.68.png"
+  },
+  {
+    "step": 139,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=dining table score=0.71 bbox=[289, 305, 457, 480], memory=8, free=1679, occ=1148",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7141850590705872,
+      "bbox": [
+        289,
+        305,
+        457,
+        480
+      ],
+      "center_x": 0.5841867208480835,
+      "center_y": 0.8186169624328613
+    },
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0139.png",
+    "evidence_frame": "demos/table_approach_test/evidence/step_0139_dining_table_0.71.png"
+  },
+  {
+    "step": 140,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=dining table score=0.70 bbox=[318, 309, 510, 478], memory=8, free=1675, occ=1152",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6955216526985168,
+      "bbox": [
+        318,
+        309,
+        510,
+        478
+      ],
+      "center_x": 0.6473621129989624,
+      "center_y": 0.8210850079854329
+    },
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0140.png",
+    "evidence_frame": "demos/table_approach_test/evidence/step_0140_dining_table_0.70.png"
+  },
+  {
+    "step": 141,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=dining table score=0.75 bbox=[339, 317, 545, 478], memory=8, free=1671, occ=1156",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7472257018089294,
+      "bbox": [
+        339,
+        317,
+        545,
+        478
+      ],
+      "center_x": 0.6921650171279907,
+      "center_y": 0.8297484079996745
+    },
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0141.png",
+    "evidence_frame": "demos/table_approach_test/evidence/step_0141_dining_table_0.75.png"
+  },
+  {
+    "step": 142,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=dining table score=0.77 bbox=[374, 321, 590, 480], memory=8, free=1669, occ=1160",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7667123079299927,
+      "bbox": [
+        374,
+        321,
+        590,
+        480
+      ],
+      "center_x": 0.7545781612396241,
+      "center_y": 0.8345956166585287
+    },
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0142.png",
+    "evidence_frame": "demos/table_approach_test/evidence/step_0142_dining_table_0.77.png"
+  },
+  {
+    "step": 143,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=dining table score=0.81 bbox=[398, 325, 633, 476], memory=8, free=1669, occ=1160",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.8121746778488159,
+      "bbox": [
+        398,
+        325,
+        633,
+        476
+      ],
+      "center_x": 0.8066823482513428,
+      "center_y": 0.8355456034342448
+    },
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0143.png",
+    "evidence_frame": "demos/table_approach_test/evidence/step_0143_dining_table_0.81.png"
+  },
+  {
+    "step": 144,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=dining table score=0.68 bbox=[434, 322, 638, 480], memory=8, free=1669, occ=1160",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6806644201278687,
+      "bbox": [
+        434,
+        322,
+        638,
+        480
+      ],
+      "center_x": 0.8384478569030762,
+      "center_y": 0.8358955065409343
+    },
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0144.png",
+    "evidence_frame": "demos/table_approach_test/evidence/step_0144_dining_table_0.68.png"
+  },
+  {
+    "step": 145,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=dining table score=0.64 bbox=[471, 333, 639, 479], memory=8, free=1669, occ=1160",
+    "state": "search_target",
+    "target": "table",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6359362602233887,
+      "bbox": [
+        471,
+        333,
+        639,
+        479
+      ],
+      "center_x": 0.8680909872055054,
+      "center_y": 0.8464279492696126
+    },
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0145.png",
+    "evidence_frame": "demos/table_approach_test/evidence/step_0145_dining_table_0.64.png"
+  },
+  {
+    "step": 146,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1669, occ=1160",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0146.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 147,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1669, occ=1160",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0147.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 148,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1669, occ=1160",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0148.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 149,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1668, occ=1161",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0149.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 150,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1665, occ=1164",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0150.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 151,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1662, occ=1167",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0151.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 152,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1658, occ=1171",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0152.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 153,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1654, occ=1175",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0153.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 154,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1648, occ=1181",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0154.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 155,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1643, occ=1186",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0155.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 156,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1636, occ=1193",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0156.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 157,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1631, occ=1198",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0157.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 158,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1626, occ=1203",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0158.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 159,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1619, occ=1210",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0159.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 160,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1617, occ=1212",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0160.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 161,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1610, occ=1219",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0161.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 162,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1603, occ=1226",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0162.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 163,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1599, occ=1230",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0163.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 164,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1594, occ=1235",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0164.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 165,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1586, occ=1243",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0165.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 166,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1579, occ=1250",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0166.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 167,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1573, occ=1256",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0167.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 168,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1563, occ=1266",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0168.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 169,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1557, occ=1272",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0169.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 170,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1550, occ=1279",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0170.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 171,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1544, occ=1285",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0171.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 172,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1541, occ=1288",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0172.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 173,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1540, occ=1289",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0173.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 174,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1538, occ=1291",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0174.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 175,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1538, occ=1291",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0175.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 176,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1537, occ=1292",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0176.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 177,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1535, occ=1294",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0177.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 178,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1532, occ=1297",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0178.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 179,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1531, occ=1298",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0179.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 180,
+    "agent_message": "[NO-PATH] No path available. Rotating to scan. | plan=none, det=none, memory=8, free=1527, occ=1302",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0180.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 181,
+    "agent_message": "任务未在最大步数内完成。",
+    "state": "search_target",
+    "target": "table",
+    "detection": null,
+    "decision_frame": "demos/table_approach_test/decision_frames/step_0181.png",
+    "evidence_frame": null
+  }
+]

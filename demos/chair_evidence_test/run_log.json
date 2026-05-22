@@ -1,0 +1,204 @@
+[
+  {
+    "step": 0,
+    "user_command": "请到椅子旁边",
+    "agent_message": "收到。我会用 RGB-D 建立 2D occupancy map，搜索并导航到 chair 旁边。",
+    "state": "search_target",
+    "target": "chair",
+    "detection": null,
+    "decision_frame": "demos/chair_evidence_test/decision_frames/step_0000.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 1,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=381, occ=38",
+    "state": "search_target",
+    "target": "chair",
+    "detection": null,
+    "decision_frame": "demos/chair_evidence_test/decision_frames/step_0001.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 2,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=423, occ=60",
+    "state": "search_target",
+    "target": "chair",
+    "detection": null,
+    "decision_frame": "demos/chair_evidence_test/decision_frames/step_0002.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 3,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=454, occ=79",
+    "state": "search_target",
+    "target": "chair",
+    "detection": null,
+    "decision_frame": "demos/chair_evidence_test/decision_frames/step_0003.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 4,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=494, occ=100",
+    "state": "search_target",
+    "target": "chair",
+    "detection": null,
+    "decision_frame": "demos/chair_evidence_test/decision_frames/step_0004.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 5,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=576, occ=116",
+    "state": "search_target",
+    "target": "chair",
+    "detection": null,
+    "decision_frame": "demos/chair_evidence_test/decision_frames/step_0005.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 6,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=660, occ=137",
+    "state": "search_target",
+    "target": "chair",
+    "detection": null,
+    "decision_frame": "demos/chair_evidence_test/decision_frames/step_0006.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 7,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=758, occ=159",
+    "state": "search_target",
+    "target": "chair",
+    "detection": null,
+    "decision_frame": "demos/chair_evidence_test/decision_frames/step_0007.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 8,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=784, occ=182",
+    "state": "search_target",
+    "target": "chair",
+    "detection": null,
+    "decision_frame": "demos/chair_evidence_test/decision_frames/step_0008.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 9,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=919, occ=198",
+    "state": "search_target",
+    "target": "chair",
+    "detection": null,
+    "decision_frame": "demos/chair_evidence_test/decision_frames/step_0009.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 10,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=1039, occ=215",
+    "state": "search_target",
+    "target": "chair",
+    "detection": null,
+    "decision_frame": "demos/chair_evidence_test/decision_frames/step_0010.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 11,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=1114, occ=237",
+    "state": "search_target",
+    "target": "chair",
+    "detection": null,
+    "decision_frame": "demos/chair_evidence_test/decision_frames/step_0011.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 12,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=1146, occ=257",
+    "state": "search_target",
+    "target": "chair",
+    "detection": null,
+    "decision_frame": "demos/chair_evidence_test/decision_frames/step_0012.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 13,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=1212, occ=280",
+    "state": "search_target",
+    "target": "chair",
+    "detection": null,
+    "decision_frame": "demos/chair_evidence_test/decision_frames/step_0013.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 14,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=1258, occ=303",
+    "state": "search_target",
+    "target": "chair",
+    "detection": null,
+    "decision_frame": "demos/chair_evidence_test/decision_frames/step_0014.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 15,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=1293, occ=322",
+    "state": "search_target",
+    "target": "chair",
+    "detection": null,
+    "decision_frame": "demos/chair_evidence_test/decision_frames/step_0015.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 16,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=1338, occ=345",
+    "state": "search_target",
+    "target": "chair",
+    "detection": null,
+    "decision_frame": "demos/chair_evidence_test/decision_frames/step_0016.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 17,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=1372, occ=367",
+    "state": "search_target",
+    "target": "chair",
+    "detection": null,
+    "decision_frame": "demos/chair_evidence_test/decision_frames/step_0017.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 18,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=1404, occ=389",
+    "state": "search_target",
+    "target": "chair",
+    "detection": null,
+    "decision_frame": "demos/chair_evidence_test/decision_frames/step_0018.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 19,
+    "agent_message": "[FRONTIER] Reached frontier. Rotating to scan. | plan=frontier, det=none, memory=0, free=1426, occ=411",
+    "state": "search_target",
+    "target": "chair",
+    "detection": null,
+    "decision_frame": "demos/chair_evidence_test/decision_frames/step_0019.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 20,
+    "agent_message": "任务完成。还需要什么？ | plan=target, det=chair score=0.80 bbox=[376, 394, 628, 478], memory=1, free=1464, occ=434",
+    "state": "arrived",
+    "target": "chair",
+    "detection": {
+      "label": "chair",
+      "target": "chair",
+      "score": 0.8030423521995544,
+      "bbox": [
+        376,
+        394,
+        628,
+        478
+      ],
+      "center_x": 0.7851563453674316,
+      "center_y": 0.9092339833577474
+    },
+    "decision_frame": "demos/chair_evidence_test/decision_frames/step_0020.png",
+    "evidence_frame": "demos/chair_evidence_test/evidence/step_0020_chair_0.80.png"
+  }
+]

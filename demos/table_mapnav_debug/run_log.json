@@ -1,0 +1,3440 @@
+[
+  {
+    "step": 0,
+    "agent_message": "[PATH] Moving forward along frontier. remaining=10 | plan=frontier, det=none, memory=0, pending=0, free=507, occ=214, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 1,
+    "agent_message": "[PATH] Moving forward along frontier. remaining=9 | plan=frontier, det=none, memory=0, pending=0, free=490, occ=235, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 2,
+    "agent_message": "[PATH] Turning right toward frontier. angle=-21.0 | plan=frontier, det=none, memory=0, pending=0, free=474, occ=252, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 3,
+    "agent_message": "[PATH] Turning right toward frontier. angle=-16.0 | plan=frontier, det=none, memory=0, pending=0, free=472, occ=256, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 4,
+    "agent_message": "[PATH] Moving forward along frontier. remaining=8 | plan=frontier, det=none, memory=0, pending=0, free=472, occ=260, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 5,
+    "agent_message": "[PATH] Turning right toward frontier. angle=-19.2 | plan=frontier, det=none, memory=0, pending=0, free=471, occ=262, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 6,
+    "agent_message": "[PATH] Turning right toward frontier. angle=-14.2 | plan=frontier, det=none, memory=0, pending=0, free=473, occ=263, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 7,
+    "agent_message": "[PATH] Moving forward along frontier. remaining=8 | plan=frontier, det=none, memory=0, pending=0, free=476, occ=266, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 8,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=none, det=none, memory=0, pending=0, free=476, occ=266, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "none",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 9,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=none, det=none, memory=0, pending=0, free=476, occ=266, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "none",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 10,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=none, det=none, memory=0, pending=0, free=476, occ=266, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "none",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 11,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=none, det=none, memory=0, pending=0, free=475, occ=267, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "none",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 12,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=none, det=none, memory=0, pending=0, free=473, occ=270, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "none",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 13,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=none, det=none, memory=0, pending=0, free=473, occ=286, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "none",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 14,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=none, det=none, memory=0, pending=0, free=560, occ=325, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "none",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 15,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=none, det=none, memory=0, pending=0, free=669, occ=377, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "none",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 16,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=none, det=none, memory=0, pending=0, free=746, occ=439, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "none",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 17,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=none, det=none, memory=0, pending=0, free=901, occ=468, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "none",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 18,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=none, det=none, memory=0, pending=0, free=1066, occ=478, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "none",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 19,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=none, det=none, memory=0, pending=0, free=1182, occ=516, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "none",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 20,
+    "agent_message": "[PATH] Turning left toward frontier. angle=45.4 | plan=frontier, det=none, memory=0, pending=0, free=1321, occ=543, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 21,
+    "agent_message": "[PATH] Turning left toward frontier. angle=40.4 | plan=frontier, det=none, memory=0, pending=0, free=1445, occ=571, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 22,
+    "agent_message": "[PATH] Turning left toward frontier. angle=35.4 | plan=frontier, det=none, memory=0, pending=0, free=1588, occ=593, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 23,
+    "agent_message": "[PATH] Turning left toward frontier. angle=30.4 | plan=frontier, det=none, memory=0, pending=0, free=1689, occ=619, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 24,
+    "agent_message": "[PATH] Turning left toward frontier. angle=25.4 | plan=frontier, det=none, memory=0, pending=0, free=1741, occ=666, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 25,
+    "agent_message": "[PATH] Turning left toward frontier. angle=20.4 | plan=frontier, det=none, memory=0, pending=0, free=1784, occ=705, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 26,
+    "agent_message": "[PATH] Turning left toward frontier. angle=15.4 | plan=frontier, det=none, memory=0, pending=0, free=1815, occ=746, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 27,
+    "agent_message": "[PATH] Moving forward along frontier. remaining=11 | plan=frontier, det=none, memory=0, pending=0, free=1850, occ=773, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 28,
+    "agent_message": "[PATH] Turning left toward frontier. angle=15.3 | plan=frontier, det=none, memory=0, pending=0, free=1831, occ=795, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 29,
+    "agent_message": "[PATH] Moving forward along frontier. remaining=9 | plan=frontier, det=none, memory=0, pending=0, free=1845, occ=805, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 30,
+    "agent_message": "[PATH] Turning left toward frontier. angle=30.5 | plan=frontier, det=none, memory=0, pending=0, free=1838, occ=813, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 31,
+    "agent_message": "[PATH] Turning left toward frontier. angle=25.5 | plan=frontier, det=none, memory=0, pending=0, free=1861, occ=825, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 32,
+    "agent_message": "[PATH] Turning left toward frontier. angle=20.5 | plan=frontier, det=none, memory=0, pending=0, free=1903, occ=841, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 33,
+    "agent_message": "[PATH] Turning left toward frontier. angle=15.5 | plan=frontier, det=none, memory=0, pending=0, free=1941, occ=859, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 34,
+    "agent_message": "[PATH] Moving forward along frontier. remaining=8 | plan=frontier, det=none, memory=0, pending=0, free=1993, occ=866, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 35,
+    "agent_message": "[PATH] Turning left toward frontier. angle=33.9 | plan=frontier, det=none, memory=0, pending=0, free=2006, occ=872, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 36,
+    "agent_message": "[PATH] Turning left toward frontier. angle=28.9 | plan=frontier, det=none, memory=0, pending=0, free=2032, occ=876, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 37,
+    "agent_message": "[PATH] Turning left toward frontier. angle=23.9 | plan=frontier, det=none, memory=0, pending=0, free=2078, occ=882, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 38,
+    "agent_message": "[PATH] Turning left toward frontier. angle=18.9 | plan=frontier, det=none, memory=0, pending=0, free=2115, occ=888, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 39,
+    "agent_message": "[PATH] Turning left toward frontier. angle=13.9 | plan=frontier, det=none, memory=0, pending=0, free=2141, occ=896, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 40,
+    "agent_message": "[PATH] Moving forward along frontier. remaining=11 | plan=frontier, det=dining table score=0.75 bbox=[348, 289, 486, 403], memory=0, pending=1, free=2170, occ=902, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7478720545768738,
+      "bbox": [
+        348,
+        289,
+        486,
+        403
+      ],
+      "center_x": 0.6526121616363525,
+      "center_y": 0.722299067179362
+    },
+    "evidence_frame": "demos/table_mapnav_debug/evidence/step_0040_dining_table_0.75.png",
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 41,
+    "agent_message": "[PATH] Turning left toward frontier. angle=15.1 | plan=frontier, det=none, memory=0, pending=1, free=2170, occ=903, standoff_all=0, standoff_trav=0, standoff_reach=0, best_len=0, reason=not_planned",
+    "plan": "frontier",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": null,
+      "standoff_all": 0,
+      "standoff_traversible": 0,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "not_planned"
+    }
+  },
+  {
+    "step": 42,
+    "agent_message": "[PATH] Turning left toward frontier_after_target. angle=31.5 | plan=frontier_after_target, det=dining table score=0.69 bbox=[383, 309, 539, 414], memory=1, pending=2, free=2192, occ=907, standoff_all=420, standoff_trav=2, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "frontier_after_target",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6916031241416931,
+      "bbox": [
+        383,
+        309,
+        539,
+        414
+      ],
+      "center_x": 0.7215873241424561,
+      "center_y": 0.7541083971659343
+    },
+    "evidence_frame": "demos/table_mapnav_debug/evidence/step_0042_dining_table_0.69.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        20,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 2,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 43,
+    "agent_message": "[PATH] Turning left toward frontier_after_target. angle=26.5 | plan=frontier_after_target, det=none, memory=1, pending=2, free=2214, occ=926, standoff_all=420, standoff_trav=2, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "frontier_after_target",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        20,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 2,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 44,
+    "agent_message": "[PATH] Turning left toward frontier_after_target. angle=38.5 | plan=frontier_after_target, det=dining table score=0.80 bbox=[442, 300, 635, 430], memory=1, pending=2, free=2230, occ=937, standoff_all=420, standoff_trav=3, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "frontier_after_target",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.8036566972732544,
+      "bbox": [
+        442,
+        300,
+        635,
+        430
+      ],
+      "center_x": 0.8427209854125977,
+      "center_y": 0.7609356880187989
+    },
+    "evidence_frame": "demos/table_mapnav_debug/evidence/step_0044_dining_table_0.80.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        19,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 3,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 45,
+    "agent_message": "[PATH] Turning left toward frontier_after_target. angle=33.5 | plan=frontier_after_target, det=dining table score=0.65 bbox=[476, 310, 640, 438], memory=1, pending=2, free=2243, occ=949, standoff_all=420, standoff_trav=2, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "frontier_after_target",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6516457200050354,
+      "bbox": [
+        476,
+        310,
+        640,
+        438
+      ],
+      "center_x": 0.8722647905349732,
+      "center_y": 0.7811513900756836
+    },
+    "evidence_frame": "demos/table_mapnav_debug/evidence/step_0045_dining_table_0.65.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        20,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 2,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 46,
+    "agent_message": "[PATH] Turning left toward frontier_after_target. angle=133.0 | plan=frontier_after_target, det=dining table score=0.82 bbox=[515, 307, 637, 460], memory=1, pending=2, free=2253, occ=956, standoff_all=420, standoff_trav=2, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "frontier_after_target",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.8227085471153259,
+      "bbox": [
+        515,
+        307,
+        637,
+        460
+      ],
+      "center_x": 0.9008835315704345,
+      "center_y": 0.8004814465840657
+    },
+    "evidence_frame": "demos/table_mapnav_debug/evidence/step_0046_dining_table_0.82.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        20,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 2,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 47,
+    "agent_message": "[PATH] Turning left toward frontier_after_target. angle=128.0 | plan=frontier_after_target, det=dining table score=0.79 bbox=[550, 316, 638, 473], memory=1, pending=2, free=2259, occ=963, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "frontier_after_target",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7935168743133545,
+      "bbox": [
+        550,
+        316,
+        638,
+        473
+      ],
+      "center_x": 0.9292479991912842,
+      "center_y": 0.8223221778869629
+    },
+    "evidence_frame": "demos/table_mapnav_debug/evidence/step_0047_dining_table_0.79.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 48,
+    "agent_message": "[PATH] Turning left toward frontier_after_target. angle=123.0 | plan=frontier_after_target, det=none, memory=1, pending=2, free=2263, occ=967, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "frontier_after_target",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 49,
+    "agent_message": "[PATH] Turning left toward frontier_after_target. angle=118.0 | plan=frontier_after_target, det=none, memory=1, pending=2, free=2270, occ=969, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "frontier_after_target",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 50,
+    "agent_message": "[PATH] Turning left toward frontier_after_target. angle=113.0 | plan=frontier_after_target, det=none, memory=1, pending=2, free=2273, occ=973, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "frontier_after_target",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 51,
+    "agent_message": "[PATH] Turning left toward frontier_after_target. angle=108.0 | plan=frontier_after_target, det=none, memory=1, pending=2, free=2279, occ=976, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "frontier_after_target",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 52,
+    "agent_message": "[PATH] Turning left toward frontier_after_target. angle=103.0 | plan=frontier_after_target, det=none, memory=1, pending=2, free=2284, occ=980, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "frontier_after_target",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 53,
+    "agent_message": "[PATH] Turning left toward frontier_after_target. angle=98.0 | plan=frontier_after_target, det=none, memory=1, pending=2, free=2285, occ=984, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "frontier_after_target",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 54,
+    "agent_message": "[PATH] Turning left toward frontier_after_target. angle=93.0 | plan=frontier_after_target, det=none, memory=1, pending=2, free=2290, occ=986, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "frontier_after_target",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 55,
+    "agent_message": "[PATH] Turning left toward frontier_after_target. angle=88.0 | plan=frontier_after_target, det=none, memory=1, pending=2, free=2292, occ=988, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "frontier_after_target",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 56,
+    "agent_message": "[PATH] Turning left toward frontier_after_target. angle=83.0 | plan=frontier_after_target, det=none, memory=1, pending=2, free=2297, occ=990, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "frontier_after_target",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 57,
+    "agent_message": "[PATH] Turning left toward frontier_after_target. angle=78.0 | plan=frontier_after_target, det=none, memory=1, pending=2, free=2298, occ=993, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "frontier_after_target",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 58,
+    "agent_message": "[PATH] Turning left toward frontier_after_target. angle=73.0 | plan=frontier_after_target, det=none, memory=1, pending=2, free=2302, occ=996, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "frontier_after_target",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 59,
+    "agent_message": "[PATH] Turning left toward frontier_after_target. angle=68.0 | plan=frontier_after_target, det=none, memory=1, pending=2, free=2303, occ=997, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "frontier_after_target",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 60,
+    "agent_message": "[PATH] Turning left toward frontier_after_target. angle=63.0 | plan=frontier_after_target, det=none, memory=1, pending=2, free=2306, occ=999, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "frontier_after_target",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 61,
+    "agent_message": "[PATH] Turning left toward frontier_after_target. angle=58.0 | plan=frontier_after_target, det=none, memory=1, pending=2, free=2311, occ=1005, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "frontier_after_target",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 62,
+    "agent_message": "[PATH] Turning left toward frontier_after_target. angle=53.0 | plan=frontier_after_target, det=none, memory=1, pending=2, free=2314, occ=1007, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "frontier_after_target",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 63,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2316, occ=1010, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 64,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2314, occ=1017, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 65,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2312, occ=1021, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 66,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2310, occ=1023, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 67,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2310, occ=1023, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 68,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2310, occ=1023, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 69,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2310, occ=1023, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 70,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2310, occ=1023, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 71,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2310, occ=1023, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 72,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2310, occ=1023, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 73,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2310, occ=1023, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 74,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2310, occ=1023, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 75,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2310, occ=1023, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 76,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2310, occ=1023, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 77,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2310, occ=1023, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 78,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2310, occ=1023, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 79,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2310, occ=1023, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 80,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2310, occ=1023, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 81,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2310, occ=1023, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 82,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2310, occ=1023, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 83,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2310, occ=1023, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 84,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2310, occ=1023, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 85,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2310, occ=1023, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 86,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2310, occ=1023, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 87,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2310, occ=1023, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 88,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2310, occ=1023, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 89,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2314, occ=1028, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 90,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2316, occ=1032, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 91,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2323, occ=1034, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 92,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2327, occ=1038, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 93,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2325, occ=1042, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 94,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2324, occ=1043, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 95,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2324, occ=1044, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 96,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2324, occ=1045, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 97,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2325, occ=1045, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 98,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2324, occ=1046, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 99,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2323, occ=1047, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 100,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2322, occ=1048, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 101,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2322, occ=1048, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 102,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2322, occ=1048, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 103,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2322, occ=1048, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 104,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2321, occ=1049, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 105,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2319, occ=1052, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 106,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2330, occ=1055, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 107,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2330, occ=1060, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 108,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2331, occ=1060, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 109,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2330, occ=1061, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 110,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2331, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 111,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 112,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=dining table score=0.63 bbox=[328, 301, 464, 409], memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6252985000610352,
+      "bbox": [
+        328,
+        301,
+        464,
+        409
+      ],
+      "center_x": 0.6192461490631104,
+      "center_y": 0.740425968170166
+    },
+    "evidence_frame": "demos/table_mapnav_debug/evidence/step_0112_dining_table_0.63.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 113,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 114,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=dining table score=0.69 bbox=[383, 309, 539, 414], memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6916031241416931,
+      "bbox": [
+        383,
+        309,
+        539,
+        414
+      ],
+      "center_x": 0.7215873241424561,
+      "center_y": 0.7541083971659343
+    },
+    "evidence_frame": "demos/table_mapnav_debug/evidence/step_0114_dining_table_0.69.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 115,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 116,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=dining table score=0.80 bbox=[442, 300, 635, 430], memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.8036566972732544,
+      "bbox": [
+        442,
+        300,
+        635,
+        430
+      ],
+      "center_x": 0.8427209854125977,
+      "center_y": 0.7609356880187989
+    },
+    "evidence_frame": "demos/table_mapnav_debug/evidence/step_0116_dining_table_0.80.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 117,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=dining table score=0.65 bbox=[476, 310, 640, 438], memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.6516457200050354,
+      "bbox": [
+        476,
+        310,
+        640,
+        438
+      ],
+      "center_x": 0.8722647905349732,
+      "center_y": 0.7811513900756836
+    },
+    "evidence_frame": "demos/table_mapnav_debug/evidence/step_0117_dining_table_0.65.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 118,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=dining table score=0.82 bbox=[515, 307, 637, 460], memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.8227085471153259,
+      "bbox": [
+        515,
+        307,
+        637,
+        460
+      ],
+      "center_x": 0.9008835315704345,
+      "center_y": 0.8004814465840657
+    },
+    "evidence_frame": "demos/table_mapnav_debug/evidence/step_0118_dining_table_0.82.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 119,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=dining table score=0.79 bbox=[550, 316, 638, 473], memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": {
+      "label": "dining table",
+      "target": "table",
+      "score": 0.7935168743133545,
+      "bbox": [
+        550,
+        316,
+        638,
+        473
+      ],
+      "center_x": 0.9292479991912842,
+      "center_y": 0.8223221778869629
+    },
+    "evidence_frame": "demos/table_mapnav_debug/evidence/step_0119_dining_table_0.79.png",
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 120,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 121,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 122,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 123,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 124,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 125,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 126,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 127,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 128,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 129,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 130,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 131,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 132,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 133,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 134,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 135,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 136,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 137,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 138,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 139,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 140,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 141,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 142,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 143,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 144,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 145,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 146,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 147,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 148,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 149,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 150,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 151,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 152,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 153,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 154,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 155,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 156,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 157,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 158,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 159,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 160,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 161,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 162,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 163,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 164,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 165,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 166,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 167,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 168,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 169,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 170,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 171,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 172,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 173,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 174,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 175,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 176,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 177,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 178,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  },
+  {
+    "step": 179,
+    "agent_message": "[NO-PATH] No path available. Rotating to build map. | plan=no_target_path, det=none, memory=1, pending=2, free=2332, occ=1063, standoff_all=420, standoff_trav=1, standoff_reach=0, best_len=0, reason=standoff_cells_not_reachable_by_astar",
+    "plan": "no_target_path",
+    "detection": null,
+    "evidence_frame": null,
+    "done": false,
+    "debug": {
+      "target_grid": [
+        21,
+        67
+      ],
+      "standoff_all": 420,
+      "standoff_traversible": 1,
+      "standoff_reachable": 0,
+      "best_path_len": 0,
+      "planner_reason": "standoff_cells_not_reachable_by_astar"
+    }
+  }
+]

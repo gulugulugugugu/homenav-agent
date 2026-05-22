@@ -1,0 +1,881 @@
+[
+  {
+    "step": 0,
+    "user_command": "请到椅子旁边",
+    "agent_message": "收到，我会基于 RGB-D 视觉导航到 chair 旁边。",
+    "state": "search_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 1,
+    "agent_message": "[SEARCH] Target not visible. Scanning left. front=2.00m",
+    "state": "search_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 2,
+    "agent_message": "[SEARCH] Target not visible. Scanning left. front=2.07m",
+    "state": "search_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 3,
+    "agent_message": "[SEARCH] Target not visible. Scanning left. front=2.14m",
+    "state": "search_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 4,
+    "agent_message": "[SEARCH] Target not visible. Scanning left. front=2.21m",
+    "state": "search_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 5,
+    "agent_message": "[SEARCH] Target not visible. Scanning left. front=2.28m",
+    "state": "search_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 6,
+    "agent_message": "[SEARCH] Target not visible. Scanning left. front=2.30m",
+    "state": "search_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 7,
+    "agent_message": "[SEARCH] Target not visible. Scanning left. front=2.29m",
+    "state": "search_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 8,
+    "agent_message": "[SEARCH] Target not visible. Scanning left. front=2.29m",
+    "state": "search_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 9,
+    "agent_message": "[SEARCH] Target not visible. Scanning left. front=2.35m",
+    "state": "search_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 10,
+    "agent_message": "[SEARCH] Target not visible. Scanning left. front=2.56m",
+    "state": "search_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 11,
+    "agent_message": "[SEARCH] Target not visible. Scanning left. front=2.70m",
+    "state": "search_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 12,
+    "agent_message": "[SEARCH] Target not visible. Scanning left. front=2.98m",
+    "state": "search_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 13,
+    "agent_message": "[SEARCH] Target not visible. Scanning left. front=3.19m",
+    "state": "search_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 14,
+    "agent_message": "[SEARCH] Target not visible. Scanning left. front=3.28m",
+    "state": "search_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 15,
+    "agent_message": "[SEARCH] Target not visible. Scanning left. front=3.36m",
+    "state": "search_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 16,
+    "agent_message": "[SEARCH] Target not visible. Scanning left. front=3.43m",
+    "state": "search_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 17,
+    "agent_message": "[SEARCH] Target not visible. Scanning left. front=3.42m",
+    "state": "search_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 18,
+    "agent_message": "[SEARCH] Target not visible. Scanning left. front=3.42m",
+    "state": "search_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 19,
+    "agent_message": "[DETECT] Found chair score=0.55, center_x=0.72, distance=1.28m, area=0.06",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": {
+      "label": "chair",
+      "target": "chair",
+      "score": 0.55048668384552,
+      "bbox": [
+        344,
+        396,
+        576,
+        474
+      ],
+      "center_x": 0.7197116851806641,
+      "center_y": 0.9075827598571777
+    }
+  },
+  {
+    "step": 20,
+    "agent_message": "[CONTROL] Target right. Turning right. center_x=0.72, distance=1.28m, area=0.06, seen=2",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": {
+      "label": "chair",
+      "target": "chair",
+      "score": 0.55048668384552,
+      "bbox": [
+        344,
+        396,
+        576,
+        474
+      ],
+      "center_x": 0.7197116851806641,
+      "center_y": 0.9075827598571777
+    }
+  },
+  {
+    "step": 21,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=3.42m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 22,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=3.42m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 23,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=3.43m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 24,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=3.36m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 25,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=3.28m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 26,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=3.19m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 27,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=2.98m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 28,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=2.70m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 29,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=2.56m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 30,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=2.35m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 31,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=2.29m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 32,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=2.29m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 33,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=2.30m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 34,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=2.28m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 35,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=2.21m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 36,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=2.14m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 37,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=2.07m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 38,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=2.00m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 39,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.96m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 40,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.93m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 41,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.92m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 42,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.78m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 43,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.79m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 44,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.62m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 45,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.63m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 46,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.32m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 47,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.27m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 48,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.23m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 49,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.08m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 50,
+    "agent_message": "[AVOID] Front blocked. Turning left. left=1.55, right=0.55",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 51,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.08m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 52,
+    "agent_message": "[AVOID] Front blocked. Turning left. left=1.55, right=0.55",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 53,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.08m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 54,
+    "agent_message": "[AVOID] Front blocked. Turning left. left=1.55, right=0.55",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 55,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.08m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 56,
+    "agent_message": "[AVOID] Front blocked. Turning left. left=1.55, right=0.55",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 57,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.08m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 58,
+    "agent_message": "[AVOID] Front blocked. Turning left. left=1.55, right=0.55",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 59,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.08m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 60,
+    "agent_message": "[AVOID] Front blocked. Turning left. left=1.55, right=0.55",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 61,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.08m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 62,
+    "agent_message": "[AVOID] Front blocked. Turning left. left=1.55, right=0.55",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 63,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.08m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 64,
+    "agent_message": "[AVOID] Front blocked. Turning left. left=1.55, right=0.55",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 65,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.08m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 66,
+    "agent_message": "[AVOID] Front blocked. Turning left. left=1.55, right=0.55",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 67,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.08m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 68,
+    "agent_message": "[AVOID] Front blocked. Turning left. left=1.55, right=0.55",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 69,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.08m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 70,
+    "agent_message": "[AVOID] Front blocked. Turning left. left=1.55, right=0.55",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 71,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.08m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 72,
+    "agent_message": "[AVOID] Front blocked. Turning left. left=1.55, right=0.55",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 73,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.08m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 74,
+    "agent_message": "[AVOID] Front blocked. Turning left. left=1.55, right=0.55",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 75,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.08m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 76,
+    "agent_message": "[AVOID] Front blocked. Turning left. left=1.55, right=0.55",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 77,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.08m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 78,
+    "agent_message": "[AVOID] Front blocked. Turning left. left=1.55, right=0.55",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 79,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.08m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 80,
+    "agent_message": "[AVOID] Front blocked. Turning left. left=1.55, right=0.55",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 81,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.08m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 82,
+    "agent_message": "[AVOID] Front blocked. Turning left. left=1.55, right=0.55",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 83,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.08m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 84,
+    "agent_message": "[AVOID] Front blocked. Turning left. left=1.55, right=0.55",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 85,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.08m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 86,
+    "agent_message": "[AVOID] Front blocked. Turning left. left=1.55, right=0.55",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 87,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.08m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 88,
+    "agent_message": "[AVOID] Front blocked. Turning left. left=1.55, right=0.55",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 89,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.08m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 90,
+    "agent_message": "[AVOID] Front blocked. Turning left. left=1.55, right=0.55",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 91,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.08m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 92,
+    "agent_message": "[AVOID] Front blocked. Turning left. left=1.55, right=0.55",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 93,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.08m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 94,
+    "agent_message": "[AVOID] Front blocked. Turning left. left=1.55, right=0.55",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 95,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.08m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 96,
+    "agent_message": "[AVOID] Front blocked. Turning left. left=1.55, right=0.55",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 97,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.08m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 98,
+    "agent_message": "[AVOID] Front blocked. Turning left. left=1.55, right=0.55",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 99,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.08m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 100,
+    "agent_message": "[AVOID] Front blocked. Turning left. left=1.55, right=0.55",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 101,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.08m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 102,
+    "agent_message": "[AVOID] Front blocked. Turning left. left=1.55, right=0.55",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 103,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.08m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 104,
+    "agent_message": "[AVOID] Front blocked. Turning left. left=1.55, right=0.55",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 105,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.08m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 106,
+    "agent_message": "[AVOID] Front blocked. Turning left. left=1.55, right=0.55",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 107,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.08m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 108,
+    "agent_message": "[AVOID] Front blocked. Turning left. left=1.55, right=0.55",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 109,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.08m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 110,
+    "agent_message": "[AVOID] Front blocked. Turning left. left=1.55, right=0.55",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 111,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.08m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 112,
+    "agent_message": "[AVOID] Front blocked. Turning left. left=1.55, right=0.55",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 113,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.08m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 114,
+    "agent_message": "[AVOID] Front blocked. Turning left. left=1.55, right=0.55",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 115,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.08m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 116,
+    "agent_message": "[AVOID] Front blocked. Turning left. left=1.55, right=0.55",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 117,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.08m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 118,
+    "agent_message": "[AVOID] Front blocked. Turning left. left=1.55, right=0.55",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 119,
+    "agent_message": "[LOST] Lost chair. Continue searching right. front=1.08m",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 120,
+    "agent_message": "[AVOID] Front blocked. Turning left. left=1.55, right=0.55",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  },
+  {
+    "step": 121,
+    "agent_message": "任务未在最大步数内完成。",
+    "state": "approach_target",
+    "target": "chair",
+    "detection": null
+  }
+]

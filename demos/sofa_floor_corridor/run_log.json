@@ -1,0 +1,2721 @@
+[
+  {
+    "step": 0,
+    "user_command": "请到沙发旁边",
+    "agent_message": "收到。我会用 RGB-D 建图、探索 frontier，并导航到 first-confirmed sofa 旁边。",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0000.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 1,
+    "agent_message": "[PATH] Turning left toward path. angle=45.0deg | plan=frontier, det=none, memory=0, pending=0, free=373, occ=47",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0001.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 2,
+    "agent_message": "[PATH] Turning left toward path. angle=40.0deg | plan=frontier, det=none, memory=0, pending=0, free=404, occ=74",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0002.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 3,
+    "agent_message": "[PATH] Turning left toward path. angle=35.0deg | plan=frontier, det=none, memory=0, pending=0, free=425, occ=95",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0003.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 4,
+    "agent_message": "[CANDIDATE] Saw possible sofa; turning left to confirm. center_x=0.27, distance=2.08, candidate_steps=1 | plan=candidate, det=couch score=0.75 bbox=[12, 297, 334, 480], memory=0, pending=1, free=466, occ=115",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7546722888946533,
+      "bbox": [
+        12,
+        297,
+        334,
+        480
+      ],
+      "center_x": 0.2713446244597435,
+      "center_y": 0.8094556490580241
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0004.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0004_couch_0.75.png"
+  },
+  {
+    "step": 5,
+    "agent_message": "[FLOOR-POLICY] Forward on center floor corridor. target_side=center, distance=2.22, front=1.63, visual_forward_steps=1, floorL=0.73/obsL=0.17/okL=True floorC=0.99/obsC=0.00/okC=True floorR=1.00/obsR=0.00/okR=True | plan=visual, det=couch score=0.77 bbox=[46, 288, 365, 480], memory=1, pending=2, free=589, occ=133",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7707469463348389,
+      "bbox": [
+        46,
+        288,
+        365,
+        480
+      ],
+      "center_x": 0.3214714527130127,
+      "center_y": 0.8008370717366536
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0005.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0005_couch_0.77.png"
+  },
+  {
+    "step": 6,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Small scan left. lost_steps=1 | plan=target_reacquire, det=none, memory=1, pending=2, free=611, occ=140",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0006.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 7,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Small scan left. lost_steps=2 | plan=target_reacquire, det=none, memory=1, pending=2, free=668, occ=156",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0007.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 8,
+    "agent_message": "[FLOOR-POLICY] Forward on center floor corridor. target_side=center, distance=2.15, front=1.53, visual_forward_steps=2, floorL=0.68/obsL=0.24/okL=True floorC=0.93/obsC=0.02/okC=True floorR=0.99/obsR=0.00/okR=True | plan=visual, det=couch score=0.64 bbox=[134, 291, 412, 474], memory=2, pending=2, free=767, occ=175",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.6420455574989319,
+      "bbox": [
+        134,
+        291,
+        412,
+        474
+      ],
+      "center_x": 0.4270686864852905,
+      "center_y": 0.7979156812032063
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0008.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0008_couch_0.64.png"
+  },
+  {
+    "step": 9,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Small scan left. lost_steps=1 | plan=target_reacquire, det=none, memory=2, pending=2, free=798, occ=182",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0009.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 10,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Small scan left. lost_steps=2 | plan=target_reacquire, det=none, memory=2, pending=2, free=808, occ=201",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0010.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 11,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Small scan left. lost_steps=3 | plan=target_reacquire, det=none, memory=2, pending=2, free=916, occ=219",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0011.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 12,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Small scan left. lost_steps=4 | plan=target_reacquire, det=none, memory=2, pending=2, free=1050, occ=236",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0012.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 13,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Small scan left. lost_steps=5 | plan=target_reacquire, det=none, memory=2, pending=2, free=1122, occ=260",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0013.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 14,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Small scan left. lost_steps=6 | plan=target_reacquire, det=none, memory=2, pending=2, free=1162, occ=279",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0014.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 15,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Small scan left. lost_steps=7 | plan=target_reacquire, det=none, memory=2, pending=2, free=1195, occ=298",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0015.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 16,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Small scan left. lost_steps=8 | plan=target_reacquire, det=none, memory=2, pending=2, free=1230, occ=324",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0016.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 17,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Small scan left. lost_steps=9 | plan=target_reacquire, det=none, memory=2, pending=2, free=1275, occ=354",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0017.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 18,
+    "agent_message": "[FLOOR-POLICY] Forward on center floor corridor. target_side=right, distance=2.24, front=2.88, visual_forward_steps=3, floorL=0.94/obsL=0.01/okL=True floorC=0.79/obsC=0.14/okC=True floorR=0.65/obsR=0.27/okR=True | plan=visual, det=couch score=0.71 bbox=[402, 288, 634, 463], memory=3, pending=2, free=1298, occ=379",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7050084471702576,
+      "bbox": [
+        402,
+        288,
+        634,
+        463
+      ],
+      "center_x": 0.8099313974380493,
+      "center_y": 0.7827214241027832
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0018.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0018_couch_0.71.png"
+  },
+  {
+    "step": 19,
+    "agent_message": "[FLOOR-POLICY] Forward on center floor corridor. target_side=right, distance=2.05, front=2.82, visual_forward_steps=4, floorL=0.83/obsL=0.09/okL=True floorC=0.71/obsC=0.23/okC=True floorR=0.56/obsR=0.37/okR=True | plan=visual, det=couch score=0.84 bbox=[415, 297, 638, 471], memory=4, pending=2, free=1329, occ=392",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.8379424214363098,
+      "bbox": [
+        415,
+        297,
+        638,
+        471
+      ],
+      "center_x": 0.8236952781677246,
+      "center_y": 0.8009262402852376
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0019.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0019_couch_0.84.png"
+  },
+  {
+    "step": 20,
+    "agent_message": "[FLOOR-POLICY] Forward on center floor corridor. target_side=right, distance=2.01, front=2.76, visual_forward_steps=5, floorL=0.75/obsL=0.19/okL=True floorC=0.61/obsC=0.33/okC=True floorR=0.46/obsR=0.48/okR=False | plan=visual, det=couch score=0.83 bbox=[422, 294, 640, 475], memory=5, pending=2, free=1361, occ=401",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.8298088312149048,
+      "bbox": [
+        422,
+        294,
+        640,
+        475
+      ],
+      "center_x": 0.8303685903549194,
+      "center_y": 0.8028281211853028
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0020.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0020_couch_0.83.png"
+  },
+  {
+    "step": 21,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.17, front=2.68, floorL=0.65/obsL=0.30/okL=True floorC=0.50/obsC=0.44/okC=False floorR=0.34/obsR=0.60/okR=False | plan=visual, det=couch score=0.88 bbox=[421, 288, 633, 472], memory=6, pending=2, free=1377, occ=414",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.8758291006088257,
+      "bbox": [
+        421,
+        288,
+        633,
+        472
+      ],
+      "center_x": 0.8241545915603637,
+      "center_y": 0.7927549362182618
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0021.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0021_couch_0.88.png"
+  },
+  {
+    "step": 22,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.10, front=2.68, floorL=0.72/obsL=0.23/okL=True floorC=0.52/obsC=0.43/okC=False floorR=0.30/obsR=0.63/okR=False | plan=visual, det=couch score=0.83 bbox=[457, 291, 640, 473], memory=7, pending=2, free=1386, occ=428",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.8334693312644958,
+      "bbox": [
+        457,
+        291,
+        640,
+        473
+      ],
+      "center_x": 0.8574933290481568,
+      "center_y": 0.7975493748982747
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0022.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0022_couch_0.83.png"
+  },
+  {
+    "step": 23,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.21, front=2.67, floorL=0.79/obsL=0.16/okL=True floorC=0.54/obsC=0.40/okC=False floorR=0.27/obsR=0.66/okR=False | plan=visual, det=couch score=0.74 bbox=[490, 293, 640, 474], memory=8, pending=2, free=1407, occ=450",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7428126931190491,
+      "bbox": [
+        490,
+        293,
+        640,
+        474
+      ],
+      "center_x": 0.8828604221343994,
+      "center_y": 0.7995794296264649
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0023.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0023_couch_0.74.png"
+  },
+  {
+    "step": 24,
+    "agent_message": "[FLOOR-POLICY] Forward on center floor corridor. target_side=right, distance=2.23, front=2.74, visual_forward_steps=6, floorL=0.87/obsL=0.08/okL=True floorC=0.57/obsC=0.37/okC=True floorR=0.24/obsR=0.69/okR=False | plan=visual, det=couch score=0.89 bbox=[528, 303, 640, 477], memory=8, pending=2, free=1421, occ=469",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.8927344679832458,
+      "bbox": [
+        528,
+        303,
+        640,
+        477
+      ],
+      "center_x": 0.9129353523254394,
+      "center_y": 0.8135968526204427
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0024.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0024_couch_0.89.png"
+  },
+  {
+    "step": 25,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.22, front=2.65, floorL=0.77/obsL=0.18/okL=True floorC=0.45/obsC=0.50/okC=False floorR=0.11/obsR=0.83/okR=False | plan=visual, det=couch score=0.90 bbox=[538, 308, 637, 477], memory=8, pending=2, free=1447, occ=474",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.9002825021743774,
+      "bbox": [
+        538,
+        308,
+        637,
+        477
+      ],
+      "center_x": 0.9187719345092773,
+      "center_y": 0.8194366772969564
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0025.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0025_couch_0.90.png"
+  },
+  {
+    "step": 26,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.86/obsL=0.10/okL=True floorC=0.48/obsC=0.46/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1477, occ=494",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7515779733657837,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535270690917969,
+      "center_y": 0.8215154647827149
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0026.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0026_couch_0.75.png"
+  },
+  {
+    "step": 27,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0027.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 28,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.86/obsL=0.10/okL=True floorC=0.48/obsC=0.46/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0028.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0028_couch_0.75.png"
+  },
+  {
+    "step": 29,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0029.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 30,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.85/obsL=0.10/okL=True floorC=0.48/obsC=0.46/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0030.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0030_couch_0.75.png"
+  },
+  {
+    "step": 31,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0031.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 32,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.84/obsL=0.10/okL=True floorC=0.48/obsC=0.46/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0032.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0032_couch_0.75.png"
+  },
+  {
+    "step": 33,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0033.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 34,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.83/obsL=0.10/okL=True floorC=0.48/obsC=0.46/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0034.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0034_couch_0.75.png"
+  },
+  {
+    "step": 35,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0035.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 36,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.82/obsL=0.10/okL=True floorC=0.48/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0036.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0036_couch_0.75.png"
+  },
+  {
+    "step": 37,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0037.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 38,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.82/obsL=0.10/okL=True floorC=0.48/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0038.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0038_couch_0.75.png"
+  },
+  {
+    "step": 39,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0039.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 40,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.48/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0040.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0040_couch_0.75.png"
+  },
+  {
+    "step": 41,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0041.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 42,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0042.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0042_couch_0.75.png"
+  },
+  {
+    "step": 43,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0043.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 44,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0044.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0044_couch_0.75.png"
+  },
+  {
+    "step": 45,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0045.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 46,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0046.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0046_couch_0.75.png"
+  },
+  {
+    "step": 47,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0047.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 48,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0048.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0048_couch_0.75.png"
+  },
+  {
+    "step": 49,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0049.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 50,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0050.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0050_couch_0.75.png"
+  },
+  {
+    "step": 51,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0051.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 52,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0052.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0052_couch_0.75.png"
+  },
+  {
+    "step": 53,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0053.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 54,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0054.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0054_couch_0.75.png"
+  },
+  {
+    "step": 55,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0055.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 56,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0056.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0056_couch_0.75.png"
+  },
+  {
+    "step": 57,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0057.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 58,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0058.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0058_couch_0.75.png"
+  },
+  {
+    "step": 59,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0059.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 60,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0060.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0060_couch_0.75.png"
+  },
+  {
+    "step": 61,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0061.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 62,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0062.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0062_couch_0.75.png"
+  },
+  {
+    "step": 63,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0063.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 64,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0064.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0064_couch_0.75.png"
+  },
+  {
+    "step": 65,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0065.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 66,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0066.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0066_couch_0.75.png"
+  },
+  {
+    "step": 67,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0067.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 68,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0068.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0068_couch_0.75.png"
+  },
+  {
+    "step": 69,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0069.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 70,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0070.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0070_couch_0.75.png"
+  },
+  {
+    "step": 71,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0071.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 72,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0072.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0072_couch_0.75.png"
+  },
+  {
+    "step": 73,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0073.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 74,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0074.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0074_couch_0.75.png"
+  },
+  {
+    "step": 75,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0075.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 76,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0076.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0076_couch_0.75.png"
+  },
+  {
+    "step": 77,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0077.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 78,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0078.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0078_couch_0.75.png"
+  },
+  {
+    "step": 79,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0079.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 80,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0080.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0080_couch_0.75.png"
+  },
+  {
+    "step": 81,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0081.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 82,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0082.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0082_couch_0.75.png"
+  },
+  {
+    "step": 83,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0083.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 84,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0084.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0084_couch_0.75.png"
+  },
+  {
+    "step": 85,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0085.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 86,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0086.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0086_couch_0.75.png"
+  },
+  {
+    "step": 87,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0087.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 88,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0088.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0088_couch_0.75.png"
+  },
+  {
+    "step": 89,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0089.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 90,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0090.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0090_couch_0.75.png"
+  },
+  {
+    "step": 91,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0091.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 92,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0092.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0092_couch_0.75.png"
+  },
+  {
+    "step": 93,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0093.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 94,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0094.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0094_couch_0.75.png"
+  },
+  {
+    "step": 95,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0095.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 96,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0096.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0096_couch_0.75.png"
+  },
+  {
+    "step": 97,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0097.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 98,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0098.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0098_couch_0.75.png"
+  },
+  {
+    "step": 99,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0099.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 100,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0100.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0100_couch_0.75.png"
+  },
+  {
+    "step": 101,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0101.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 102,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0102.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0102_couch_0.75.png"
+  },
+  {
+    "step": 103,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0103.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 104,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0104.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0104_couch_0.75.png"
+  },
+  {
+    "step": 105,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0105.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 106,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0106.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0106_couch_0.75.png"
+  },
+  {
+    "step": 107,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0107.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 108,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0108.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0108_couch_0.75.png"
+  },
+  {
+    "step": 109,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0109.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 110,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0110.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0110_couch_0.75.png"
+  },
+  {
+    "step": 111,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0111.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 112,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0112.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0112_couch_0.75.png"
+  },
+  {
+    "step": 113,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0113.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 114,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0114.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0114_couch_0.75.png"
+  },
+  {
+    "step": 115,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0115.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 116,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0116.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0116_couch_0.75.png"
+  },
+  {
+    "step": 117,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0117.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 118,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0118.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0118_couch_0.75.png"
+  },
+  {
+    "step": 119,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0119.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 120,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0120.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0120_couch_0.75.png"
+  },
+  {
+    "step": 121,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0121.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 122,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0122.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0122_couch_0.75.png"
+  },
+  {
+    "step": 123,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0123.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 124,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0124.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0124_couch_0.75.png"
+  },
+  {
+    "step": 125,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0125.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 126,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0126.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0126_couch_0.75.png"
+  },
+  {
+    "step": 127,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0127.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 128,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0128.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0128_couch_0.75.png"
+  },
+  {
+    "step": 129,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0129.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 130,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0130.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0130_couch_0.75.png"
+  },
+  {
+    "step": 131,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0131.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 132,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0132.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0132_couch_0.75.png"
+  },
+  {
+    "step": 133,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0133.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 134,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0134.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0134_couch_0.75.png"
+  },
+  {
+    "step": 135,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0135.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 136,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0136.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0136_couch_0.75.png"
+  },
+  {
+    "step": 137,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0137.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 138,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0138.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0138_couch_0.75.png"
+  },
+  {
+    "step": 139,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0139.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 140,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0140.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0140_couch_0.75.png"
+  },
+  {
+    "step": 141,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0141.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 142,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0142.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0142_couch_0.75.png"
+  },
+  {
+    "step": 143,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0143.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 144,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0144.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0144_couch_0.75.png"
+  },
+  {
+    "step": 145,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0145.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 146,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0146.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0146_couch_0.75.png"
+  },
+  {
+    "step": 147,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0147.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 148,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0148.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0148_couch_0.75.png"
+  },
+  {
+    "step": 149,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0149.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 150,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0150.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0150_couch_0.75.png"
+  },
+  {
+    "step": 151,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0151.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 152,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0152.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0152_couch_0.75.png"
+  },
+  {
+    "step": 153,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0153.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 154,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0154.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0154_couch_0.75.png"
+  },
+  {
+    "step": 155,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0155.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 156,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0156.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0156_couch_0.75.png"
+  },
+  {
+    "step": 157,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0157.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 158,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0158.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0158_couch_0.75.png"
+  },
+  {
+    "step": 159,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0159.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 160,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0160.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0160_couch_0.75.png"
+  },
+  {
+    "step": 161,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0161.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 162,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0162.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0162_couch_0.75.png"
+  },
+  {
+    "step": 163,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0163.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 164,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0164.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0164_couch_0.75.png"
+  },
+  {
+    "step": 165,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0165.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 166,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0166.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0166_couch_0.75.png"
+  },
+  {
+    "step": 167,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0167.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 168,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0168.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0168_couch_0.75.png"
+  },
+  {
+    "step": 169,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0169.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 170,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0170.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0170_couch_0.75.png"
+  },
+  {
+    "step": 171,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0171.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 172,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0172.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0172_couch_0.75.png"
+  },
+  {
+    "step": 173,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0173.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 174,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0174.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0174_couch_0.75.png"
+  },
+  {
+    "step": 175,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0175.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 176,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0176.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0176_couch_0.75.png"
+  },
+  {
+    "step": 177,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0177.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 178,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0178.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0178_couch_0.75.png"
+  },
+  {
+    "step": 179,
+    "agent_message": "[REACQUIRE] Locked sofa temporarily lost. Searching right. lost_steps=1 | plan=target_reacquire, det=none, memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": null,
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0179.png",
+    "evidence_frame": null
+  },
+  {
+    "step": 180,
+    "agent_message": "[FLOOR-POLICY] Center not safe; searching best floor side=left. target_side=right, distance=2.38, front=2.78, floorL=0.81/obsL=0.10/okL=True floorC=0.47/obsC=0.45/okC=False floorR=0.10/obsR=0.85/okR=False | plan=visual, det=couch score=0.75 bbox=[580, 308, 640, 480], memory=8, pending=2, free=1496, occ=517",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0180.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0180_couch_0.75.png"
+  },
+  {
+    "step": 181,
+    "agent_message": "任务未在最大步数内完成。",
+    "state": "search_target",
+    "target": "sofa",
+    "detection": {
+      "label": "couch",
+      "target": "sofa",
+      "score": 0.7508266568183899,
+      "bbox": [
+        580,
+        308,
+        640,
+        480
+      ],
+      "center_x": 0.9535212516784668,
+      "center_y": 0.8215095520019531
+    },
+    "decision_frame": "demos/sofa_floor_corridor/decision_frames/step_0181.png",
+    "evidence_frame": "demos/sofa_floor_corridor/evidence/step_0181_couch_0.75.png"
+  }
+]
