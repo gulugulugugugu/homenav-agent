@@ -1,28 +1,25 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>HomeNav Agent: RGB-D Object Navigation in Habitat</title>
+  <title>HomeNav Agent：Habitat 中文具身导航系统</title>
   <style>
     :root {
       --bg: #0f172a;
       --panel: #111827;
-      --panel2: #1f2937;
       --text: #e5e7eb;
       --muted: #9ca3af;
       --accent: #60a5fa;
-      --accent2: #a78bfa;
       --ok: #34d399;
-      --warn: #fbbf24;
     }
     * { box-sizing: border-box; }
     body {
       margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
       background: radial-gradient(circle at top left, #1e3a8a 0, #0f172a 34%, #020617 100%);
       color: var(--text);
-      line-height: 1.6;
+      line-height: 1.65;
     }
     a { color: var(--accent); }
     .wrap {
@@ -76,7 +73,6 @@
       border-radius: 22px;
       padding: 20px;
     }
-    .card strong { color: white; }
     .steps {
       display: grid;
       gap: 10px;
@@ -106,6 +102,7 @@
       color: var(--ok);
       font-weight: 700;
       font-size: 14px;
+      white-space: nowrap;
     }
     code {
       background: rgba(255,255,255,.08);
@@ -129,56 +126,57 @@
     <section class="hero">
       <h1>HomeNav Agent</h1>
       <p>
-        A Habitat-based embodied navigation agent that accepts natural-language commands such as
-        <code>请到沙发旁边</code>, builds an RGB-D traversibility map, and navigates to a reachable
-        standoff position near the requested object.
+        一个基于 Habitat 的中文具身导航 Agent。用户可以输入
+        <code>请到沙发旁边</code>、<code>请到桌子旁边</code>、<code>请到植物旁边</code>
+        等指令，Agent 会基于 RGB-D 视觉、机器人位姿、地图构建和路径规划，导航到目标物体旁边。
+        任务完成后，Agent 会回复：<code>任务完成。还需要什么？</code>
       </p>
       <div class="tagrow">
-        <span class="tag">Habitat Simulation</span>
-        <span class="tag">RGB-D ObjectNav</span>
-        <span class="tag">Natural Language Input</span>
-        <span class="tag">Reachable Standoff Planning</span>
-        <span class="tag">Multiple Target Objects</span>
+        <span class="tag">Habitat 仿真环境</span>
+        <span class="tag">RGB-D 目标导航</span>
+        <span class="tag">中文文字输入</span>
+        <span class="tag">可达 standoff 规划</span>
+        <span class="tag">多目标导航</span>
       </div>
     </section>
 
-    <h2>Project Goal</h2>
+    <h2>项目目标</h2>
     <div class="card">
       <p>
-        This project chooses the navigation track. The embodied agent runs inside a home-like Habitat
-        scene and uses only simulator visual observations plus robot pose. It does not use privileged
-        semantic maps or ground-truth object coordinates. After completing a navigation command, the
-        agent replies: <code>任务完成。还需要什么？</code>
+        本项目选择“导航方向”。系统在 Habitat 居家场景中运行，只使用仿真器提供的视觉观测
+        和机器人本体位姿，不使用语义地图或真实目标坐标等特权信息。Agent 可以根据用户输入的
+        目标物体，构建可通行地图，选择目标附近可达的安全停靠位置，并执行导航。
       </p>
     </div>
 
-    <h2>System Pipeline</h2>
+    <h2>系统流程</h2>
     <div class="grid">
       <div class="card">
-        <h3>Perception and Memory</h3>
+        <h3>感知与目标记忆</h3>
         <div class="steps">
-          <div class="step">1. Parse user text into a target object.</div>
-          <div class="step">2. Run RGB object detection for table, sofa, plant, TV, etc.</div>
-          <div class="step">3. Confirm detections across frames and store object instances.</div>
-          <div class="step">4. For multiple same-class objects, select the easiest reachable instance.</div>
+          <div class="step">1. 解析中文指令，得到目标物体类别。</div>
+          <div class="step">2. 使用 RGB 图像进行目标检测。</div>
+          <div class="step">3. 多帧确认目标，避免单帧误检。</div>
+          <div class="step">4. 对多个同类物体，选择更近或更容易到达的实例。</div>
         </div>
       </div>
+
       <div class="card">
-        <h3>Mapping and Planning</h3>
+        <h3>建图与规划</h3>
         <div class="steps">
-          <div class="step">1. Convert depth observations into a top-down free/obstacle map.</div>
-          <div class="step">2. Inflate obstacles for robot safety.</div>
-          <div class="step">3. Search reachable cells near the semantic object anchor.</div>
-          <div class="step">4. Follow a map-based path to a standoff cell near the target.</div>
+          <div class="step">1. 使用 depth 观测构建 top-down 可通行地图。</div>
+          <div class="step">2. 对障碍物进行膨胀，保证机器人安全距离。</div>
+          <div class="step">3. 将检测到的物体作为 semantic anchor。</div>
+          <div class="step">4. 在目标附近寻找 reachable standoff cell 并执行路径跟随。</div>
         </div>
       </div>
     </div>
 
-    <h2>Demo Videos</h2>
+    <h2>Demo 视频</h2>
     <div class="grid">
       <div class="card">
         <div class="demo-title">
-          <h3>Navigate to Table</h3>
+          <h3>导航到桌子旁边</h3>
           <span class="status">MAP-ARRIVED</span>
         </div>
         <video controls src="assets/table_final_decision.mp4"></video>
@@ -186,7 +184,7 @@
 
       <div class="card">
         <div class="demo-title">
-          <h3>Navigate to Sofa</h3>
+          <h3>导航到沙发旁边</h3>
           <span class="status">MAP-ARRIVED</span>
         </div>
         <video controls src="assets/sofa_final_decision.mp4"></video>
@@ -194,64 +192,83 @@
 
       <div class="card">
         <div class="demo-title">
-          <h3>Navigate to Plant</h3>
-          <span class="status">Strict Arrival</span>
+          <h3>导航到植物旁边</h3>
+          <span class="status">严格到达验证</span>
         </div>
         <video controls src="assets/plant_strict_final_decision.mp4"></video>
       </div>
 
       <div class="card">
         <div class="demo-title">
-          <h3>Navigate to TV</h3>
-          <span class="status">Optional Target</span>
+          <h3>导航到电视旁边</h3>
+          <span class="status">额外目标</span>
         </div>
         <video controls src="assets/tv_final_decision.mp4"></video>
       </div>
     </div>
 
-    <h2>Key Design Choices</h2>
+    <h2>关键设计</h2>
     <div class="grid">
       <div class="card">
-        <h3>Object as Semantic Anchor</h3>
+        <h3>物体不是导航终点，而是语义锚点</h3>
         <p>
-          The agent does not simply chase a bounding box center. A detected object is treated as a
-          semantic anchor, while the robot plans to a nearby reachable free cell.
+          系统不会直接追 bounding box 中心。检测到的物体只作为目标锚点，
+          机器人真正要到达的是目标附近可通行、可到达的 free cell。
         </p>
       </div>
+
       <div class="card">
-        <h3>Reachable Standoff Goal</h3>
+        <h3>Reachable Standoff Planning</h3>
         <p>
-          The robot searches the reachable component of the map and selects a safe standoff location
-          near the target object, which avoids driving into furniture.
+          用户说“到沙发旁边”并不意味着撞向沙发中心。系统会在可达区域中搜索目标附近的
+          standoff cell，从而停在物体旁边而不是物体内部。
         </p>
       </div>
+
       <div class="card">
-        <h3>Multi-Instance Selection</h3>
+        <h3>多实例目标选择</h3>
         <p>
-          When there are multiple objects of the same class, the system can switch to the nearest or
-          easiest reachable confirmed instance, similar to human navigation behavior.
+          当环境中出现多个同类目标时，系统不会死守最早看到的实例，而是选择当前地图上
+          更容易到达的 confirmed instance，类似人类会选择更近、更方便的目标。
         </p>
       </div>
+
       <div class="card">
-        <h3>Continual Learning Extension</h3>
+        <h3>持续学习接口</h3>
         <p>
-          The system records observations, detections, planned paths, actions, and success/failure states.
-          These logs can later be extended into human-intervention episodes and converted into a
-          LeRobot-style dataset for continual learning.
+          项目额外提供了持续学习数据接口，可以将导航日志导出为 intervention-ready episodes。
+          该接口预留了 human_action 和 intervened 字段，未来可以进一步接入 LeRobot-style
+          数据集，用于模仿学习或强化学习。
         </p>
       </div>
     </div>
 
-    <h2>Links</h2>
+    <h2>Bonus：持续学习数据接口</h2>
     <div class="card">
       <p>
-        GitHub Repository:
-        <a href="https://github.com/gulugulugugugu/homenav-agent" target="_blank" rel="noreferrer">https://github.com/gulugulugugugu/homenav-agent</a>
+        本项目没有声称已经完成完整的 RL 训练，而是实现了一个持续学习数据接口。
+        脚本 <code>scripts/export_intervention_dataset.py</code> 可以把导航过程中的
+        run log 转换成 episode-level 数据。
+      </p>
+      <p>
+        导出结果包括 <code>learning_data/intervention_episodes.jsonl</code> 和
+        <code>learning_data/summary.json</code>。其中每一步包含 observation 路径、
+        planner action、executed action、success label 和预留的人类干预字段。
+      </p>
+    </div>
+
+    <h2>项目链接</h2>
+    <div class="card">
+      <p>
+        GitHub 仓库：
+        <a href="https://github.com/gulugulugugugu/homenav-agent" target="_blank" rel="noreferrer">
+          https://github.com/gulugulugugugu/homenav-agent
+        </a>
       </p>
     </div>
 
     <p class="footer">
-      Built for an embodied navigation project using Habitat, RGB-D perception, and map-based object navigation.
+      基于 Habitat、RGB-D 感知、目标检测和地图规划实现的具身导航项目。
     </p>
   </main>
 </body>
